@@ -1,0 +1,367 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[german]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{enumitem} 
+
+\usepackage{multicol}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\setlength{\headheight}{15pt}
+\pagestyle{fancyplain}
+\renewcommand{\sectionmark}[1]{\markboth{#1}{}}
+
+\author{Florian Neuweiler}
+\date{}
+\title{Harmonische Lage}
+
+\begin{document}
+\selectlanguage{german}
+
+\setlength{\columnsep}{1.5cm}
+\setlength{\columnseprule}{1pt}
+
+\theoremstyle{definition}
+
+\begin{titlepage}
+\centering
+{\scshape\LARGE Fachhochschule Karlsruhe - Technik und Wirtschaft \par}
+\vspace{1cm}
+{\scshape\Large Seminararbeit\par}
+\vspace{1.5cm}
+{\huge\bfseries Harmonische Lage\par}
+\vspace{1.5cm}
+{\Large\itshape Florian Neuweiler\par}
+\vspace{1.5cm}
+betreut von\par
+Prof.~Dr.~rer.~nat.~Frank Schaefer
+\vspace{2cm}
+
+\begin{abstract} 
+worum es geht... 
+irgendein mathematischer Scheiß ;)
+\end{abstract}
+
+\vfill
+
+
+
+{\large \today\par}
+\end{titlepage}
+
+\newpage
+\tableofcontents
+
+\newpage
+
+\setlength{\parindent}{0pt}
+
+\section{Einleitung}
+\subsection{Projektive Geometrie im Allgemeinen} 
+Wenn wir uns die Geschichte der Mathematik genauer ansehen, so müssen wir feststellen, dass die Projektive Geometrie keineswegs ein neues Feld der Mathematik ist. Erste Aufzeichnungen zu diesem Thema sind bereits schon im alten Griechenland zu finden, wobei hier die griechischen Mathematiker und Philosophen unterschiedliche Theorien bezüglich des menschlichen Eindrucks der Perspektive und des perspektivischen Sehens vertraten \citep[vgl.][S.~15ff]{perspektive}. Beispielsweise vertraten Gelehrten wie Leukipp oder Demokrit die Rezeptionstheorie, die besagt, \glqq dass Gegenstände Bilder (eidola) oder Filmchen (simulacra) aussenden\grqq ~und so einen Abbildung ihrer Selbst auf dem Auge hinterlassen. Für Aristoteles jedoch war Licht nicht körperlicher Natur, sondern die Luft "die entscheidende Rolle des Vermittlers" \citep[s.][S.~15f]{perspektive}.
+
+Doch wollen wir hier nicht weiter in die einzelnen Theorien weiter eindringen, sondern uns einen anderen Zugang zur Problemstellung des Sehens betrachten.
+
+\subsection{Die Mathematisierung des Sehens durch Euklid} 
+
+\begin{itemize}
+\item Es soll zugrunde liegen, dass die geraden Linien vom Auge aus gezogen werden, einen Zwischenraum von großer Ausdehnung durchqueren.
+\item Und dass die stereometrische Figur, die von den Blicken [Sehstrahlen] umfasst wird, ein Kegel ist, der seine Spitze im Auge und seine Grundfläche an den Grenzen der sichtbaren Objekte hat.
+\item Und dass die Objekte, auf die die Blicke fallen gesehen werden, die Objekte aber , auf die die Blicke nicht fallen, nicht gesehen werden.
+\item Und dass die Objekte, die unter einem größeren Winkel, größer erscheinen, die unter einem kleineren Winkel kleiner und die Objekte, die unter gleich großen Winkeln gesehen werden, gleich groß.
+\item Und dass die Objekte, die von höher gelegenen Strahlen gesehen werden, höher gelegen erscheinen, die von tiefer gelegenen tiefer.
+\item Und dass auf gleiche Weise die Objekte, die von weiter rechts gelegenen Strahlen gesehen werden, weiter rechts gelegen erscheinen, die von weiter links gelegenen weiter links gelegen.
+\item Und dass die Objekte, die unter größeren Winkeln gesehen werden, deutlicher erscheinen.
+\end{itemize}
+Euklid \textit{Optica}.
+
+Strahlen breiten sich geradlinig aus, es gibt aber auch Lücken.
+
+Euklid hat mit dieser Einführung die Grundlage der künstlichen Perspektive gelegt
+
+kurzer Ansatz zu Filippo Brunelleschi, dazu aber später mehr.
+
+\newpage
+\section{Die Harmonischen Lage}
+\textit{\glqq Harmonisch\grqq ~ist ein großes Wort; es bedeutet hier: Wenn die inneren und die äußeren Verhältnisse im Einklang sind. Es lohnt sich darüber nachzusinnen.} \citep[S.~53]{projektiveGeometrie}.
+
+\begin{wrapfigure}{r}{5cm}
+\vspace{-25pt}
+\centering
+\includegraphics[width=5cm]{Bilder/herleitung1.png}
+
+\vspace{0.5cm}
+\centering
+\includegraphics[width=5cm]{Bilder/herleitung2.png}
+
+\vspace{0.5cm}
+\centering
+\includegraphics[width=5cm]{Bilder/herleitung3.png}
+\caption{Geometrische Konstruktion der harmonischen Lage}
+\label{fig:Herleitung}
+\end{wrapfigure}
+
+Tatsächlich handelt es sich bei der harmonischen Lage von Punkten und Geraden um einer der wichtigsten Begriffe der projektiven Geometrie. Ähnlich wie der Tastsinn des physischen Raumes bildet die harmonische Lage ein natürliches Maß für Bilder bzw.~dem Sehsinn. Zudem handelt es sich bei der harmonischen Lage um eine Invariante der projektiven Geometrie. Demnach bleibt die harmonische Lage bei allen projektiven Operationen erhalten, dazu aber später mehr.
+
+Doch was genau ist die harmonische Lage wirklich? Um dies anschaulich zu erläutern wird nun kurz über ein geometrisches Beispiel der Weg zur Definition der harmonischen Lage aufbereitet (Abb.~\ref{fig:Herleitung}):
+
+Betrachten wir eine Gerade $g$, auf der sich drei Punkte $A$, $B$ und $D$ befinden, die willkürlich auf dieser Geraden positioniert wurden. Aus diesen drei Punkten auf $g$ lässt sich nun eindeutig ein weiterer \glqq harmonischer\grqq Punkt $C$ konstruieren, der ebenso wie $A$, $B$ und $D$ auf $g$ liegt. Um diesen Punkt $C$ geometrisch zu konstruieren wird wie folgt vorgegangen:
+
+Zunächst werden von jedem der Punkte $A$, $B$ und $D$ aus eine Gerade gezogen. Diese drei Geraden haben drei Schnittpunkte. Nun werden zwei weitere Geraden gezogen: die eine führt durch den Punkt $A$ und den Schnittpunkt der zwei Geraden durch $B$ und $D$, die andere durch den Punkt $B$ und den Schnittpunkt der zwei Geraden durch $A$ und $D$ (hier gestrichelt dargestellt).
+
+\begin{wrapfigure}{r}{5cm}
+\centering
+\includegraphics[width=5cm]{Bilder/fuer_mehrere_geraden.png}
+\caption{Eine andere Wahl der Geraden}
+\label{fig:AndereWahl}
+\end{wrapfigure}
+
+Durch den Schnittpunkt dieser zwei soeben gezeichneten Geraden wird eine weitere Gerade gebildet, die auch durch den Schnittpunkt der zwei Geraden durch $A$ und $B$ geht. Der Punkt dieser Geraden, der auch auf der Geraden $g$ liegt, ist der von uns gesuchte Punkt $C$. Diese Konstruktion wird auch harmonische Spiegelung von $D$ an $A$ und $B$ genannt \citep[vgl.~][S.~34]{harmonischeLage}.
+
+Egal, wie die Geraden durch $A$, $B$ und $D$ gezogen wurden, es lässt sich immer wieder denselben Punkt $C$. In anderen Worten: Der vierte Punkt $C$ ist unabhängig von der Wahl der drei Geraden durch $A$, $B$ und $D$ (Abb.~\ref{fig:AndereWahl}).
+
+\subsection{Definition}
+
+\begin{multicols}{2}
+[
+Anhand des oberen Beispiels lässt sich nun im allgemeinen die harmonische Lage definieren.
+]
+\textbf{Definition:} Zwei Punktepaare (\textit{A,B}), (\textit{C,D}) auf einer Geraden \textit{g} \glqq trennen sich harmonisch\grqq , wenn sie so liegen wie die Ecken und die Nebenecken eines vollständigen Vierseits in einer Nebenseite.
+
+Dabei versteht man unter einem vollständigen Vierseit eine Figur bestehend aus den Geraden bzw.~Seiten $a$, $b$, $c$ und $d$ , den sechs Ecken, die jeweils die Schnittpunkte von je zwei Seiten sind, den drei Nebenseiten, die jene Ecken verbinden, die nicht auf den Hauptseiten liegen, sowie drei Nebenecken (gegeben durch die Schnittpunkte der Nebenseiten untereinander).
+
+\columnbreak
+\textbf{Definition:} Zwei Geradenpaare (\textit{a,b}), (\textit{c,d}) in einem Punkt \textit{P} \glqq trennen sich harmonisch\grqq , wenn sie so liegen wie die Seiten und die Nebenseiten eines vollständigen Vierecks in einer Nebenecke.
+
+Dabei versteht man unter einem vollständigen Viereck eine Figur bestehend aus den Ecken $A$, $B$, $C$ und $D$ (von denen nicht drei auf einer Geraden liegen), den sechs Seiten durch jeweils zwei der Ecken, den drei Nebenecken, die als Schnittpunkte dieser Seiten hinzukommen (gestrichelt dargestellt), sowie den Nebenseiten (gegeben durch die Nebenecken).
+\end{multicols}
+
+Die Bezeichnungen \glqq trennen sich harmonsich\grqq ~ist gleichbedeutend zu den Aussagen wie \glqq liegen harmonisch zueinander\grqq , \glqq sind in Harmonischer Lage\grqq ~oder \glqq bilden einen harmonischen Wurf\grqq .
+
+\subsection{Die harmonische 13er Konfiguration}
+\label{subsec:harmonischeKonfiguration}
+
+Wie wir schon in der Definition der harmonischen Lage gesehen haben, können sowohl Punkte als auch Geraden harmonisch zueinander liegen. Da in den Definitionen sowohl von vollständigen Vierseiten und Vierecke die rede war und sich diese geometrischen Grundgebilde aufeinander inzidieren lassen, können wir daraus eine harmonische Grundfigur, die sogenannte \glqq harmonische 13er Konfiguration\grqq bauen. Da wir sowohl ein Vierseit als auch ein Viereck diese Konfiguration beinhaltet, benötigen wir für die Konstruktion der Konfiguration insgesamt 13 Geraden und 13 Punkte - womit auch die Frage nach dem Namen geklärt wäre. Diese 13 Punkte und Geraden bilden sich zusammen
+
+\begin{itemize}
+\item[]aus den 4 Seiten und 6 Ecken des vollständigen Vierseits,
+\item[]den 6 Seiten und 4 Ecken des vollständigen Vierecks und
+\item[]den 3 Seiten und Ecken des gemeinsamen Nebendreiecks/-seits.
+\end{itemize}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.7\textwidth]{Bilder/13erKonfigStepbyStep.png}
+\caption{Beispiel einer harmonischen 13er Konfiguration}
+\label{fig:harmFigur}
+\end{figure}
+
+\begin{wrapfigure}{r}{0.35\textwidth}
+\centering
+\includegraphics[width=0.35\textwidth]{Bilder/13erKonfigStepbyStep3.png}
+\end{wrapfigure}
+
+Für die Konstruktion der harmonischen 13er Konfiguration wäre es am einfachsten, mit einem vollständigen Viereck bzw.~ Vierseit zu beginnen und auf dieser die weiteren Punkte und Geraden aufbauen.
+
+In diesem Fall entscheiden wir uns für ein vollständiges Vierseit als Grundkonstrukt. Darin wollen wir nun die Punkte und Geraden eines vollständigen Vierecks bestimmen, das dasselbe Nebendreieck hat und dessen Seiten mit den Ecken inzidieren. Dazu gehen wir wie folgt vor:
+
+Zuerst betrachten wir die Ecken des Vierseits, in welche zwei Seiten des Vierseits und eine Seite des Nebendreiecks falle. In unserer Abbildung wären das die Punkte A, B und E. Dabei lassen wir von diesen drei Punkten die Ecke wegfallen, die mit je einer Seite des Vierseits mit den anderen Punkte verbunden ist. Hier wäre das der Punkt E, sodass wir jetzt nur noch die Ecken A und B betrachten. Von diesen zwei Ecken ziehen wir je eine Gerade aus, die sich alle in derselben Ecke des Nebendreiecks schneiden, mit der sie sich nicht auf einer Nebenseite befinden. In unserem Beispiel ist das R. Dabei bilden die Schnittpunkte der Seiten des Vierseits mit den Geraden die vier Ecken des vollständigen Vierecks, wobei die Punkte A und B nicht dazu gehören. Auch sind die von uns konstruierten Geraden die Seiten unseres gesuchten Vierecks. Schließen wir nun das Viereck, indem wir nun alle Ecken des Vierecks so miteinander verbinden, das immer zwei Ecken auf eine Seite des Vierecks fallen.
+
+Damit hätten wir die harmonische Grundfigur geschaffen. In dieser Konstruktionsbeschreibung wurde jedoch der Beweis, dass die Seiten des Vierecks durch die Ecken des Nebendreiecks gehen müssen ausgelassen. Für eine genauere Konstruktion der harmonischen 13er Konfiguration ist \citep{projektiveGeometrie} Seite 48f zu empfehlen.
+
+Wenn wir die Konfiguration genauer betrachten lässt sich erkennen, dass die Konfiguration aus lauter harmonische Lagebeziehungen besteht. Auch folgt aus der harmonischen 13er Konfiguration, dass bei den Geraden bzw.~ Punkten der harmonischen Lage das Dualitätsprinzip gilt: die harmonische Lage hängt nicht von einem ganz speziellen Vierseit/Viereck ab. Ebenso sind die Punktepaare gleichberechtigt, d.h., ob eine Seite/Ecke eine Nebenseite/-ecke oder nicht ist keine Rolle spielt.
+
+Zur Erklärung hier unsere Grundfigur mit anderen hervorgehobenen Linien. Aus der von uns konstruierten Grundfigur können wir nicht nur ein Viereck und ein Vierseit erkennen, sondern gleich mehrere, die wir so nicht vorgesehen hatten. Folglich lässt sich von zwei harmonischen Punkte-/Geradenpaaren eines als Nebenecke/-seite auffassen.
+
+Auch lässt sich daraus erkennen, dass jedes einzelne Konstrukt innerhalb unserer Konfiguration die geometrischen Bedingungen der harmonischen Lage erfüllt.
+
+Zusammengefasst ist
+
+\begin{itemize}
+\item[] jeder Schein eines harmonischen Punktewurfes ein harmonischer Geradenwurf
+\item[] jeder Schnitt eines harmonischen Geradenwurfs ein harmonischer Punktewurf
+\end{itemize}
+
+Damit kommen wir zur Schlussfolgerung, dass die harmonische Lage eine projektve Invariante ist.
+
+\glqq Man kann also schneiden und verbinden, soviel man will - einmal harmonisch heißt immer harmonisch.~\citep[s.~][S.~49]{projektiveGeometrie}\grqq
+
+\subsection{Sonderfälle der harmonischen Lage}
+
+\newpage
+\section{Harmonische Lage rechnerisch}
+Um nicht nur geometrisch und zeichnerisch auf die harmonische Lage von Punkten und Geraden schließen zu können, sondern auch mit Koordinaten arbeiten zu können, wird im folgenden das sogenannte Doppelverhältnis eingeführt. Da aber das Doppelverhältnis per Definition ein Verhältnis ist, das aus zwei Teilverhältnissen besteht, wird vorab auf die Definition von Teilverhältnissen eingegangen.
+
+\subsection{Teilverhältnisse}
+Sehen wir uns aber zuvor uns drei Punkte $A$, $B$ und $C$ auf einer Geraden $g$ an. Egal wie wir dieses drei Punkte auf dieser Geraden anordnen, es wird immer ein Punkt die Strecke zwischen seinen beiden Nachbarn in zwei kleinere Teilstrecken aufteilen. Dabei wird das Verhältnis dieser zwei Teilstrecken im allgemeinen definiert als
+
+\[TV(A B C) = \overline{A C} : \overline{B C}\]
+
+Wir sprechen hier vom sogenannten Teilverhältnis $TV$. Dabei soll $\overline{A B}$ als gerichteter Abstand zwischen $A$ und $B$ verstanden werden. D.h., $\overline{A B}$ und $\overline{B A}$ haben unterschiedliche Vorzeichen. Es gilt: 
+
+\[\overline{A B} = -\overline{B A}\]
+
+Man sagt auch, $C$ teilt das Punktepaar $(A , B)$ (bzw. die Strecke $\overline{A B}$) in diesem Verhältnis \citep[S.~76]{projektiveGeometrie}
+
+Im Wesentlich haben wir, wenn wir vom Teilverhältnis sprechen, zwei unterschiedliche Betrachtungsweisen:
+\begin{enumerate}
+\item Befindet sich der Punkt $C$ zwischen den Punkten $A$ und $B$ (bzw. liegt auf $\overline{A B}$), so ist das Teilverhältnis negativ. Wir sagen: $C$ teilt das Punktepaar $(A , B)$ \glqq von innen\grqq .
+\item Befindet sich der Punkt $C$ außerhalb den Punkten $A$ und $B$ (bzw. liegt auf $\overline{A B}$), so ist das Teilverhältnis positiv. Wir sagen: $C$ teilt das Punktepaar $(A , B)$ \glqq von außen\grqq .
+\end{enumerate}
+
+Wenn wir nun $C$ die gesamte Gerade durchlaufen lassen und beobachten den Wert $TV$, so können wir feststellen, dass der Wert von $TV$ stets monoton fallend ist. Wenn allerdings der Punkt $C$ auf $B$ fällt, so hat $TV$ den linksseitigen Grenzwert $-\infty$ und den rechtsseitigen Grenzwert $+\infty$.
+\begin{center}
+\begin{scriptsize}
+\begin{tabular}[htbp]{l|c|c|c|c|c|c|c|c}
+$C$: & Fernp.~ & vor $A$ &  $A$ & zwi.~ $A$, $B$ & [Mitte] & $B$ & nach $B$ & Fernp.\\
+\hline
+$TV t$ & $t = 1 - o$ & $0 < t < 1$ & $t = 0$ & $t < 0$ & [$t = -1/2$] & $t = \pm\infty$ & $t > 1$ & $t = 1 + o$\\
+\end{tabular}
+\end{scriptsize}
+\end{center}
+
+Da wir nun wissen, was man unter Teilverhältnissen versteht, können wir nun das Doppelverhältnis einführen:
+
+\subsection{Das Doppelverhältnis}
+
+Wie schon oben erwähnt ist das Doppelverhältnis das Verhältnis von zwei Teilverhältnissen von vier Punkten. Genauer gesagt, ist das Doppelverhältnis $DV$ von vier Punkten $A, B, C, D$, die auf einer Geraden $g$ liegen, definiert als das Verhältnis von $TV(A B C)$ und $TV(A B D)$:
+
+\[DV(A B C D) = TV(A B C) : TV(A B D) = \dfrac{\overline{A C}}{\overline{B C}} : \dfrac{\overline{A D}}{\overline{B D}}\]
+
+Anhand dieser Formel kann man erkennen, dass das Vorzeichen des Doppelverhältnisses
+\begin{itemize}
+\item negativ ist, wenn sich die Punktepaare $(A, B)$ und $(C, D)$ trennen. Dabei wird das Paar $(A, B)$ von $C$ und $D$ einmal innen und einmal von außen geteilt. Wir erhalten in den jeweiligen Teilverhältnissen zwei unterschiedliche Vorzeichen.
+\item positiv ist, wenn sich die Punktepaare $(A, B)$ und $(C, D)$ nicht trennen. Beide Teilverhältnisse sind dann entweder nur positiv oder nur negativ.
+\end{itemize}
+
+Des Weiteren weist \citep{projektiveGeometrie} auf folgende Merkmale des Doppelverhältnisses hin:
+
+Wenn $A = B$ oder $C = D$ ist und sonst keine Punkte zusammenfallen, dann ist das $DV = 1$.
+
+Wenn $A = C$ oder $B = D$ ist und sonst keine Punkte zusammenfallen, dann ist das $DV = 0$.
+
+Wenn $A = D$ oder $B = C$ ist und sonst keine Punkte zusammenfallen, dann ist das $DV = \pm\infty$.
+
+Zusätzlich weist obige Formel ein paar interessante Eigenschaften auf, wenn Punkte in dieser Gleichung vertauscht werden \citep[vgl.][S.~77]{projektiveGeometrie}. Das Doppelverhältnis ändert sich nicht, wenn
+
+\begin{enumerate}[label={\alph*)}] 
+\item die Punkte innerhalb des 1. und zugleich des 2. Paares vertauscht werden,
+\item das 1. mit dem 2. Paar vertauscht wird, und
+\item sowohl die Paare als auch die Punkte innerhalb beider Paare vertauscht werden; also a) und b) zugleich.
+\end{enumerate}
+
+Somit gilt:
+
+\[DV(A B C D) = DV(C D A B) = DV(B A D C) = DV(D C B A)\]
+
+Damit ergeben sich auch aus den 24 Kombinationsmöglichkeiten von $A, B, C$ und $D$ folgende sechs verschiedene Zahlwerte \citep[s.][S.~77f]{projektiveGeometrie}:
+
+\[z, ~~~~\dfrac{1}{z}, ~~~~1-z, ~~~~\dfrac{1}{1-z}, ~~~~\dfrac{z}{z-1}, ~~~~\dfrac{z-1}{z}\]
+
+Hierbei ist $z = DV(A B C D)$.
+
+\subsection{Harmonische Lage und Doppelverhältnis}
+
+\begin{wrapfigure}{r}{0.4\textwidth}
+\hspace{-0.025\textwidth}
+\includegraphics[width=0.45\textwidth]{Bilder/doppelverhaeltnis.png}
+\caption{Harmonische Lage mit den parallelen Geraden $a$, $b$ und $p$}
+\label{fig:harmonDoppel}
+\end{wrapfigure}
+
+Da wir jetzt die wichtigsten Eigenschaften des Doppelverhältnisses kennen, stellt sich uns nun die Frage, wie wir den Bogen zur harmonischen Lage schlagen. Betrachten wir die erste geometrische Konstruktion auf Seite \textbf{XXX} dieser Arbeit nochmal an. Wir haben gesehen, dass wir zu jedem Punktepaar $(A, B)$ und einem Punkt $D$ einen weiteren Punkt $C$ bestimmen konnten, wobei die Punkte $A$, $B$ und $D$ festlagen. Wählen wir jetzt nur das Punktepaar $(A, B)$ fest und wählen irgendwo auf $g$ einen beliebigen Punkt $D$, so können wir auch sagen, dass es zu jedem $D$ genau ein Punkt $C$ gibt, sodass die Punkte $A, B, C, D$ in harmonischer Lage stehen bzw.~sich harmonisch teilen.
+
+Betrachten wir nun die zwei Teilverhältnisse $TV(A B C)$ und $TV(A B D)$, so müssen wir feststellen, dass egal wie wir $D$ wählen, $TV(A B C) = -TV(A B D)$.
+
+\citep{projektiveGeometrie} beweist diesen Sachverhalt mithilfe des Strahlensatzes. Dabei stellt sich der Autor die Frage, ob es zu einem gegebenen Punktepaar $(A, B)$ zwei Punkte $P$ und $Q$ gibt, die dieses Punktepaar im gleichen Verhältnis teilen, wobei $(A,  B)$ einmal von innen und einmal von außen geteilt werden, sodass
+
+\[TV(A B P) = -TV(A B Q)\]
+
+gelten müsste (vgl.~S.~52f). Dabei wird von folgender Ausgangssituation ausgegangen: Auf einer Geraden $g$ befinden sich zwei beliebige Punkte $A$ und $B$ und ein weiterer Punkt $P$. Es soll ein Punkt $Q$ konstruiert werden, sodass 
+
+\begin{equation*}
+\begin{split}
+TV(A B P) = -TV(A B Q) \\
+\Longleftrightarrow ~~~~~\overline{A Q} : \overline{B Q} = -\overline{A P} : \overline{B P}~~
+\end{split}
+\end{equation*}
+
+Für einen einfacheren Umgang und besser mit Verhältnissen rechnen zu können, wurde eine Ausgangssituation mit zueinander parallelen Geraden gewählt, um Strahlensätze anwenden zu können (Abb.~\ref{fig:harmonDoppel}). Mithilfe der Strahlensatzgesetze können wir anhand von $A, B$ und $P$, einen Punkt $Q$ konstruieren:
+
+\begin{equation*}
+\begin{split}
+  \overline{A P} : \overline{B P}~ \\
+=~~~\overline{A R} : \overline{B_1 R}  \\
+=~~\overline{A A_1} : \overline{B_1 B}  \\
+=~~~\overline{Q A} : \overline{Q B}~
+\end{split}
+\end{equation*}
+
+Daraus lässt sich schließen, dass die zwei Punkte $A$ und $B$ von $P$ und $Q$ von innen und von außen gleich getrennt werden, wenn die Punktepaare in harmonischer Lage sind. Zusätzlich ergibt sich aus der Gleichung, dass zwei Punktepaare $(A, B)$ und $(P, Q)$ genau dann in harmonischer Lage sind, wenn das Doppelverhältnis -1 beträgt:
+
+\begin{equation*}
+\begin{split}
+TV(A B P) = -TV(A B Q) \Longleftrightarrow TV(A B P) : TV(A B Q) = -1 \\ \Longleftrightarrow ~~~~~~~~~~~~~~DV(A B P Q) = -1
+\end{split}
+\end{equation*}
+
+\subsection{Das Doppelverhältnis von vier Geraden}
+
+Bisher haben wir nur das Doppelverhältnis von Punkten betrachtet, die sich alle auf ein und derselben Gerade befanden. Jedoch kann man die Definition des Doppelverhältnisses zusätzlich auf vier Geraden erweitern. Wie bei dem Doppelverhältnis von vier Punkten, bei der die Ausgangssituation darauf festgelegt war, dass sich diese Punkte auf einer Gemeinsamen Geraden befinden, gilt für das Doppelverhältnis vierer Geraden $a, b, c$ und $d$, dass sich diese in einem gemeinsamen Punkt $P$ schneiden (Abb. \textbf{XXX}). Dabei wird $P$ auch Projektionszentrum genannt.
+
+Schneiden wir nun diese vier Strahlen mit einer beliebigen Geraden $g$, wobei diese nicht durch den Punkt $P$ gehen darf, so erhalten wir vier Schnittpunkte $A, B, C$ und $D$. Weiter fällen wir die Lote von $A$ und $B$ auf $c$ und $d$ mit den Schnittpunkten $Q_1, Q_2$ und $R_1, R_2$. Es entstehen rechtwinklige Dreiecke. Mit dem Strahlensatz sowie dem Sinus (insbesondere dem Verhältnis von Gegenkathete und Hypothenuse) lässt sich jetzt unsere vorher bekannte Definition des Doppelverhältnisses auf folgende Formel umändern \citep[s.~][S.~80]{projektiveGeometrie}: 
+
+\begin{equation*}
+\begin{split}
+DV(A B C D)~=~~~~~~~~~~~~~\dfrac{\overline{A C}}{\overline{B C}} : \dfrac{\overline{A D}}{\overline{B D}}~~~~~~~~~~~~\\
+=~~~~~~~~~~~~\dfrac{\overline{A Q_1}}{\overline{B Q_2}} : \dfrac{\overline{A R_1}}{\overline{B R_2}}~~~~~~~~~~~\\
+=~\dfrac{\overline{A P} * sin(ac)}{\overline{B P} * sin(bc)} : \dfrac{\overline{A P} * sin(ad)}{\overline{B P} * sin(bd)} \\
+=~~~~~~~~\dfrac{sin(ac)}{sin(bc)} : \dfrac{sin(ad)}{sin(bd)}~~~~~~~~
+\end{split}
+\end{equation*}
+
+Somit können wir nicht nur das Doppelverhältnis nur anhand von Punkten auf einer Geraden $g$ bestimmen, sondern auch durch die Geraden der Punkte, die sich auf einem von $g$ außerhalb liegenden Punkt schneiden. Das bedeutet auch, dass egal was für eine Gerade wir nehmen, die die Geraden $a, b, c$ und $d$ schneiden und nicht durch $P$ gehen, das Doppelverhältnis das Gleiche ist. Damit ist auch das Doppelverhältnis eine projektive Invariante. Mithin trifft dies auch auf die harmonische Lage zu, was wir aber auch durch Invarianzen in Kapitel \ref{subsec:harmonischeKonfiguration} gesehen haben.
+
+\newpage
+\section{Harmonisches Mittel und Goldener Schnitt}
+\subsection{Harmonisches Mittel}
+
+\subsection{Harmonische Folge}
+
+\newpage
+\section{Harmonie anschaulich}
+
+\subsection{Harmonische Lage und goldener Schnitt}
+Harmonie in der Natur
+
+\subsection{Harmonie in der Kunst}
+
+\begin{figure}[htbp] 
+\centering
+\includegraphics[width=\textwidth]{Bilder/braccia.png}
+\caption{Zeichnerischer Weg zur Zentralperspektive von Leon Battista Alberti}
+\label{fig:braccia}
+\end{figure}
+
+\subsection{Harmonische Lage heute}
+
+\newpage
+\section{Zusammenfassung und Fazit}
+
+\newpage
+\listoffigures
+
+\newpage
+\addcontentsline{toc}{section}{Literaturverzeichnis}
+\bibliography{Harmonische_Lage}
+\bibliographystyle{plain}
+
+
+\end{document}
