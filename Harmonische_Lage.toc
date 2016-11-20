@@ -6,18 +6,18 @@
 \contentsline {section}{\numberline {2}Die Harmonischen Lage}{4}
 \contentsline {subsection}{\numberline {2.1}Definition}{5}
 \contentsline {subsection}{\numberline {2.2}Die harmonische 13er Konfiguration}{6}
-\contentsline {subsection}{\numberline {2.3}Sonderf\IeC {\"a}lle der harmonischen Lage}{8}
-\contentsline {section}{\numberline {3}Harmonische Lage rechnerisch}{9}
-\contentsline {subsection}{\numberline {3.1}Teilverh\IeC {\"a}ltnisse}{9}
-\contentsline {subsection}{\numberline {3.2}Das Doppelverh\IeC {\"a}ltnis}{10}
-\contentsline {subsection}{\numberline {3.3}Harmonische Lage und Doppelverh\IeC {\"a}ltnis}{11}
-\contentsline {subsection}{\numberline {3.4}Das Doppelverh\IeC {\"a}ltnis von vier Geraden}{12}
-\contentsline {section}{\numberline {4}Harmonisches Mittel und Goldener Schnitt}{14}
-\contentsline {subsection}{\numberline {4.1}Harmonisches Mittel}{14}
-\contentsline {subsection}{\numberline {4.2}Harmonische Folge}{14}
-\contentsline {section}{\numberline {5}Harmonie anschaulich}{15}
-\contentsline {subsection}{\numberline {5.1}Harmonische Lage und goldener Schnitt}{15}
-\contentsline {subsection}{\numberline {5.2}Harmonie in der Kunst}{15}
-\contentsline {subsection}{\numberline {5.3}Harmonische Lage heute}{15}
-\contentsline {section}{\numberline {6}Zusammenfassung und Fazit}{16}
-\contentsline {section}{Literaturverzeichnis}{18}
+\contentsline {subsection}{\numberline {2.3}Erweiterung der Harmonischen Lage auf einen unendlich entfernten Punkt}{8}
+\contentsline {section}{\numberline {3}Harmonische Lage rechnerisch}{10}
+\contentsline {subsection}{\numberline {3.1}Teilverh\IeC {\"a}ltnisse}{10}
+\contentsline {subsection}{\numberline {3.2}Das Doppelverh\IeC {\"a}ltnis}{11}
+\contentsline {subsection}{\numberline {3.3}Harmonische Lage und Doppelverh\IeC {\"a}ltnis}{12}
+\contentsline {subsection}{\numberline {3.4}Das Doppelverh\IeC {\"a}ltnis von vier Geraden}{13}
+\contentsline {section}{\numberline {4}Harmonisches Mittel und Goldener Schnitt}{15}
+\contentsline {subsection}{\numberline {4.1}Harmonisches Mittel}{15}
+\contentsline {subsection}{\numberline {4.2}Harmonische Folge}{15}
+\contentsline {section}{\numberline {5}Harmonie anschaulich}{16}
+\contentsline {subsection}{\numberline {5.1}Harmonische Lage und goldener Schnitt}{16}
+\contentsline {subsection}{\numberline {5.2}Harmonie in der Kunst}{16}
+\contentsline {subsection}{\numberline {5.3}Harmonische Lage heute}{16}
+\contentsline {section}{\numberline {6}Zusammenfassung und Fazit}{17}
+\contentsline {section}{Literaturverzeichnis}{19}
