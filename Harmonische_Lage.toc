@@ -6,7 +6,7 @@
 \contentsline {section}{\numberline {2}Die Harmonischen Lage}{4}
 \contentsline {subsection}{\numberline {2.1}Definition}{5}
 \contentsline {subsection}{\numberline {2.2}Die harmonische 13er Konfiguration}{6}
-\contentsline {subsection}{\numberline {2.3}Erweiterung der Harmonischen Lage auf einen unendlich entfernten Punkt}{8}
+\contentsline {subsection}{\numberline {2.3}Erweiterung auf einen unendlich entfernten Punkt}{8}
 \contentsline {section}{\numberline {3}Harmonische Lage rechnerisch}{10}
 \contentsline {subsection}{\numberline {3.1}Teilverh\IeC {\"a}ltnisse}{10}
 \contentsline {subsection}{\numberline {3.2}Das Doppelverh\IeC {\"a}ltnis}{11}
