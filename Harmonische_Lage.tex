@@ -90,6 +90,7 @@ kurzer Ansatz zu Filippo Brunelleschi, dazu aber später mehr.
 
 \newpage
 \section{Die Harmonischen Lage}
+\label{subsec:dieHarmonischeLage}
 \textit{\glqq Harmonisch\grqq ~ist ein großes Wort; es bedeutet hier: Wenn die inneren und die äußeren Verhältnisse im Einklang sind. Es lohnt sich darüber nachzusinnen.} \citep[S.~53]{projektiveGeometrie}.
 
 \begin{wrapfigure}{r}{5cm}
@@ -195,17 +196,19 @@ Damit kommen wir zur Schlussfolgerung, dass die harmonische Lage eine projektve 
 
 \subsection{Erweiterung der Harmonischen Lage auf einen unendlich entfernten Punkt}
 
-Wollen wir unser erlerntes Wissen nun in der Praxis anwenden, zum Beispiel nämlich beim perspektivischen Zeichnen, so gibt es noch einen Sachverhalt, den wir noch nicht eingegangen sind:
+Unser bisher erlerntes Wissen können wir nun praktisch in die Tat umsetzen. Dabei lehnen wir uns an ein zeichnerisches Beispiel an, das den meisten aus der Schule bekannt vorkommen wird:
 
-Greifen wir unser gewähltes Beispiel einer perspektivischen Zeichnung auf: Gegenstände, Personen, etc.~ werden, je weiter sie vom Betrachter entfernt sind, immer kleiner dargestellt und streben dabei einem Punkt an, der in unendlich weiter Entfernung von uns weg liegt. Wenden wir die harmonische Lage auf einem projektiven Bild an, auf dem sich ein Quadrat befindet. 
+Wollen wir eine realistische Darstellung eines Gegenstandes auf Papier bannen, so beginnen wir als erstes damit, dass wir die Umgebung mit einer Horizontlinie definieren. Auf dieser Linie wählen wir mindestens einen Punkt aus, zu dem sich unser Gegenstand hin \glqq flüchtet\grqq . Dieser wurde als sogenannter \glqq Fluchtpunkt\grqq bezeichnet. Bezogen auf unser Thema ist dieser Punkt einer der Punkte, die wir zur Konstruktion der harmonischen Lage benötigen. Zur Konstruktion eines Gegenstandes (wählen wir dazu der Einfachheit eine quadratische Fläche) benötigen wir nur noch vier Geraden: zwei davon schneiden unseren Fluchtpunkt, während die anderen beiden, nach unserer Abbildung, parallel zum Horizont verlaufen. Die somit entstandene eingeschlossene Fläche ist unser Quadrat auf der projektiven Ebene.
 
+Mit dieser Ausgangssituation können wir die harmonische Lage auf unser Quadrat anwenden. Dabei gehen wir genau so wie in unserem ersten Beispiel aus demselben Kapitel vor und erhalten eine harmonische Figur. Dabei lässt sich erkennen, dass die entstandene horizontale Gerade unser Quadrat in zwei Flächen teilt. Würden wir diese Situation senkrecht von oben betrachten würden wir erkennen, dass diese Gerade unser Quadrat genau in der Mitte teilt. Dabei handelt es sich nicht um einen Sonderfall. Jeder Punkt $P$, dessen Partner $Q$ ein Fernpunkt ist, teilt die Strecke $\overline{A B}$ immer genau in der Mitte.
+\newline
+Die Begründung ist einfach: Da die Konstruktion des vierten harmonischen Punktes, wie wir in der harmonischen 13er Konfiguration gesehen haben, nicht von der Wahl des jeweiligen Vierseits abhängt, können wir es uns einfach machen: wir wählen uns ein symmetrisches Vierseit, dessen einen Nebenseite die Symmetrie-Achse ist. Die dritte Nebenseite ist dann parallel zur zweiten \citep[vgl.~][S.~50]{projektiveGeometrie}.
 
-% wo anders
-Unser bis jetzt erlangtes Wissen über die harmonische Lage ist zwar gut und schön, doch wo können wir für dieses Thema Anwendung finden? Zur Beantwortung dieser Frage brauchen wir uns einfach nur unsere Umgebung genauer anzusehen. Die Wahrnehmung unseres Auges wird in unserem Kopf zu einem perspektivischen Bild dargestellt. Dabei ist für uns das Maß solcher perspektivischen Bilder selbstverständlich: regelmäßige und gleiche Abstände werden zum Horizont immer kleiner, parallele Strecken streben auf einen gemeinsamen Punkt zu, etc..  
+Dabei taucht dieser Sachverhalt häufig in perspektivischen Abbildungen auf: Immer dann wenn wir eine Fläche in der Hälfte aufteilen, taucht die harmonische Lage auf, z.B.~ bei der Konstruktion eines Schachbretts. Dabei entsteht sogar, in Bezug zum Fluchtpunkt, eine Folge von harmonischen Punkten. Genaueres dazu wird in Kapitel \ref{sec:harmMittel} aufgegriffen.
 
 \newpage
 \section{Harmonische Lage rechnerisch}
-Um nicht nur geometrisch und zeichnerisch auf die harmonische Lage von Punkten und Geraden schließen zu können, sondern auch mit Koordinaten arbeiten zu können, wird im folgenden das sogenannte Doppelverhältnis eingeführt. Da aber das Doppelverhältnis per Definition ein Verhältnis ist, das aus zwei Teilverhältnissen besteht, wird vorab auf die Definition von Teilverhältnissen eingegangen.
+Um nicht nur geometrisch und zeichnerisch auf die harmonische Lage von Punkten und Geraden schließen zu können, sondern auch mit Koordinaten arbeiten zu können, wird im folgenden das sogenannte Doppelverhältnis eingeführt. Anders Da aber das Doppelverhältnis per Definition ein Verhältnis ist, das aus zwei Teilverhältnissen besteht, wird vorab auf die Definition von Teilverhältnissen eingegangen.
 
 \subsection{Teilverhältnisse}
 Sehen wir uns aber zuvor uns drei Punkte $A$, $B$ und $C$ auf einer Geraden $g$ an. Egal wie wir dieses drei Punkte auf dieser Geraden anordnen, es wird immer ein Punkt die Strecke zwischen seinen beiden Nachbarn in zwei kleinere Teilstrecken aufteilen. Dabei wird das Verhältnis dieser zwei Teilstrecken im allgemeinen definiert als
@@ -284,7 +287,7 @@ Hierbei ist $z = DV(A B C D)$.
 \label{fig:harmonDoppel}
 \end{wrapfigure}
 
-Da wir jetzt die wichtigsten Eigenschaften des Doppelverhältnisses kennen, stellt sich uns nun die Frage, wie wir den Bogen zur harmonischen Lage schlagen. Betrachten wir die erste geometrische Konstruktion auf Seite \textbf{XXX} dieser Arbeit nochmal an. Wir haben gesehen, dass wir zu jedem Punktepaar $(A, B)$ und einem Punkt $D$ einen weiteren Punkt $C$ bestimmen konnten, wobei die Punkte $A$, $B$ und $D$ festlagen. Wählen wir jetzt nur das Punktepaar $(A, B)$ fest und wählen irgendwo auf $g$ einen beliebigen Punkt $D$, so können wir auch sagen, dass es zu jedem $D$ genau ein Punkt $C$ gibt, sodass die Punkte $A, B, C, D$ in harmonischer Lage stehen bzw.~sich harmonisch teilen.
+Da wir jetzt die wichtigsten Eigenschaften des Doppelverhältnisses kennen, stellt sich uns nun die Frage, wie wir den Bogen zur harmonischen Lage schlagen. Betrachten wir die erste geometrische Konstruktion im Kapitel \ref{subsec:dieHarmonischeLage} dieser Arbeit nochmal an. Wir haben gesehen, dass wir zu jedem Punktepaar $(A, B)$ und einem Punkt $D$ einen weiteren Punkt $C$ bestimmen konnten, wobei die Punkte $A$, $B$ und $D$ festlagen. Wählen wir jetzt nur das Punktepaar $(A, B)$ fest und wählen irgendwo auf $g$ einen beliebigen Punkt $D$, so können wir auch sagen, dass es zu jedem $D$ genau ein Punkt $C$ gibt, sodass die Punkte $A, B, C, D$ in harmonischer Lage stehen bzw.~sich harmonisch teilen.
 
 Betrachten wir nun die zwei Teilverhältnisse $TV(A B C)$ und $TV(A B D)$, so müssen wir feststellen, dass egal wie wir $D$ wählen, $TV(A B C) = -TV(A B D)$.
 
@@ -339,6 +342,7 @@ Somit können wir nicht nur das Doppelverhältnis nur anhand von Punkten auf ein
 
 \newpage
 \section{Harmonisches Mittel und Goldener Schnitt}
+\label{sec:harmMittel}
 \subsection{Harmonisches Mittel}
 
 \subsection{Harmonische Folge}

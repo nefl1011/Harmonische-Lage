@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.22)  20 NOV 2016 00:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.22)  21 NOV 2016 00:53
 entering extended mode
 **Harmonische_Lage.tex
 (Harmonische_Lage.tex
@@ -555,38 +555,38 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 File: Bilder/herleitung1.png Graphic file (type png)
 
 <use Bilder/herleitung1.png>
-Package pdftex.def Info: Bilder/herleitung1.png used on input line 98.
+Package pdftex.def Info: Bilder/herleitung1.png used on input line 99.
 (pdftex.def)             Requested size: 142.26378pt x 109.59698pt.
 
 <Bilder/herleitung2.png, id=24, 148.1535pt x 113.9457pt>
 File: Bilder/herleitung2.png Graphic file (type png)
 
 <use Bilder/herleitung2.png>
-Package pdftex.def Info: Bilder/herleitung2.png used on input line 102.
+Package pdftex.def Info: Bilder/herleitung2.png used on input line 103.
 (pdftex.def)             Requested size: 142.26378pt x 109.42485pt.
 
 <Bilder/herleitung3.png, id=25, 148.1535pt x 113.9457pt>
 File: Bilder/herleitung3.png Graphic file (type png)
 
 <use Bilder/herleitung3.png>
-Package pdftex.def Info: Bilder/herleitung3.png used on input line 106.
+Package pdftex.def Info: Bilder/herleitung3.png used on input line 107.
 (pdftex.def)             Requested size: 142.26378pt x 109.42485pt.
 
 <Bilder/fuer_mehrere_geraden.png, id=26, 218.7372pt x 197.7789pt>
 File: Bilder/fuer_mehrere_geraden.png Graphic file (type png)
 
 <use Bilder/fuer_mehrere_geraden.png>
-Package pdftex.def Info: Bilder/fuer_mehrere_geraden.png used on input line 121
+Package pdftex.def Info: Bilder/fuer_mehrere_geraden.png used on input line 122
 .
 (pdftex.def)             Requested size: 142.26378pt x 128.63322pt.
  [4 <./Bilder/herleitung1.png> <./Bilder/herleitung2.png> <./Bilder/herleitung3
 .png>]
-Underfull \hbox (badness 1946) in paragraph at lines 126--127
+Underfull \hbox (badness 1946) in paragraph at lines 127--128
 [][]\OT1/cmr/m/n/12 Durch den Schnitt-punkt die-ser zwei
  []
 
 
-Underfull \hbox (badness 5175) in paragraph at lines 136--137
+Underfull \hbox (badness 5175) in paragraph at lines 137--138
 []\OT1/cmr/bx/n/12 Definition: \OT1/cmr/m/n/12 Zwei Punk-te-paa-re
  []
 
@@ -595,7 +595,7 @@ Underfull \hbox (badness 5175) in paragraph at lines 136--137
 File: Bilder/13erKonfigStepbyStep.png Graphic file (type png)
 
 <use Bilder/13erKonfigStepbyStep.png>
-Package pdftex.def Info: Bilder/13erKonfigStepbyStep.png used on input line 161
+Package pdftex.def Info: Bilder/13erKonfigStepbyStep.png used on input line 162
 .
 (pdftex.def)             Requested size: 272.99881pt x 222.60916pt.
 
@@ -604,15 +604,15 @@ File: Bilder/13erKonfigStepbyStep3.png Graphic file (type png)
 
 <use Bilder/13erKonfigStepbyStep3.png>
 Package pdftex.def Info: Bilder/13erKonfigStepbyStep3.png used on input line 16
-8.
+9.
 (pdftex.def)             Requested size: 136.50238pt x 559.06735pt.
  [6 <./Bilder/13erKonfigStepbyStep.png>]
-Underfull \hbox (badness 1168) in paragraph at lines 171--172
+Underfull \hbox (badness 1168) in paragraph at lines 172--173
 \OT1/cmr/m/n/12 sten, mit ei-nem vollst[]andigen Vier-eck
  []
 
 
-Overfull \hbox (0.3335pt too wide) in paragraph at lines 177--178
+Overfull \hbox (0.3335pt too wide) in paragraph at lines 178--179
 []\OT1/cmr/m/n/12 Damit h[]atten wir die har-mo-ni-sche Grund-
  []
 
@@ -628,15 +628,15 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
 File: Bilder/doppelverhaeltnis.png Graphic file (type png)
 
 <use Bilder/doppelverhaeltnis.png>
-Package pdftex.def Info: Bilder/doppelverhaeltnis.png used on input line 282.
+Package pdftex.def Info: Bilder/doppelverhaeltnis.png used on input line 285.
 (pdftex.def)             Requested size: 175.49881pt x 86.9097pt.
 
-Overfull \hbox (12.36465pt too wide) in paragraph at lines 281--283
+Overfull \hbox (12.36465pt too wide) in paragraph at lines 284--286
 []  [] 
  []
 
 
-Overfull \hbox (4.26202pt too wide) in paragraph at lines 289--290
+Overfull \hbox (4.26202pt too wide) in paragraph at lines 292--293
 \OT1/cmr/m/n/12 m[]ussen wir fest-stel-len, dass egal wie wir $\OML/cmm/m/it/12
  D$ \OT1/cmr/m/n/12 w[]ahlen, $\OML/cmm/m/it/12 TV\OT1/cmr/m/n/12 (\OML/cmm/m/i
 t/12 ABC\OT1/cmr/m/n/12 ) = \OMS/cmsy/m/n/12  \OML/cmm/m/it/12 TV\OT1/cmr/m/n/1
@@ -647,41 +647,37 @@ t/12 ABC\OT1/cmr/m/n/12 ) = \OMS/cmsy/m/n/12  \OML/cmm/m/it/12 TV\OT1/cmr/m/n/1
 <Bilder/braccia.png, id=79, 417.9615pt x 158.994pt>
 File: Bilder/braccia.png Graphic file (type png)
  <use Bilder/braccia.png>
-Package pdftex.def Info: Bilder/braccia.png used on input line 356.
+Package pdftex.def Info: Bilder/braccia.png used on input line 360.
 (pdftex.def)             Requested size: 390.0pt x 148.36508pt.
 
 [16 <./Bilder/braccia.png>] [17] (Harmonische_Lage.lof)
 \tf@lof=\write4
  [18]
-(Harmonische_Lage.bbl) [19] (Harmonische_Lage.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(Harmonische_Lage.bbl) [19] (Harmonische_Lage.aux) ) 
 Here is how much of TeX's memory you used:
- 3814 strings out of 493636
- 50088 string characters out of 3134435
- 123862 words of memory out of 3000000
- 7123 multiletter control sequences out of 15000+200000
+ 3816 strings out of 493636
+ 50131 string characters out of 3134435
+ 123879 words of memory out of 3000000
+ 7125 multiletter control sequences out of 15000+200000
  13611 words of font info for 50 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  28i,17n,43p,1026b,284s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Florian/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Floria
-n/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C
-:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr10.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmr12.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Florian/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/Florian/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/
-Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmti12.pfb>
-Output written on Harmonische_Lage.pdf (20 pages, 545600 bytes).
+<C:/Users/Florian/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Fl
+orian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.p
+fb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmcsc10.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Florian/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Florian/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Florian
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr8.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmsl12.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Florian/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Florian/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Harmonische_Lage.pdf (20 pages, 547123 bytes).
 PDF statistics:
  132 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
