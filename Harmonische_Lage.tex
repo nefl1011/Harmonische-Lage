@@ -332,9 +332,9 @@ TV(A B P) = -TV(A B Q) \Longleftrightarrow TV(A B P) : TV(A B Q) = -1 \\ \Longle
 
 \subsection{Das Doppelverhältnis von vier Geraden}
 
-Bisher haben wir nur das Doppelverhältnis von Punkten betrachtet, die sich alle auf ein und derselben Gerade befanden. Jedoch kann man die Definition des Doppelverhältnisses zusätzlich auf vier Geraden erweitern. Wie bei dem Doppelverhältnis von vier Punkten, bei der die Ausgangssituation darauf festgelegt war, dass sich diese Punkte auf einer Gemeinsamen Geraden befinden, gilt für das Doppelverhältnis vierer Geraden $a, b, c$ und $d$, dass sich diese in einem gemeinsamen Punkt $P$ schneiden (Abb. \textbf{XXX}). Dabei wird $P$ auch Projektionszentrum genannt.
+Bisher haben wir nur das Doppelverhältnis von Punkten betrachtet, die sich alle auf ein und derselben Gerade befanden. Jedoch kann man die Definition des Doppelverhältnisses zusätzlich auf vier Geraden erweitern. Wie bei dem Doppelverhältnis von vier Punkten, bei der die Ausgangssituation darauf festgelegt war, dass sich diese Punkte auf einer Gemeinsamen Geraden befinden, gilt für das Doppelverhältnis vierer Geraden $a, b, c$ und $d$, dass sich diese in einem gemeinsamen Punkt $P$ schneiden (Abb. \ref{fig:vierGeraden}). Dabei wird $P$ auch Projektionszentrum genannt.
 
-Schneiden wir nun diese vier Strahlen mit einer beliebigen Geraden $g$, wobei diese nicht durch den Punkt $P$ gehen darf, so erhalten wir vier Schnittpunkte $A, B, C$ und $D$. Weiter fällen wir die Lote von $A$ und $B$ auf $c$ und $d$ mit den Schnittpunkten $Q_1, Q_2$ und $R_1, R_2$. Es entstehen rechtwinklige Dreiecke. Mit dem Strahlensatz sowie dem Sinus (insbesondere dem Verhältnis von Gegenkathete und Hypothenuse) lässt sich jetzt unsere vorher bekannte Definition des Doppelverhältnisses auf folgende Formel umändern \citep[s.~][S.~80]{projektiveGeometrie}: 
+Schneiden wir nun diese vier Strahlen mit einer beliebigen Geraden $g$, wobei diese nicht durch den Punkt $P$ gehen darf, so erhalten wir vier Schnittpunkte $A, B, C$ und $D$. Weiter fällen wir die Lote von $A$ und $C$ auf $b$ und $d$ mit den Schnittpunkten $Q_1, Q_2$ und $R_1, R_2$. Es entstehen rechtwinklige Dreiecke. Mit dem Strahlensatz sowie dem Sinus (insbesondere dem Verhältnis von Gegenkathete und Hypothenuse) lässt sich jetzt unsere vorher bekannte Definition des Doppelverhältnisses auf folgende Formel umändern \citep[s.~][S.~80]{projektiveGeometrie}: 
 
 \begin{equation*}
 \begin{split}
@@ -347,12 +347,65 @@ DV(A B C D)~=~~~~~~~~~~~~~\dfrac{\overline{A C}}{\overline{B C}} : \dfrac{\overl
 
 Somit können wir nicht nur das Doppelverhältnis nur anhand von Punkten auf einer Geraden $g$ bestimmen, sondern auch durch die Geraden der Punkte, die sich auf einem von $g$ außerhalb liegenden Punkt schneiden. Das bedeutet auch, dass egal was für eine Gerade wir nehmen, die die Geraden $a, b, c$ und $d$ schneiden und nicht durch $P$ gehen, das Doppelverhältnis das Gleiche ist. Damit ist auch das Doppelverhältnis eine projektive Invariante. Mithin trifft dies auch auf die harmonische Lage zu, was wir aber auch durch Invarianzen in Kapitel \ref{subsec:harmonischeKonfiguration} gesehen haben.
 
+\begin{figure}[htbp] 
+\centering
+\includegraphics[width=0.7\textwidth]{Bilder/vierGeraden.png}
+\caption{Ermittlung der harmonischen Lage durch vier Geraden}
+\label{fig:vierGeraden}
+\end{figure}
+
 \newpage
-\section{Harmonisches Mittel und Goldener Schnitt}
+\section{Harmonisches Mittel und harmonische Folge}
 \label{sec:harmMittel}
+
+Die Bezeichnung \glqq harmonisch\grqq taucht nicht nur in der projektiven Geometrie auf. Allerdings können wir diese mit diesem Themengebiet in Verbindung bringen:
+
 \subsection{Harmonisches Mittel}
 
+Der Begriff des arithmetischen Mittels ist ein sehr geläufiger Begriff. Dabei handelt es sich beim arithmetischen Mittel um den Mittelwert, der die Summe der betrachteten Zahlen durch dessen Anzahl geteilt wird.
+
+\[x_a = \dfrac{1}{n} \sum_{i=0}^n x_i = \dfrac{x_1 + x_2 + \dots + x_{n-1} + x_n}{n}\]
+
+Ebenso bekannt in der Mathematik ist auch der sogenannte harmonische Mittelwert. Das harmonische Mittel ist das Gegenstück zum arithmetischen Mittel, bzw.~ der Kehrwert des harmonischen Mittels das arithmetische Mittel der Kehrwerte:
+
+\[ \dfrac{1}{x_h} = \dfrac{1}{n} \sum_{i=0}^n \dfrac{1}{x_i} = \dfrac{\dfrac{1}{x_1} + \dfrac{1}{x_2} + \dots + \dfrac{1}{x_{n-1}} + \dfrac{1}{x_n}}{n}\]
+
+Somit ist das harmonische Mittel
+
+\[ \dfrac{n}{\dfrac{1}{x_1} + \dfrac{1}{x_2} + \dots + \dfrac{1}{x_{n-1}} + \dfrac{1}{x_n}}.\]
+
+Der Zusammenhang zwischen der harmonischen Lage und dem harmonischen Mittel lässt sich einfach miteinander verbinden. Denn vom Kapitel über das Doppelverhältnis wissen wir, dass sich zwei Punktepaare $(A, B)$ und $(C, D)$ sich harmonisch trennen, wenn sie sich innen und außen gleich teilen:
+
+\[|TV(A B C)| = |TV(A B D)|\]
+
+Definieren wir $b = |\overline{A B}|$, $c = |\overline{A C}|$ und $d = |\overline{A D}|$.Durch umformen ergibt sich
+
+\begin{equation*}
+\begin{split}
+|TV(A B C)|~=~|TV(A B D)| ~\\
+\Longleftrightarrow ~~~~~~~~~\dfrac{c}{b-c}~=~\dfrac{d}{d-b}~~~~~~~~~~\\
+\Longleftrightarrow ~~~~~~~cd-cb~=~db-cd~~~~~~~~\\
+\Longleftrightarrow ~~~~~~~~~~~~2 cd~=~d (c+b)~~~~~~~\\
+\Longleftrightarrow ~~~~~~~~~\dfrac{2cd}{c+d}~=~b,~~~~~~~~~~~~~~~\\
+\end{split}
+\end{equation*}
+
+woraus wir erkennen können, dass $b$ das harmonische Mittel von $c$ und $d$ ist. Indem wir einen Punkt auf unserer Geraden festlegen und mithilfe zweier Abstände zu gegebenem Punkt zwei weitere Punkte bestimmen, können wir mit dem harmonischen Mittelwert den vierten Punkt berechnen.
+
+\begin{figure}[htbp] 
+\centering
+\includegraphics[width=0.7\textwidth]{Bilder/harmMittel.png}
+\caption{Muss mir noch was ausdenken \dots}
+\label{fig:harmMittel}
+\end{figure}
+
 \subsection{Harmonische Folge}
+
+\[ 1, \dfrac{1}{2}, \dfrac{1}{3}, \dfrac{1}{4}, \dfrac{1}{5}, \dots\]
+
+\[ a_n = \dfrac{1}{n} ~~~~~ n \geq 1\]
+
+\[ \lim_{x \to \infty} \dfrac{1}{n} = 0\]
 
 \newpage
 \section{Harmonie anschaulich}

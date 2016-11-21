@@ -12,12 +12,12 @@
 \contentsline {subsection}{\numberline {3.2}Das Doppelverh\IeC {\"a}ltnis}{11}
 \contentsline {subsection}{\numberline {3.3}Harmonische Lage und Doppelverh\IeC {\"a}ltnis}{12}
 \contentsline {subsection}{\numberline {3.4}Das Doppelverh\IeC {\"a}ltnis von vier Geraden}{13}
-\contentsline {section}{\numberline {4}Harmonisches Mittel und Goldener Schnitt}{15}
+\contentsline {section}{\numberline {4}Harmonisches Mittel und harmonische Folge}{15}
 \contentsline {subsection}{\numberline {4.1}Harmonisches Mittel}{15}
-\contentsline {subsection}{\numberline {4.2}Harmonische Folge}{15}
-\contentsline {section}{\numberline {5}Harmonie anschaulich}{16}
-\contentsline {subsection}{\numberline {5.1}Harmonische Lage und goldener Schnitt}{16}
-\contentsline {subsection}{\numberline {5.2}Harmonie in der Kunst}{16}
-\contentsline {subsection}{\numberline {5.3}Harmonische Lage heute}{16}
-\contentsline {section}{\numberline {6}Zusammenfassung und Fazit}{17}
-\contentsline {section}{Literaturverzeichnis}{19}
+\contentsline {subsection}{\numberline {4.2}Harmonische Folge}{16}
+\contentsline {section}{\numberline {5}Harmonie anschaulich}{18}
+\contentsline {subsection}{\numberline {5.1}Harmonische Lage und goldener Schnitt}{18}
+\contentsline {subsection}{\numberline {5.2}Harmonie in der Kunst}{18}
+\contentsline {subsection}{\numberline {5.3}Harmonische Lage heute}{18}
+\contentsline {section}{\numberline {6}Zusammenfassung und Fazit}{19}
+\contentsline {section}{Literaturverzeichnis}{21}
