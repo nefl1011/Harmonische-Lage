@@ -218,6 +218,7 @@ Dabei taucht dieser Sachverhalt häufig in perspektivischen Abbildungen auf: Imm
 Um nicht nur geometrisch und zeichnerisch auf die harmonische Lage von Punkten und Geraden schließen zu können, sondern auch mit Koordinaten arbeiten zu können, wird im folgenden das sogenannte Doppelverhältnis eingeführt. Anders Da aber das Doppelverhältnis per Definition ein Verhältnis ist, das aus zwei Teilverhältnissen besteht, wird vorab auf die Definition von Teilverhältnissen eingegangen.
 
 \subsection{Teilverhältnisse}
+\label{subsec:teilverh}
 Sehen wir uns aber zuvor uns drei Punkte $A$, $B$ und $C$ auf einer Geraden $g$ an. Egal wie wir dieses drei Punkte auf dieser Geraden anordnen, es wird immer ein Punkt die Strecke zwischen seinen beiden Nachbarn in zwei kleinere Teilstrecken aufteilen. Dabei wird das Verhältnis dieser zwei Teilstrecken im allgemeinen definiert als
 
 \[TV(A B C) = \overline{A C} : \overline{B C}\]
@@ -420,12 +421,26 @@ Auch zu beachten bei der harmonischen Folge ist, wenn jedes Folgenglied mit eine
 Beziehen wir die harmonische Folge auf die harmonische Lage von Punkten: Zur Vereinfachung legen wir $A$ als Nullpunkt fest, damit wir anstelle von Abständen mit Koordinaten arbeiten können. Der Partner von $A$ sei der Punkt $B$, den wir mit 1 identifizieren. Legen wir nun einen Punkt $D$ fest, der Folgenglied einer arithmetischen Folge ist, so erhalten wir mithilfe des Kehrwertes den Punkt $C$. Dabei trennt $B$ die Punkte $C$ und $D$ im harmonischen Mittel. Wir können also für $D \geq 1$ immer das passende harmonische Folgenglied finden und erhalten somit zwischen = und 1 eine harmonische Folge.
 
 \newpage
-\section{Harmonie anschaulich}
+\section{Harmonische Lage anschaulich}
 
-\subsection{Harmonische Lage und goldener Schnitt}
-Harmonie in der Natur
+Nach so viel Theorie wollen wir uns den praktischen Bezug der harmonischen Lage genauer ansehen. Hierbei legen wir unser Augenmerk in Richtung Kunst und Design. Zum Einstieg für die harmonische Lage in der Kunst können wir unser Wissen aus den vorherigen Kapiteln nutzen, wobei wir für die harmonische Lage im Design noch einen kurzen Einstieg in den Goldenen Schnitt erfordert.
 
 \subsection{Harmonie in der Kunst}
+
+Vielen von uns ist der Begriff der Perspektive wahrscheinlich größtenteils mit fotorealistischen Gemälden und Bildern gekoppelt. Tatsächlich fand die Perspektive nach ihrer Wiederentdeckung im 15. Jahrhundert, wahrscheinlich um 1413 \citep[S.~27]{perspektive}, neben der Geometrie auch hauptsächlich in der Bildenden Kunst bzw.~ der Malerei Anwendung. Vor ihrer Entdeckung mussten sich die Maler an einem Kanon von Regeln halten, denen es erlaubte, einigermaßen räumliche Szenen darzustellen. Jedoch beruhten diese auf keinerlei wissenschaftlich gesicherten Einsichten.
+
+\begin{wrapfigure}{r}{0.4\textwidth}
+\centering
+\includegraphics[width=0.4\textwidth]{Bilder/Brunelleschi-Zentralperspektive.jpg}
+\caption{Das  Spiegelexperiment}%www.medien-gesellschaft.de/html/geschichte_des_sehens.html
+\label{fig:brunnelli1}
+\end{wrapfigure}
+
+Fangen wir also ganz zu Beginn an: Die ersten Aufzeichnungen der Wiederentdeckung der Perspektive lassen sich in den Schriften vom Biographen Antonio Mannetti finden. Diese handeln allerdings nicht von Erkenntnissen, die Mannetti entdeckt hatte, sondern beschreiben die Arbeiten des Bildhauers und Architekten Filippo Brunelleschi. Dieser hatte in einem seiner ersten Experimente ein Miniaturenbild der Florentiner Taufkapelle, die von ihm so exakt wie möglich gezeichnet wurde. Zusätzlich legt er den Himmel mit poliertem Silber aus, um den realen Himmel darauf abbilden zu können. Doch benutzte er das Werk nicht zur Zurschaustellung, sondern für ein Experiment: Brunelleschi Bohrte in den Eingangsbereich der Taufkapelle ein Loch. Durch dieses Loch sollte ein Betrachter von der Rückseite des Bildes auf das Gebäude sehen. Dabei sollte der Betrachter an einer von Brunelleschi bestimmten stelle stehen. Der zweite Teil des Experimentes bestand darin, einen Spiegel zwischen Gebäude und Abbildung zu stellen, sodass die Sicht vom Spiegel verdeckt wurde. Allerdings sah der Betrachter nun die von Brunelleschi hergestellte Abbildung. Die illusionistische Wirkung musste überwältigend gewesen sein \citep[S.~28f]{perspektive}.
+
+Interessant ist jedoch hier, dass Brunelleschi es geschafft hatte, die mathematische Theorie des Sehens von Euklid mit der Theorie der Zentralprojektion zu verbinden. Dabei befindet sich das Guckloch des Bildes genau im Projektionszentrum und Hauptfluchtpunkt des Bildes \citep[S.~30]{perspektive}.
+
+Im Jahre 1435/36 veröffentlichte Leon Battista Alberti in seinen \textit{Drei Bücher über die Malerei} die theoretischen Grundlagen, die Filippo Brunelleschi verwendet hatte. 
 
 \begin{figure}[htbp] 
 \centering
@@ -434,10 +449,35 @@ Harmonie in der Natur
 \label{fig:braccia}
 \end{figure}
 
-\subsection{Harmonische Lage heute}
+\subsection{Harmonische Lage und Goldener Schnitt}
+Der Goldene Schnitt tritt seit der Antike in  vielen Bereichen der Geometrie, Architektur, Musik, Kunst sowie der Philosophie auf aber er erscheint auch heutzutage in den Gebieten von Design und Technik. Dabei ist der Goldene Schnitt kein isoliertes Phänomen, sondern in vielen Fällen das erste und somit einfachste nichttriviale Beispiel im Rahmen weiterführender Verallgemeinerungen \citep[s.][S.~5]{goldenerSchnitt}.
+
+Dabei ist der Goldene Schnitt ein Teilverhältnis (wir erinnern uns Kapitel \ref{subsec:teilverh}), welches in verschiedenen geometrischen und arithmetischen Situationen erscheint. Dieses Teilverhältnis ist definiert als das Verhältnis zweier Streckenabschnitte zueinander, die sich genauso verhalten wie die der längere Abschnitt zur gesamten Strecke:
+
+\[\dfrac{b}{a} = \dfrac{a}{c}\]
+
+Setzen wir $c = 1$, können wir das Verhältnis des Goldenen Schnittes bestimmen:
+
+\[\dfrac{1-x}{x} = x\]
+
+Durch umformen erhalten wir eine quadratische Gleichung
+
+\[x^2 + x - 1 = 0\].
+
+Diese hat die beiden Lösungen
+
+\[x_1 = \dfrac{-1 + \sqrt{5}}{2} \approx 0,618~~ \]
+
+und
+
+\[ x_2 = \dfrac{-1 - \sqrt{5}}{2} \approx -1,618 \].
+
+Da $x$ positiv sein muss, muss $x_1$ unsere Lösung sein. Somit ist die Zahl des Goldenen Schnittes $\dfrac{\sqrt{5}-1}{2}$. Der Kehrwert ist dann $\dfrac{\sqrt{5}+1}{2}$.
+
+\subsection{Harmonische Lage im Design}
 
 \newpage
-\section{Zusammenfassung und Fazit}
+\section{Zusammenfassung}
 
 \newpage
 \listoffigures

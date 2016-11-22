@@ -15,9 +15,9 @@
 \contentsline {section}{\numberline {4}Harmonisches Mittel und harmonische Folge}{15}
 \contentsline {subsection}{\numberline {4.1}Harmonisches Mittel}{15}
 \contentsline {subsection}{\numberline {4.2}Harmonische Folge}{16}
-\contentsline {section}{\numberline {5}Harmonie anschaulich}{19}
-\contentsline {subsection}{\numberline {5.1}Harmonische Lage und goldener Schnitt}{19}
-\contentsline {subsection}{\numberline {5.2}Harmonie in der Kunst}{19}
-\contentsline {subsection}{\numberline {5.3}Harmonische Lage heute}{19}
-\contentsline {section}{\numberline {6}Zusammenfassung und Fazit}{20}
-\contentsline {section}{Literaturverzeichnis}{22}
+\contentsline {section}{\numberline {5}Harmonische Lage anschaulich}{19}
+\contentsline {subsection}{\numberline {5.1}Harmonie in der Kunst}{19}
+\contentsline {subsection}{\numberline {5.2}Harmonische Lage und Goldener Schnitt}{20}
+\contentsline {subsection}{\numberline {5.3}Harmonische Lage im Design}{21}
+\contentsline {section}{\numberline {6}Zusammenfassung}{22}
+\contentsline {section}{Literaturverzeichnis}{24}

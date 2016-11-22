@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.22)  22 NOV 2016 11:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.22)  22 NOV 2016 23:46
 entering extended mode
 **Harmonische_Lage.tex
 (Harmonische_Lage.tex
@@ -628,15 +628,15 @@ Package pdftex.def Info: Bilder/inftyPoint.png used on input line 205.
 File: Bilder/doppelverhaeltnis.png Graphic file (type png)
 
 <use Bilder/doppelverhaeltnis.png>
-Package pdftex.def Info: Bilder/doppelverhaeltnis.png used on input line 292.
+Package pdftex.def Info: Bilder/doppelverhaeltnis.png used on input line 293.
 (pdftex.def)             Requested size: 175.49881pt x 86.9097pt.
 
-Overfull \hbox (12.36465pt too wide) in paragraph at lines 291--293
+Overfull \hbox (12.36465pt too wide) in paragraph at lines 292--294
 []  [] 
  []
 
 
-Overfull \hbox (4.26202pt too wide) in paragraph at lines 299--300
+Overfull \hbox (4.26202pt too wide) in paragraph at lines 300--301
 \OT1/cmr/m/n/12 m[]ussen wir fest-stel-len, dass egal wie wir $\OML/cmm/m/it/12
  D$ \OT1/cmr/m/n/12 w[]ahlen, $\OML/cmm/m/it/12 TV\OT1/cmr/m/n/12 (\OML/cmm/m/i
 t/12 ABC\OT1/cmr/m/n/12 ) = \OMS/cmsy/m/n/12  \OML/cmm/m/it/12 TV\OT1/cmr/m/n/1
@@ -648,54 +648,62 @@ t/12 ABC\OT1/cmr/m/n/12 ) = \OMS/cmsy/m/n/12  \OML/cmm/m/it/12 TV\OT1/cmr/m/n/1
 File: Bilder/vierGeraden.png Graphic file (type png)
 
 <use Bilder/vierGeraden.png>
-Package pdftex.def Info: Bilder/vierGeraden.png used on input line 352.
+Package pdftex.def Info: Bilder/vierGeraden.png used on input line 353.
 (pdftex.def)             Requested size: 272.99881pt x 157.45204pt.
  [14 <./Bilder/vierGeraden.png>] [15]
 <Bilder/harmMittel.png, id=84, 363.9999pt x 315.3381pt>
 File: Bilder/harmMittel.png Graphic file (type png)
 
 <use Bilder/harmMittel.png>
-Package pdftex.def Info: Bilder/harmMittel.png used on input line 401.
+Package pdftex.def Info: Bilder/harmMittel.png used on input line 402.
 (pdftex.def)             Requested size: 390.0pt x 337.8896pt.
  [16] [17 <./Bilder/harmMittel.png>] [18]
-<Bilder/braccia.png, id=96, 417.9615pt x 158.994pt>
-File: Bilder/braccia.png Graphic file (type png)
- <use Bilder/braccia.png>
-Package pdftex.def Info: Bilder/braccia.png used on input line 434.
-(pdftex.def)             Requested size: 390.0pt x 148.36508pt.
+<Bilder/Brunelleschi-Zentralperspektive.jpg, id=96, 192.72pt x 172.9662pt>
+File: Bilder/Brunelleschi-Zentralperspektive.jpg Graphic file (type jpg)
 
-[19 <./Bilder/braccia.png>] [20] (Harmonische_Lage.lof)
+<use Bilder/Brunelleschi-Zentralperspektive.jpg>
+Package pdftex.def Info: Bilder/Brunelleschi-Zentralperspektive.jpg used on inp
+ut line 434.
+(pdftex.def)             Requested size: 155.99762pt x 140.00684pt.
+ [19 <./Bilder/Brunelleschi-Zentralperspektive.jpg>] <Bilder/braccia.png, id=10
+0, 417.9615pt x 158.994pt>
+File: Bilder/braccia.png Graphic file (type png)
+
+<use Bilder/braccia.png>
+Package pdftex.def Info: Bilder/braccia.png used on input line 447.
+(pdftex.def)             Requested size: 390.0pt x 148.36508pt.
+ [20 <./Bilder/braccia.png>] [21] [22]
+(Harmonische_Lage.lof)
 \tf@lof=\write4
- [21]
-(Harmonische_Lage.bbl) [22] (Harmonische_Lage.aux) ) 
+ [23] (Harmonische_Lage.bbl) [24] (Harmonische_Lage.aux) ) 
 Here is how much of TeX's memory you used:
- 3834 strings out of 493636
- 50536 string characters out of 3134435
- 123905 words of memory out of 3000000
- 7140 multiletter control sequences out of 15000+200000
+ 3845 strings out of 493636
+ 50864 string characters out of 3134435
+ 123940 words of memory out of 3000000
+ 7149 multiletter control sequences out of 15000+200000
  13611 words of font info for 50 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 28i,17n,43p,1026b,284s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Florian/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Fl
-orian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.p
-fb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmcsc10.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmex10.pfb><C:/Users/Florian/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Florian/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Floria
-n/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
-:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr12.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmr8.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/Florian/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Florian/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/
-Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12
-.pfb>
-Output written on Harmonische_Lage.pdf (23 pages, 776170 bytes).
+ 28i,17n,43p,1275b,284s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Florian/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Us
+ers/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+bx12.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmcsc10.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Florian/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Florian/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/
+Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.
+pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmr12.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/Florian/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Florian/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/
+Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmti12.pfb>
+Output written on Harmonische_Lage.pdf (25 pages, 883750 bytes).
 PDF statistics:
- 151 PDF objects out of 1000 (max. 8388607)
+ 159 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
