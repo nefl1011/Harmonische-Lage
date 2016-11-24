@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.22)  22 NOV 2016 23:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.22)  25 NOV 2016 00:08
 entering extended mode
 **Harmonische_Lage.tex
 (Harmonische_Lage.tex
@@ -500,18 +500,18 @@ Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
 \f@ncyO@orf=\skip62
 )
 (Harmonische_Lage.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -543,147 +543,179 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write3
- [1]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 75.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[1]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 79.
 
 ("C:\Users\Florian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 75.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 79.
 [2] [3] <Bilder/herleitung1.png, id=22, 147.9126pt x 113.9457pt>
 File: Bilder/herleitung1.png Graphic file (type png)
 
 <use Bilder/herleitung1.png>
-Package pdftex.def Info: Bilder/herleitung1.png used on input line 99.
+Package pdftex.def Info: Bilder/herleitung1.png used on input line 103.
 (pdftex.def)             Requested size: 142.26378pt x 109.59698pt.
 
 <Bilder/herleitung2.png, id=24, 148.1535pt x 113.9457pt>
 File: Bilder/herleitung2.png Graphic file (type png)
 
 <use Bilder/herleitung2.png>
-Package pdftex.def Info: Bilder/herleitung2.png used on input line 103.
+Package pdftex.def Info: Bilder/herleitung2.png used on input line 107.
 (pdftex.def)             Requested size: 142.26378pt x 109.42485pt.
 
 <Bilder/herleitung3.png, id=25, 148.1535pt x 113.9457pt>
 File: Bilder/herleitung3.png Graphic file (type png)
 
 <use Bilder/herleitung3.png>
-Package pdftex.def Info: Bilder/herleitung3.png used on input line 107.
+Package pdftex.def Info: Bilder/herleitung3.png used on input line 111.
 (pdftex.def)             Requested size: 142.26378pt x 109.42485pt.
-
-<Bilder/fuer_mehrere_geraden.png, id=26, 218.7372pt x 197.7789pt>
+ [4 <./Bilder/herleitung1.png> <./Bilder/herleitung2.png> <./Bilder/herleitung3
+.png>]
+<Bilder/fuer_mehrere_geraden.png, id=33, 218.7372pt x 197.7789pt>
 File: Bilder/fuer_mehrere_geraden.png Graphic file (type png)
 
 <use Bilder/fuer_mehrere_geraden.png>
-Package pdftex.def Info: Bilder/fuer_mehrere_geraden.png used on input line 122
+Package pdftex.def Info: Bilder/fuer_mehrere_geraden.png used on input line 130
 .
-(pdftex.def)             Requested size: 142.26378pt x 128.63322pt.
- [4 <./Bilder/herleitung1.png> <./Bilder/herleitung2.png> <./Bilder/herleitung3
-.png>]
-Underfull \hbox (badness 1946) in paragraph at lines 127--128
-[][]\OT1/cmr/m/n/12 Durch den Schnitt-punkt die-ser zwei
+(pdftex.def)             Requested size: 195.0pt x 176.31538pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--141
+
  []
 
 
-Underfull \hbox (badness 5175) in paragraph at lines 137--138
-[]\OT1/cmr/bx/n/12 Definition: \OT1/cmr/m/n/12 Zwei Punk-te-paa-re
+Overfull \hbox (5.4111pt too wide) in paragraph at lines 142--143
+\OT1/cmr/m/n/12 nisch\, wenn sie so lie-gen wie die Ecken und die Ne-ben-ecken 
+ei-nes vollst[]andigen
  []
 
-[5 <./Bilder/fuer_mehrere_geraden.png>]
-<Bilder/13erKonfigStepbyStep.png, id=38, 363.9999pt x 296.7888pt>
+File: Bilder/fuer_mehrere_geraden.png Graphic file (type png)
+<use Bilder/fuer_mehrere_geraden.png>
+Package pdftex.def Info: Bilder/fuer_mehrere_geraden.png used on input line 146
+.
+(pdftex.def)             Requested size: 136.50238pt x 123.4244pt.
+
+Overfull \hbox (19.90134pt too wide) in paragraph at lines 149--153
+[][]\OT1/cmr/m/n/12 Dabei ver-steht man un-ter ei-nem vollst[]andigen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--153
+
+ []
+
+File: Bilder/fuer_mehrere_geraden.png Graphic file (type png)
+<use Bilder/fuer_mehrere_geraden.png>
+Package pdftex.def Info: Bilder/fuer_mehrere_geraden.png used on input line 156
+.
+(pdftex.def)             Requested size: 136.50238pt x 123.4244pt.
+ [5 <./Bilder/fuer_mehrere_geraden.png>]
+Overfull \hbox (19.90134pt too wide) in paragraph at lines 161--165
+[]\OT1/cmr/m/n/12 Dabei ver-steht man un-ter ei-nem vollst[]andigen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--165
+
+ []
+
+[6] <Bilder/13erKonfigStepbyStep.png, id=42, 363.9999pt x 296.7888pt>
 File: Bilder/13erKonfigStepbyStep.png Graphic file (type png)
 
 <use Bilder/13erKonfigStepbyStep.png>
-Package pdftex.def Info: Bilder/13erKonfigStepbyStep.png used on input line 162
+Package pdftex.def Info: Bilder/13erKonfigStepbyStep.png used on input line 184
 .
 (pdftex.def)             Requested size: 272.99881pt x 222.60916pt.
 
-<Bilder/13erKonfigStepbyStep3.png, id=39, 166.4619pt x 681.747pt>
+<Bilder/13erKonfigStepbyStep3.png, id=43, 166.4619pt x 681.747pt>
 File: Bilder/13erKonfigStepbyStep3.png Graphic file (type png)
 
 <use Bilder/13erKonfigStepbyStep3.png>
-Package pdftex.def Info: Bilder/13erKonfigStepbyStep3.png used on input line 16
-9.
+Package pdftex.def Info: Bilder/13erKonfigStepbyStep3.png used on input line 19
+3.
 (pdftex.def)             Requested size: 136.50238pt x 559.06735pt.
- [6 <./Bilder/13erKonfigStepbyStep.png>]
-Underfull \hbox (badness 1168) in paragraph at lines 172--173
-\OT1/cmr/m/n/12 sten, mit ei-nem vollst[]andigen Vier-eck
- []
-
-
-Overfull \hbox (0.3335pt too wide) in paragraph at lines 178--179
+ [7 <./Bilder/13erKonfigStepbyStep.png>]
+Overfull \hbox (0.3335pt too wide) in paragraph at lines 200--201
 []\OT1/cmr/m/n/12 Damit h[]atten wir die har-mo-ni-sche Grund-
  []
 
-[7 <./Bilder/13erKonfigStepbyStep3.png>] [8]
+[8 <./Bilder/13erKonfigStepbyStep3.png>]
 <Bilder/inftyPoint.png, id=52, 745.1037pt x 166.221pt>
 File: Bilder/inftyPoint.png Graphic file (type png)
 
 <use Bilder/inftyPoint.png>
-Package pdftex.def Info: Bilder/inftyPoint.png used on input line 205.
+Package pdftex.def Info: Bilder/inftyPoint.png used on input line 227.
 (pdftex.def)             Requested size: 390.0pt x 87.00354pt.
- [9 <./Bilder/inftyPoint.png>] [10] [11]
-<Bilder/doppelverhaeltnis.png, id=66, 201.3924pt x 99.7326pt>
+ [9] [10 <./Bilder/inftyPoint.png>] [11] [12]
+<Bilder/doppelverhaeltnis.png, id=70, 201.3924pt x 99.7326pt>
 File: Bilder/doppelverhaeltnis.png Graphic file (type png)
 
 <use Bilder/doppelverhaeltnis.png>
-Package pdftex.def Info: Bilder/doppelverhaeltnis.png used on input line 293.
+Package pdftex.def Info: Bilder/doppelverhaeltnis.png used on input line 315.
 (pdftex.def)             Requested size: 175.49881pt x 86.9097pt.
 
-Overfull \hbox (12.36465pt too wide) in paragraph at lines 292--294
+Overfull \hbox (12.36465pt too wide) in paragraph at lines 314--316
 []  [] 
  []
 
 
-Overfull \hbox (4.26202pt too wide) in paragraph at lines 300--301
+Overfull \hbox (4.26202pt too wide) in paragraph at lines 322--323
 \OT1/cmr/m/n/12 m[]ussen wir fest-stel-len, dass egal wie wir $\OML/cmm/m/it/12
  D$ \OT1/cmr/m/n/12 w[]ahlen, $\OML/cmm/m/it/12 TV\OT1/cmr/m/n/12 (\OML/cmm/m/i
 t/12 ABC\OT1/cmr/m/n/12 ) = \OMS/cmsy/m/n/12  \OML/cmm/m/it/12 TV\OT1/cmr/m/n/1
 2 (\OML/cmm/m/it/12 ABD\OT1/cmr/m/n/12 )$. 
  []
 
-[12 <./Bilder/doppelverhaeltnis.png>] [13]
-<Bilder/vierGeraden.png, id=75, 364.2408pt x 210.0648pt>
+[13 <./Bilder/doppelverhaeltnis.png>] [14]
+<Bilder/vierGeraden.png, id=78, 364.2408pt x 210.0648pt>
 File: Bilder/vierGeraden.png Graphic file (type png)
 
 <use Bilder/vierGeraden.png>
-Package pdftex.def Info: Bilder/vierGeraden.png used on input line 353.
+Package pdftex.def Info: Bilder/vierGeraden.png used on input line 377.
 (pdftex.def)             Requested size: 272.99881pt x 157.45204pt.
- [14 <./Bilder/vierGeraden.png>] [15]
-<Bilder/harmMittel.png, id=84, 363.9999pt x 315.3381pt>
+ [15 <./Bilder/vierGeraden.png>] [16]
+<Bilder/harmMittel.png, id=87, 363.9999pt x 315.3381pt>
 File: Bilder/harmMittel.png Graphic file (type png)
 
 <use Bilder/harmMittel.png>
-Package pdftex.def Info: Bilder/harmMittel.png used on input line 402.
-(pdftex.def)             Requested size: 390.0pt x 337.8896pt.
- [16] [17 <./Bilder/harmMittel.png>] [18]
-<Bilder/Brunelleschi-Zentralperspektive.jpg, id=96, 192.72pt x 172.9662pt>
+Package pdftex.def Info: Bilder/harmMittel.png used on input line 426.
+(pdftex.def)             Requested size: 175.49881pt x 152.039pt.
+ [17] [18 <./Bilder/harmMittel.png>] [19] [20]
+<Bilder/Brunelleschi-Zentralperspektive.jpg, id=102, 192.72pt x 172.9662pt>
 File: Bilder/Brunelleschi-Zentralperspektive.jpg Graphic file (type jpg)
 
 <use Bilder/Brunelleschi-Zentralperspektive.jpg>
 Package pdftex.def Info: Bilder/Brunelleschi-Zentralperspektive.jpg used on inp
-ut line 434.
+ut line 505.
 (pdftex.def)             Requested size: 155.99762pt x 140.00684pt.
- [19 <./Bilder/Brunelleschi-Zentralperspektive.jpg>] <Bilder/braccia.png, id=10
-0, 417.9615pt x 158.994pt>
+ [21 <./Bilder/Brunelleschi-Zentralperspektive.jpg>] <Bilder/braccia.png, id=10
+6, 417.9615pt x 158.994pt>
 File: Bilder/braccia.png Graphic file (type png)
 
 <use Bilder/braccia.png>
-Package pdftex.def Info: Bilder/braccia.png used on input line 447.
+Package pdftex.def Info: Bilder/braccia.png used on input line 522.
 (pdftex.def)             Requested size: 390.0pt x 148.36508pt.
- [20 <./Bilder/braccia.png>] [21] [22]
+ [22] [23 <./Bilder/braccia.png>] [24]
 (Harmonische_Lage.lof)
 \tf@lof=\write4
- [23] (Harmonische_Lage.bbl) [24] (Harmonische_Lage.aux) ) 
+ [25] (Harmonische_Lage.bbl) [26] (Harmonische_Lage.aux) ) 
 Here is how much of TeX's memory you used:
  3845 strings out of 493636
  50864 string characters out of 3134435
- 123940 words of memory out of 3000000
+ 120959 words of memory out of 3000000
  7149 multiletter control sequences out of 15000+200000
  13611 words of font info for 50 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 28i,17n,43p,1275b,284s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,17n,43p,1275b,303s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Florian/App
 Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Us
 ers/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
@@ -701,9 +733,9 @@ rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Florian/
 AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/
 Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmti12.pfb>
-Output written on Harmonische_Lage.pdf (25 pages, 883750 bytes).
+Output written on Harmonische_Lage.pdf (27 pages, 884142 bytes).
 PDF statistics:
- 159 PDF objects out of 1000 (max. 8388607)
+ 165 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -5,19 +5,22 @@
 \contentsline {subsection}{\numberline {1.2}Die Mathematisierung des Sehens durch Euklid}{2}
 \contentsline {section}{\numberline {2}Die Harmonischen Lage}{4}
 \contentsline {subsection}{\numberline {2.1}Definition}{5}
-\contentsline {subsection}{\numberline {2.2}Die harmonische 13er Konfiguration}{6}
-\contentsline {subsection}{\numberline {2.3}Erweiterung auf einen unendlich entfernten Punkt}{8}
-\contentsline {section}{\numberline {3}Harmonische Lage rechnerisch}{10}
-\contentsline {subsection}{\numberline {3.1}Teilverh\IeC {\"a}ltnisse}{10}
-\contentsline {subsection}{\numberline {3.2}Das Doppelverh\IeC {\"a}ltnis}{11}
-\contentsline {subsection}{\numberline {3.3}Harmonische Lage und Doppelverh\IeC {\"a}ltnis}{12}
-\contentsline {subsection}{\numberline {3.4}Das Doppelverh\IeC {\"a}ltnis von vier Geraden}{13}
-\contentsline {section}{\numberline {4}Harmonisches Mittel und harmonische Folge}{15}
-\contentsline {subsection}{\numberline {4.1}Harmonisches Mittel}{15}
-\contentsline {subsection}{\numberline {4.2}Harmonische Folge}{16}
-\contentsline {section}{\numberline {5}Harmonische Lage anschaulich}{19}
-\contentsline {subsection}{\numberline {5.1}Harmonie in der Kunst}{19}
-\contentsline {subsection}{\numberline {5.2}Harmonische Lage und Goldener Schnitt}{20}
-\contentsline {subsection}{\numberline {5.3}Harmonische Lage im Design}{21}
-\contentsline {section}{\numberline {6}Zusammenfassung}{22}
-\contentsline {section}{Literaturverzeichnis}{24}
+\contentsline {subsection}{\numberline {2.2}Die harmonische 13er Konfiguration}{7}
+\contentsline {subsection}{\numberline {2.3}Erweiterung auf einen unendlich entfernten Punkt}{9}
+\contentsline {section}{\numberline {3}Harmonische Lage rechnerisch}{11}
+\contentsline {subsection}{\numberline {3.1}Teilverh\IeC {\"a}ltnisse}{11}
+\contentsline {subsection}{\numberline {3.2}Das Doppelverh\IeC {\"a}ltnis}{12}
+\contentsline {subsection}{\numberline {3.3}Harmonische Lage und Doppelverh\IeC {\"a}ltnis}{13}
+\contentsline {subsection}{\numberline {3.4}Das Doppelverh\IeC {\"a}ltnis von vier Geraden}{14}
+\contentsline {section}{\numberline {4}Harmonisches Mittel und harmonische Folge}{16}
+\contentsline {subsection}{\numberline {4.1}Harmonisches Mittel}{16}
+\contentsline {subsection}{\numberline {4.2}Harmonische Folge}{17}
+\contentsline {section}{\numberline {5}Harmonische Lage und Goldener Schnitt}{19}
+\contentsline {section}{\numberline {6}Harmonische Lage in der Gestaltung}{21}
+\contentsline {subsection}{\numberline {6.1}Harmonie in der Malerei}{21}
+\contentsline {subsection}{\numberline {6.2}Harmonische Lage im Design}{23}
+\contentsline {subsubsection}{\numberline {6.2.1}Satzspiegel}{23}
+\contentsline {subsubsection}{\numberline {6.2.2}Gestaltungsraster}{23}
+\contentsline {subsubsection}{\numberline {6.2.3}Typografie}{23}
+\contentsline {section}{\numberline {7}Zusammenfassung}{24}
+\contentsline {section}{Literaturverzeichnis}{26}
