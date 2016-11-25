@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.22)  25 NOV 2016 00:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.22)  25 NOV 2016 23:41
 entering extended mode
 **Harmonische_Lage.tex
 (Harmonische_Lage.tex
@@ -500,18 +500,18 @@ Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
 \f@ncyO@orf=\skip62
 )
 (Harmonische_Lage.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -551,32 +551,32 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [1]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 79.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 75.
 
 ("C:\Users\Florian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 79.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 75.
 [2] [3] <Bilder/herleitung1.png, id=22, 147.9126pt x 113.9457pt>
 File: Bilder/herleitung1.png Graphic file (type png)
 
 <use Bilder/herleitung1.png>
-Package pdftex.def Info: Bilder/herleitung1.png used on input line 103.
+Package pdftex.def Info: Bilder/herleitung1.png used on input line 99.
 (pdftex.def)             Requested size: 142.26378pt x 109.59698pt.
 
 <Bilder/herleitung2.png, id=24, 148.1535pt x 113.9457pt>
 File: Bilder/herleitung2.png Graphic file (type png)
 
 <use Bilder/herleitung2.png>
-Package pdftex.def Info: Bilder/herleitung2.png used on input line 107.
+Package pdftex.def Info: Bilder/herleitung2.png used on input line 103.
 (pdftex.def)             Requested size: 142.26378pt x 109.42485pt.
 
 <Bilder/herleitung3.png, id=25, 148.1535pt x 113.9457pt>
 File: Bilder/herleitung3.png Graphic file (type png)
 
 <use Bilder/herleitung3.png>
-Package pdftex.def Info: Bilder/herleitung3.png used on input line 111.
+Package pdftex.def Info: Bilder/herleitung3.png used on input line 107.
 (pdftex.def)             Requested size: 142.26378pt x 109.42485pt.
  [4 <./Bilder/herleitung1.png> <./Bilder/herleitung2.png> <./Bilder/herleitung3
 .png>]
@@ -584,47 +584,47 @@ Package pdftex.def Info: Bilder/herleitung3.png used on input line 111.
 File: Bilder/fuer_mehrere_geraden.png Graphic file (type png)
 
 <use Bilder/fuer_mehrere_geraden.png>
-Package pdftex.def Info: Bilder/fuer_mehrere_geraden.png used on input line 130
+Package pdftex.def Info: Bilder/fuer_mehrere_geraden.png used on input line 126
 .
 (pdftex.def)             Requested size: 195.0pt x 176.31538pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--141
+Underfull \hbox (badness 10000) in paragraph at lines 133--137
 
  []
 
 
-Overfull \hbox (5.4111pt too wide) in paragraph at lines 142--143
+Overfull \hbox (5.4111pt too wide) in paragraph at lines 138--139
 \OT1/cmr/m/n/12 nisch\, wenn sie so lie-gen wie die Ecken und die Ne-ben-ecken 
 ei-nes vollst[]andigen
  []
 
 File: Bilder/fuer_mehrere_geraden.png Graphic file (type png)
 <use Bilder/fuer_mehrere_geraden.png>
-Package pdftex.def Info: Bilder/fuer_mehrere_geraden.png used on input line 146
+Package pdftex.def Info: Bilder/fuer_mehrere_geraden.png used on input line 142
 .
 (pdftex.def)             Requested size: 136.50238pt x 123.4244pt.
 
-Overfull \hbox (19.90134pt too wide) in paragraph at lines 149--153
+Overfull \hbox (19.90134pt too wide) in paragraph at lines 145--149
 [][]\OT1/cmr/m/n/12 Dabei ver-steht man un-ter ei-nem vollst[]andigen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--153
+Underfull \hbox (badness 10000) in paragraph at lines 145--149
 
  []
 
 File: Bilder/fuer_mehrere_geraden.png Graphic file (type png)
 <use Bilder/fuer_mehrere_geraden.png>
-Package pdftex.def Info: Bilder/fuer_mehrere_geraden.png used on input line 156
+Package pdftex.def Info: Bilder/fuer_mehrere_geraden.png used on input line 152
 .
 (pdftex.def)             Requested size: 136.50238pt x 123.4244pt.
  [5 <./Bilder/fuer_mehrere_geraden.png>]
-Overfull \hbox (19.90134pt too wide) in paragraph at lines 161--165
+Overfull \hbox (19.90134pt too wide) in paragraph at lines 157--161
 []\OT1/cmr/m/n/12 Dabei ver-steht man un-ter ei-nem vollst[]andigen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--165
+Underfull \hbox (badness 10000) in paragraph at lines 157--161
 
  []
 
@@ -632,7 +632,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--165
 File: Bilder/13erKonfigStepbyStep.png Graphic file (type png)
 
 <use Bilder/13erKonfigStepbyStep.png>
-Package pdftex.def Info: Bilder/13erKonfigStepbyStep.png used on input line 184
+Package pdftex.def Info: Bilder/13erKonfigStepbyStep.png used on input line 180
 .
 (pdftex.def)             Requested size: 272.99881pt x 222.60916pt.
 
@@ -640,11 +640,11 @@ Package pdftex.def Info: Bilder/13erKonfigStepbyStep.png used on input line 184
 File: Bilder/13erKonfigStepbyStep3.png Graphic file (type png)
 
 <use Bilder/13erKonfigStepbyStep3.png>
-Package pdftex.def Info: Bilder/13erKonfigStepbyStep3.png used on input line 19
-3.
+Package pdftex.def Info: Bilder/13erKonfigStepbyStep3.png used on input line 18
+9.
 (pdftex.def)             Requested size: 136.50238pt x 559.06735pt.
  [7 <./Bilder/13erKonfigStepbyStep.png>]
-Overfull \hbox (0.3335pt too wide) in paragraph at lines 200--201
+Overfull \hbox (0.3335pt too wide) in paragraph at lines 196--197
 []\OT1/cmr/m/n/12 Damit h[]atten wir die har-mo-ni-sche Grund-
  []
 
@@ -653,22 +653,22 @@ Overfull \hbox (0.3335pt too wide) in paragraph at lines 200--201
 File: Bilder/inftyPoint.png Graphic file (type png)
 
 <use Bilder/inftyPoint.png>
-Package pdftex.def Info: Bilder/inftyPoint.png used on input line 227.
+Package pdftex.def Info: Bilder/inftyPoint.png used on input line 223.
 (pdftex.def)             Requested size: 390.0pt x 87.00354pt.
  [9] [10 <./Bilder/inftyPoint.png>] [11] [12]
 <Bilder/doppelverhaeltnis.png, id=70, 201.3924pt x 99.7326pt>
 File: Bilder/doppelverhaeltnis.png Graphic file (type png)
 
 <use Bilder/doppelverhaeltnis.png>
-Package pdftex.def Info: Bilder/doppelverhaeltnis.png used on input line 315.
+Package pdftex.def Info: Bilder/doppelverhaeltnis.png used on input line 311.
 (pdftex.def)             Requested size: 175.49881pt x 86.9097pt.
 
-Overfull \hbox (12.36465pt too wide) in paragraph at lines 314--316
+Overfull \hbox (12.36465pt too wide) in paragraph at lines 310--312
 []  [] 
  []
 
 
-Overfull \hbox (4.26202pt too wide) in paragraph at lines 322--323
+Overfull \hbox (4.26202pt too wide) in paragraph at lines 318--319
 \OT1/cmr/m/n/12 m[]ussen wir fest-stel-len, dass egal wie wir $\OML/cmm/m/it/12
  D$ \OT1/cmr/m/n/12 w[]ahlen, $\OML/cmm/m/it/12 TV\OT1/cmr/m/n/12 (\OML/cmm/m/i
 t/12 ABC\OT1/cmr/m/n/12 ) = \OMS/cmsy/m/n/12  \OML/cmm/m/it/12 TV\OT1/cmr/m/n/1
@@ -680,42 +680,43 @@ t/12 ABC\OT1/cmr/m/n/12 ) = \OMS/cmsy/m/n/12  \OML/cmm/m/it/12 TV\OT1/cmr/m/n/1
 File: Bilder/vierGeraden.png Graphic file (type png)
 
 <use Bilder/vierGeraden.png>
-Package pdftex.def Info: Bilder/vierGeraden.png used on input line 377.
+Package pdftex.def Info: Bilder/vierGeraden.png used on input line 373.
 (pdftex.def)             Requested size: 272.99881pt x 157.45204pt.
  [15 <./Bilder/vierGeraden.png>] [16]
 <Bilder/harmMittel.png, id=87, 363.9999pt x 315.3381pt>
 File: Bilder/harmMittel.png Graphic file (type png)
 
 <use Bilder/harmMittel.png>
-Package pdftex.def Info: Bilder/harmMittel.png used on input line 426.
+Package pdftex.def Info: Bilder/harmMittel.png used on input line 422.
 (pdftex.def)             Requested size: 175.49881pt x 152.039pt.
  [17] [18 <./Bilder/harmMittel.png>] [19] [20]
-<Bilder/Brunelleschi-Zentralperspektive.jpg, id=102, 192.72pt x 172.9662pt>
+[21]
+<Bilder/Brunelleschi-Zentralperspektive.jpg, id=105, 192.72pt x 172.9662pt>
 File: Bilder/Brunelleschi-Zentralperspektive.jpg Graphic file (type jpg)
 
 <use Bilder/Brunelleschi-Zentralperspektive.jpg>
 Package pdftex.def Info: Bilder/Brunelleschi-Zentralperspektive.jpg used on inp
-ut line 505.
+ut line 508.
 (pdftex.def)             Requested size: 155.99762pt x 140.00684pt.
- [21 <./Bilder/Brunelleschi-Zentralperspektive.jpg>] <Bilder/braccia.png, id=10
-6, 417.9615pt x 158.994pt>
+ [22 <./Bilder/Brunelleschi-Zentralperspektive.jpg>] <Bilder/braccia.png, id=10
+9, 417.9615pt x 158.994pt>
 File: Bilder/braccia.png Graphic file (type png)
 
 <use Bilder/braccia.png>
-Package pdftex.def Info: Bilder/braccia.png used on input line 522.
+Package pdftex.def Info: Bilder/braccia.png used on input line 525.
 (pdftex.def)             Requested size: 390.0pt x 148.36508pt.
- [22] [23 <./Bilder/braccia.png>] [24]
+ [23] [24 <./Bilder/braccia.png>] [25] [26]
 (Harmonische_Lage.lof)
 \tf@lof=\write4
- [25] (Harmonische_Lage.bbl) [26] (Harmonische_Lage.aux) ) 
+ [27] (Harmonische_Lage.bbl) [28] (Harmonische_Lage.aux) ) 
 Here is how much of TeX's memory you used:
- 3845 strings out of 493636
- 50864 string characters out of 3134435
- 120959 words of memory out of 3000000
- 7149 multiletter control sequences out of 15000+200000
+ 3846 strings out of 493636
+ 50882 string characters out of 3134435
+ 120970 words of memory out of 3000000
+ 7150 multiletter control sequences out of 15000+200000
  13611 words of font info for 50 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 27i,17n,43p,1275b,303s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,17n,43p,1275b,385s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Florian/App
 Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Us
 ers/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
@@ -733,9 +734,9 @@ rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Florian/
 AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/
 Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmti12.pfb>
-Output written on Harmonische_Lage.pdf (27 pages, 884142 bytes).
+Output written on Harmonische_Lage.pdf (29 pages, 888060 bytes).
 PDF statistics:
- 165 PDF objects out of 1000 (max. 8388607)
+ 171 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

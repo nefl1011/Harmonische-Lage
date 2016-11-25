@@ -13,10 +13,6 @@
 \usepackage{multicol}
 
 \usepackage{fancyhdr}
-%%\pagestyle{fancy}
-%\setlength{\headheight}{15pt}
-%\pagestyle{fancyplain}
-%\renewcommand{\sectionmark}[1]%{\markboth{#1}{}}
 
 \pagestyle{fancy}
 \rhead{}
@@ -417,9 +413,9 @@ Definieren wir $b = |\overline{A B}|$, $c = |\overline{A C}|$ und $d = |\overlin
 
 woraus wir erkennen können, dass $b$ das harmonische Mittel von $c$ und $d$ ist. Indem wir einen Punkt auf unserer Geraden festlegen und mithilfe zweier Abstände zu gegebenem Punkt zwei weitere Punkte bestimmen, können wir mit dem harmonischen Mittelwert den vierten Punkt berechnen. Legen wir Punkt $A$ als Nullpunkt fest, können wir die Abstände als Koordinaten definieren.
 
-Ein Sonderfall bei der Auswahl unseres Punktes tritt dann auf, wenn wir den vierten Punkt so wählen, dass dieser ein Fernpunkt ist. Ist dies der Fall tritt hier sogar das arithmetische Mittel auf. Dies liegt daran, dass wir zwar immer noch das harmonische Mittel vorliegen haben, aber unser gewählter Punkt im Bezug zum Fernpunkt $\infty$ steht. %TODO
+Ein Sonderfall bei der Auswahl unseres Punktes tritt dann auf, wenn wir den vierten Punkt so wählen, dass dieser ein Fernpunkt ist. Ist dies der Fall tritt hier sogar das arithmetische Mittel auf. Dies liegt daran, dass wir zwar immer noch das harmonische Mittel vorliegen haben, aber unser gewählter Punkt im Bezug zum Fernpunkt $\infty$ steht.
 
-Diese Sachverhalte sind gut in den sogenannten Möbius'sche Netze nachzuvollziehen (Abb.~\ref{sec:harmMittel}). Indem wir ein solches Netz aufbauen, können wir unendlich viele 4. harmonische Punkte hinzu konstruieren: in die eine Richtung verdichtend, in die andere ausdehnend. Definieren wir unsere 3 Grundpunkte als 0, 1 und $\infty$, lassen sich sehr schöne Zahlenfolgen Konstruieren. Dabei fällt auf, wenn wir von einer ausgesuchten Zahl $n$ unserer Konstruktion seine beiden Nachbarn $n-1$ und $n+1$ betrachten, dass n das harmonische Mittel von $n-1$ und $n+1$ ist. Wir erhalten mit den Möbius'schen Netz eine harmonische Folge.
+Diese Sachverhalte sind gut in den sogenannten Möbius'sche Netze nachzuvollziehen (Abb.~\ref{sec:harmMittel}). Indem wir ein solches Netz aufbauen, können wir unendlich viele 4. harmonische Punkte hinzu konstruieren: in die eine Richtung verdichtend, in die andere ausdehnend. Definieren wir unsere 3 Grundpunkte als 0, 1 und $\infty$, lassen sich sehr schöne Zahlenfolgen Konstruieren. Dabei fällt auf, wenn wir von einer ausgesuchten Zahl $n$ unserer Konstruktion seine beiden Nachbarn $n-1$ und $n+1$ betrachten, dass n das harmonische Mittel von $n-1$ und $n+1$ ist. Somit ist das harmonische Mittel Bestandteil harmonischer Lage-Beziehungen von Punkten.
 
 \begin{figure}[htbp] 
 \centering
@@ -429,6 +425,7 @@ Diese Sachverhalte sind gut in den sogenannten Möbius'sche Netze nachzuvollzieh
 \end{figure}
 
 \subsection{Harmonische Folge}
+\label{subsec:harmFolge}
 
 Auch bekannt im Bereich der Zahlenfolgen ist die harmonische Folge. Dabei ist jedes Glied dieser Folge der Kehrwert der positiven ganzen Zahlen und somit Kehrwert der Glieder einer arithmetischen Folge: 
 
@@ -442,7 +439,15 @@ Des Weiteren ist jedes Glied der Folge (mit der Voraussetzung $n \geq 2$) das ha
 
 Auch zu beachten bei der harmonischen Folge ist, wenn jedes Folgenglied mit einer Konstanten multipliziert wird, dass daraus wieder eine harmonische Folge entsteht.
 
-Beziehen wir die harmonische Folge auf die harmonische Lage von Punkten: Zur Vereinfachung legen wir $A$ als Nullpunkt fest, damit wir anstelle von Abständen mit Koordinaten arbeiten können. Der Partner von $A$ sei der Punkt $B$, den wir mit 1 identifizieren. Legen wir nun einen Punkt $D$ fest, der Folgenglied einer arithmetischen Folge ist, so erhalten wir mithilfe des Kehrwertes den Punkt $C$. Dabei trennt $B$ die Punkte $C$ und $D$ im harmonischen Mittel. Wir können also für $D \geq 1$ immer das passende harmonische Folgenglied finden und erhalten somit zwischen 0 und 1 eine harmonische Folge.
+Beziehen wir die harmonische Folge auf die harmonische Lage von Punkten: Zur Vereinfachung legen wir $A$ als Nullpunkt fest, damit wir anstelle von Abständen mit Koordinaten arbeiten können. Der Partner von $A$ sei der Punkt $B$, den wir mit 1 identifizieren. Legen wir nun einen Punkt $D$ fest, der Folgenglied einer arithmetischen Folge ist, so erhalten wir mithilfe des Kehrwertes den Punkt $C$. Dabei trennt $B$ die Punkte $C$ und $D$ im harmonischen Mittel. Wir können also für $D \geq 1$ immer das passende harmonische Folgenglied finden und erhalten somit zwischen 0 und 1 für alle Punkte von $C$ eine harmonische Folge. Dabei ist der Gegenpunkt von $C$ - der Punkt $D$ - das Folgenglied einer arithmetischen Folge. Wenn wir demnach eine Skala zeichnen, auf der wir die harmonische sowie die arithmetische Folge haben, und verbinden die Punkte der Skala mit einem beliebigen Punkt $P$ außerhalb davon, so erhalten wir einen Wurf harmonischer Geraden. Dabei treten folgende harmonische Punktepaar-Beziehungen für die harmonische Folge $\dfrac{1}{n}$ und die arithmetische Folge $n$ mit jeweils $n \geq 1$ auf:
+
+\begin{itemize}
+\item $\left(0, 1\right)$ und $\left(\dfrac{1}{n}, n\right)$ für $n \geq 1$,
+\item $\left(n-1, n+1\right)$ und $\left(n, \infty\right)$ für $n \geq 2$, sowie
+\item $\left(0, \dfrac{1}{n}\right)$ und $\left(\dfrac{1}{n+1}, \dfrac{1}{n-1}\right)$ für $n \geq 2$.
+\end{itemize}
+
+%TODO Abbildung Skript und prüfen, ob aussage stimmt
 
 \newpage
 \section{Harmonische Lage und Goldener Schnitt}
@@ -473,9 +478,7 @@ und
 
 Da $x$ positiv sein muss, muss $x_1$ unsere Lösung sein. Somit ist die Zahl des Goldenen Schnittes $\dfrac{\sqrt{5}-1}{2}$. Der Kehrwert ist dann $\dfrac{\sqrt{5}+1}{2}$.
 
-Da wir sowohl bei der harmonischen Lage als auch beim Goldenen Schnitt von von Teilverhältnissen sprechen, können wir diese zwei geometrischen Aspekte miteinander verbinden. %Allerdings betrachten wir beim Goldenen Schnitt 3 Punkte und 2 Strecken, während wir bei der harmonischen Lage 4 Punkte und 3 Strecken vorliegen haben. Wollen wir von der harmonischen Lage von vier Punkten $A, C, B$ und $D$ auf einer Geraden $g$ auf den Goldenen Schnitt prüfen, so können wir dies einfach tun: dazu brauchen wir nur die zwei Teilverhältnisse $TV(A B C)$ und $TV(A B D)$ betrachten. Aufgrund der Definition von harmonischer Lage und Doppelverhältnis müssen diese vom Betrag gleich sein und zugleich der Zahl des Goldenen Schnittes entsprechen.
-
-%Wollen wir dagegen von einer Goldenen-Schnitt-Situation auf die harmonische Lage schließen, fehlt uns ein Punkt, den wir noch Konstruieren müssen. 
+Da wir sowohl bei der harmonischen Lage als auch beim Goldenen Schnitt von von Teilverhältnissen sprechen, können wir diese zwei geometrischen Aspekte miteinander verbinden.
 
 Nehmen wir dazu folgende Situation an: Auf einer Geraden befinden sich zwei Punkte $A$ und $B$, deren Strecke $\overline{A B}$ von einem weiteren Punkt $C$ im Goldenen Schnitt geteilt wird. Demnach ist das Teilverhältnis $TV(A B C) = \overline{A C} : \overline{B C}$ gleich dem Teilverhältnis $TV(C B A) = \overline{C A} : \overline{B A}$. Dies kann auch anhand der Vertauschungsregeln aus Kapitel \ref{subsec:teilverh} nachgeprüft werden:
 
@@ -524,9 +527,17 @@ Bisher wurde immer die Pyramiden im Verhältnis $2 : 3$ geteilt, womit ein abgef
 \label{fig:braccia}
 \end{figure}
 
-Mit dieser sehr geschickt gewählten Methode war es ab sofort möglich, jegliche Gegenstände perspektivisch Korrekt darzustellen. Im Laufe der Jahre wurde Albertis Perspektivkonstruktion von Personen wie Albrecht Dürer und Leonardo DaVinci auf mehrere Fluchtpunkte ausgeklügelt und mathematisch begründet. Doch kann dies als Grundstein für die nachkommenden perspektivischen Werke in der Kunstgeschichte betrachtet werden.
+Mit dieser sehr geschickt gewählten Methode war es ab sofort möglich, jegliche Gegenstände perspektivisch Korrekt darzustellen. Im Laufe der Jahre wurde Albertis perspektivische Konstruktion von Personen wie Albrecht Dürer und Leonardo DaVinci auf mehrere Fluchtpunkte ausgeklügelt und mathematisch begründet. Doch kann dies als Grundstein für die nachkommenden perspektivischen Werke in der Kunstgeschichte betrachtet werden. Dabei kann die Konstruktion solcher perspektivischen Raster nicht nur zum Bildrand parallele Flächen angewandt werden, sondern sie kann auch für vertikale und schräge Raster verwendet werden.
 
-Tatsächlich sollte auch hier unser nun geschultes Auge erkennen, dass solche und andere perspektivischen Konstruktionen einer gewissen Harmonie entsprechen.
+%TODO Beispielbilder
+
+Tatsächlich sollte auch hier unser nun geschultes Auge erkennen, dass solche und andere perspektivischen Konstruktionen unserer Definition von harmonischen Punkten und Geraden entsprechen. Hier taucht sogar die Harmonische Lage mehrfach auf: Zum einen in der fertigen Konstruktion, zum anderen aber auch bei den Verbindungslinien zwischen der Skala und dem Augenpunkt (s.~ Kapitel \ref{subsec:harmFolge}).
+
+Egal ob wir nur einen oder mehrere Fluchtpunkte in unserem Bild haben, alle auf diesen Punkt konvergierende Geraden stehen immer in harmonischer Lage zueinander. Indem wir ähnlich Alberti perspektivische Raster durch die Konstruktion harmonischer Punkte erhalten, ist die Harmonische Lage ein Maß für den menschlichen Sehsinn, den wir auch für Bilder, Gemälde o.ä.~verwenden können.
+
+Abschließend hier einige Werke, die für ihre realistische Darstellung mithilfe perspektivischen Zeichnens bekannt sind:
+
+%TODO drei / vier Bilder
 
 \subsection{Harmonische Lage im Design}
 
