@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.26)  28 NOV 2016 19:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.26)  28 NOV 2016 22:16
 entering extended mode
 **./Harmonische_Lage.tex
 (Harmonische_Lage.tex
@@ -607,7 +607,11 @@ Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \f@ncyO@erf=\skip66
 \f@ncyO@olf=\skip67
 \f@ncyO@orf=\skip68
-) (Harmonische_Lage.aux)
+) (Harmonische_Lage.aux
+
+LaTeX Warning: Label `fig:VDG' multiply defined.
+
+)
 \openout1 = `Harmonische_Lage.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
@@ -1025,38 +1029,86 @@ File: Bilder/braccia.png Graphic file (type png)
 <use Bilder/braccia.png>
 Package pdftex.def Info: Bilder/braccia.png used on input line 549.
 (pdftex.def)             Requested size: 390.0pt x 148.36508pt.
- [24] [25 <./Bilder/braccia.png>] [26] [27]
-(Harmonische_Lage.lof)
+ [24] [25 <./Bilder/braccia.png>]
+<Bilder/page_construction.png, id=136, 498.4221pt x 374.8404pt>
+File: Bilder/page_construction.png Graphic file (type png)
+
+<use Bilder/page_construction.png>
+Package pdftex.def Info: Bilder/page_construction.png used on input line 569.
+(pdftex.def)             Requested size: 155.99762pt x 117.32036pt.
+
+Underfull \hbox (badness 6268) in paragraph at lines 570--570
+\OT1/cmr/m/n/12 (links) und Paul Ro-sa-ri-vo
+ []
+
+<Bilder/Van_de_Graaf_1.png, id=137, 498.4221pt x 374.8404pt>
+File: Bilder/Van_de_Graaf_1.png Graphic file (type png)
+
+<use Bilder/Van_de_Graaf_1.png>
+Package pdftex.def Info: Bilder/Van_de_Graaf_1.png used on input line 578.
+(pdftex.def)             Requested size: 155.99762pt x 117.32036pt.
+
+<Bilder/Van_de_Graaf.png, id=138, 357.2547pt x 271.7352pt>
+File: Bilder/Van_de_Graaf.png Graphic file (type png)
+
+<use Bilder/Van_de_Graaf.png>
+Package pdftex.def Info: Bilder/Van_de_Graaf.png used on input line 587.
+(pdftex.def)             Requested size: 155.99762pt x 118.65579pt.
+
+Underfull \hbox (badness 3895) in paragraph at lines 588--588
+[]\OT1/cmr/m/n/12 Abbildung 14: Har-mo-ni-sche
+ []
+
+[26 <./Bilder/page_construction.png> <./Bilder/Van_de_Graaf_1.png> <./Bilder/Va
+n_de_Graaf.png>]
+<Bilder/Golden_section_page_Tschichold.png, id=145, 424.7067pt x 343.5234pt>
+File: Bilder/Golden_section_page_Tschichold.png Graphic file (type png)
+
+<use Bilder/Golden_section_page_Tschichold.png>
+Package pdftex.def Info: Bilder/Golden_section_page_Tschichold.png used on inpu
+t line 597.
+(pdftex.def)             Requested size: 155.99762pt x 126.17911pt.
+
+Underfull \hbox (badness 6493) in paragraph at lines 598--598
+\OT1/cmr/m/n/12 Tschi-chold nach Fibonacci-
+ []
+
+[27 <./Bilder/Golden_section_page_Tschichold.png>] [28] (Harmonische_Lage.lof)
 \tf@lof=\write4
 \openout4 = `Harmonische_Lage.lof'.
 
- [28] (Harmonische_Lage.bbl) [29] (Harmonische_Lage.aux) ) 
+
+[29] (Harmonische_Lage.bbl) [30] (Harmonische_Lage.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4492 strings out of 493334
- 61946 string characters out of 3129355
- 133227 words of memory out of 3000000
- 7897 multiletter control sequences out of 15000+200000
+ 4517 strings out of 493334
+ 62646 string characters out of 3129355
+ 133296 words of memory out of 3000000
+ 7918 multiletter control sequences out of 15000+200000
  13259 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,17n,43p,1277b,377s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Florian/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Us
-ers/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-bx12.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmcsc10.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Florian/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Florian/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/
-Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.
+<C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Florian/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Floria
+n/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi8.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Florian/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Florian/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/
+Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.
 pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmr12.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr8.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Florian/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Florian/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Harmonische_Lage.pdf (30 pages, 1220893 bytes).
+onts/cm/cmti12.pfb>
+Output written on Harmonische_Lage.pdf (31 pages, 1575026 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
+ 198 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 

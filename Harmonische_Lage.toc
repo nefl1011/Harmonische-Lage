@@ -20,7 +20,6 @@
 \contentsline {subsection}{\numberline {6.1}Harmonie in der Malerei}{23}
 \contentsline {subsection}{\numberline {6.2}Harmonische Lage im Design}{26}
 \contentsline {subsubsection}{\numberline {6.2.1}Satzspiegel}{26}
-\contentsline {subsubsection}{\numberline {6.2.2}Gestaltungsraster}{26}
-\contentsline {subsubsection}{\numberline {6.2.3}Typografie}{26}
-\contentsline {section}{\numberline {7}Zusammenfassung}{27}
-\contentsline {section}{Literaturverzeichnis}{29}
+\contentsline {subsubsection}{\numberline {6.2.2}Gestaltungsraster}{27}
+\contentsline {section}{\numberline {7}Zusammenfassung}{28}
+\contentsline {section}{Literaturverzeichnis}{30}
