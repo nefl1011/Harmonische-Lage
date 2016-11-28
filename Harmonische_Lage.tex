@@ -9,6 +9,7 @@
 \usepackage{graphicx}
 \usepackage{wrapfig}
 \usepackage{enumitem} 
+\usepackage{subfigure} 
 
 \usepackage{multicol}
 
@@ -16,7 +17,7 @@
 
 \pagestyle{fancy}
 \rhead{}
-\lhead{\textsl{\leftmark}}
+\lhead{\rightmark}
 
 \author{Florian Neuweiler}
 \date{}
@@ -139,7 +140,7 @@ Zwei Punktepaare $(A,B)$, $(C,D)$ auf einer Geraden $g$ \glqq trennen sich harmo
 
 \begin{wrapfigure}{r}{0.35\textwidth}
 \centering
-\includegraphics[width=0.35\textwidth]{Bilder/fuer_mehrere_geraden.png}
+\includegraphics[width=0.35\textwidth]{Bilder/vollstaendigesVierseit.png}
 \end{wrapfigure}
 
 Dabei versteht man unter einem vollständigen Vierseit eine Figur bestehend aus den Geraden bzw.~Seiten $a$, $b$, $c$ und $d$ , den sechs Ecken, die jeweils die Schnittpunkte von je zwei Seiten sind, den drei Nebenseiten, die jene Ecken verbinden, die nicht auf den Hauptseiten liegen, sowie drei Nebenecken (gegeben durch die Schnittpunkte der Nebenseiten untereinander).
@@ -149,7 +150,7 @@ Dabei versteht man unter einem vollständigen Vierseit eine Figur bestehend aus 
 
 \begin{wrapfigure}{r}{0.35\textwidth}
 \centering
-\includegraphics[width=0.35\textwidth]{Bilder/fuer_mehrere_geraden.png}
+\includegraphics[width=0.35\textwidth]{Bilder/vollstaendigesViereck.png}
 \end{wrapfigure}
 
 Zwei Geradenpaare $(a,b)$, $(c,d)$ in einem Punkt $P$ \glqq trennen sich harmonisch\grqq , wenn sie so liegen wie die Seiten und die Nebenseiten eines vollständigen Vierecks in einer Nebenecke.
@@ -158,10 +159,15 @@ Dabei versteht man unter einem vollständigen Viereck eine Figur bestehend aus d
 \newline
 \newline
 Die Bezeichnungen \glqq trennen sich harmonsich\grqq ~ist gleichbedeutend zu den Aussagen wie \glqq liegen harmonisch zueinander\grqq , \glqq sind in Harmonischer Lage\grqq ~oder \glqq bilden einen harmonischen Wurf\grqq .
-
+\newline
+\newline
 Wir können zur Konstruktion vierer harmonischer Punkte wie in unserem Beispiel vorgehen. Es existieren aber noch andere Möglichkeiten zur Konstruktion des vierten harmonischen Punktes:
 
-%TODO
+\begin{figure} [htbp]
+\subfigure[Thaleskreis]{\includegraphics[width=0.4\textwidth]{Bilder/thales.png}} \hfill
+\subfigure[Strahlensatz]{\includegraphics[width=0.4\textwidth]{Bilder/strahlensatz.png}}
+\caption{Bestimmung des 4. harmonischen Punktes $D$}
+\end{figure} 
 
 \newpage
 \subsection{Die harmonische 13er Konfiguration}
@@ -192,10 +198,19 @@ Für die Konstruktion der harmonischen 13er Konfiguration wäre es am einfachste
 In diesem Fall entscheiden wir uns für ein vollständiges Vierseit als Grundkonstrukt. Darin wollen wir nun die Punkte und Geraden eines vollständigen Vierecks bestimmen, das dasselbe Nebendreieck hat und dessen Seiten mit den Ecken inzidieren. Dazu gehen wir wie folgt vor:
 
 Zuerst betrachten wir die Ecken des Vierseits, in welche zwei Seiten des Vierseits und eine Seite des Nebendreiecks falle. In unserer Abbildung wären das die Punkte A, B und E. Dabei lassen wir von diesen drei Punkten die Ecke wegfallen, die mit je einer Seite des Vierseits mit den anderen Punkte verbunden ist. Hier wäre das der Punkt E, sodass wir jetzt nur noch die Ecken A und B betrachten. Von diesen zwei Ecken ziehen wir je eine Gerade aus, die sich alle in derselben Ecke des Nebendreiecks schneiden, mit der sie sich nicht auf einer Nebenseite befinden. In unserem Beispiel ist das R. Dabei bilden die Schnittpunkte der Seiten des Vierseits mit den Geraden die vier Ecken des vollständigen Vierecks, wobei die Punkte A und B nicht dazu gehören. Auch sind die von uns konstruierten Geraden die Seiten unseres gesuchten Vierecks. Schließen wir nun das Viereck, indem wir nun alle Ecken des Vierecks so miteinander verbinden, das immer zwei Ecken auf eine Seite des Vierecks fallen.
-
+\newline
+\newline
 Damit hätten wir die harmonische Grundfigur geschaffen. In dieser Konstruktionsbeschreibung wurde jedoch der Beweis, dass die Seiten des Vierecks durch die Ecken des Nebendreiecks gehen müssen ausgelassen. Für eine genauere Konstruktion der harmonischen 13er Konfiguration ist \citep{projektiveGeometrie} Seite 48f zu empfehlen.
 
 Wenn wir die Konfiguration genauer betrachten lässt sich erkennen, dass die Konfiguration aus lauter harmonische Lagebeziehungen besteht. Auch folgt aus der harmonischen 13er Konfiguration, dass bei den Geraden bzw.~ Punkten der harmonischen Lage das Dualitätsprinzip gilt: die harmonische Lage hängt nicht von einem ganz speziellen Vierseit/Viereck ab. Ebenso sind die Punktepaare gleichberechtigt, d.h., ob eine Seite/Ecke eine Nebenseite/-ecke oder nicht ist keine Rolle spielt.
+\newline
+
+\begin{wrapfigure}{r}{0.35\textwidth}
+\centering
+\includegraphics[width=0.35\textwidth]{Bilder/13_neu.png}
+\caption{Weitere harmonische Grundfiguren in einer bereits vorhandenen}
+\label{fig:13Neu}
+\end{wrapfigure}
 
 Zur Erklärung hier unsere Grundfigur mit anderen hervorgehobenen Linien. Aus der von uns konstruierten Grundfigur können wir nicht nur ein Viereck und ein Vierseit erkennen, sondern gleich mehrere, die wir so nicht vorgesehen hatten. Folglich lässt sich von zwei harmonischen Punkte-/Geradenpaaren eines als Nebenecke/-seite auffassen.
 
@@ -212,6 +227,7 @@ Damit kommen wir zur Schlussfolgerung, dass die harmonische Lage eine projektve 
 
 \glqq Man kann also schneiden und verbinden, soviel man will - einmal harmonisch heißt immer harmonisch.~\citep[s.~][S.~49]{projektiveGeometrie}\grqq
 
+\newpage
 \subsection{Erweiterung auf einen unendlich entfernten Punkt}
 
 Unser bisher erlerntes Wissen können wir nun praktisch in die Tat umsetzen. Dabei lehnen wir uns an ein zeichnerisches Beispiel an, das den meisten aus der Schule bekannt vorkommen wird:
@@ -254,6 +270,7 @@ Im Wesentlich haben wir, wenn wir vom Teilverhältnis sprechen, zwei unterschied
 \end{enumerate}
 
 Wenn wir nun $C$ die gesamte Gerade durchlaufen lassen und beobachten den Wert $TV$, so können wir feststellen, dass der Wert von $TV$ stets monoton fallend ist. Wenn allerdings der Punkt $C$ auf $B$ fällt, so hat $TV$ den linksseitigen Grenzwert $-\infty$ und den rechtsseitigen Grenzwert $+\infty$.
+\newpage
 \begin{center}
 \begin{scriptsize}
 \begin{tabular}[htbp]{l|c|c|c|c|c|c|c|c}
@@ -263,6 +280,11 @@ $TV t$ & $t = 1 - o$ & $0 < t < 1$ & $t = 0$ & $t < 0$ & [$t = -1/2$] & $t = \pm
 \end{tabular}
 \end{scriptsize}
 \end{center}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth]{Bilder/tv_strahl.png}
+\end{figure}
 
 Da wir nun wissen, was man unter Teilverhältnissen versteht, können wir nun das Doppelverhältnis einführen:
 
@@ -349,8 +371,6 @@ TV(A B P) = -TV(A B Q) \Longleftrightarrow TV(A B P) : TV(A B Q) = -1 \\ \Longle
 \end{split}
 \end{equation*}
 
-
-%TODO
 \subsection{Das Doppelverhältnis von vier Geraden}
 
 Bisher haben wir nur das Doppelverhältnis von Punkten betrachtet, die sich alle auf ein und derselben Gerade befanden. Jedoch kann man die Definition des Doppelverhältnisses zusätzlich auf vier Geraden erweitern. Wie bei dem Doppelverhältnis von vier Punkten, bei der die Ausgangssituation darauf festgelegt war, dass sich diese Punkte auf einer Gemeinsamen Geraden befinden, gilt für das Doppelverhältnis vierer Geraden $a, b, c$ und $d$, dass sich diese in einem gemeinsamen Punkt $P$ schneiden (Abb. \ref{fig:vierGeraden}). Dabei wird $P$ auch Projektionszentrum genannt.
@@ -361,7 +381,7 @@ Schneiden wir nun diese vier Strahlen mit einer beliebigen Geraden $g$, wobei di
 \begin{split}
 DV(A B C D)~=~~~~~~~~~~~~~\dfrac{\overline{A C}}{\overline{B C}} : \dfrac{\overline{A D}}{\overline{B D}}~~~~~~~~~~~~\\
 =~~~~~~~~~~~~\dfrac{\overline{A Q_1}}{\overline{B Q_2}} : \dfrac{\overline{A R_1}}{\overline{B R_2}}~~~~~~~~~~~\\
-=~\dfrac{\overline{A P} * sin(ac)}{\overline{B P} * sin(bc)} : \dfrac{\overline{A P} * sin(ad)}{\overline{B P} * sin(bd)} \\
+=~\dfrac{\overline{A P} * sin(ab)}{\overline{B P} * sin(cb)} : \dfrac{\overline{A P} * sin(ad)}{\overline{B P} * sin(bd)} \\
 =~~~~~~~~\dfrac{sin(ac)}{sin(bc)} : \dfrac{sin(ad)}{sin(bd)}~~~~~~~~
 \end{split}
 \end{equation*}
@@ -417,13 +437,15 @@ Ein Sonderfall bei der Auswahl unseres Punktes tritt dann auf, wenn wir den vier
 
 Diese Sachverhalte sind gut in den sogenannten Möbius'sche Netze nachzuvollziehen (Abb.~\ref{sec:harmMittel}). Indem wir ein solches Netz aufbauen, können wir unendlich viele 4. harmonische Punkte hinzu konstruieren: in die eine Richtung verdichtend, in die andere ausdehnend. Definieren wir unsere 3 Grundpunkte als 0, 1 und $\infty$, lassen sich sehr schöne Zahlenfolgen Konstruieren. Dabei fällt auf, wenn wir von einer ausgesuchten Zahl $n$ unserer Konstruktion seine beiden Nachbarn $n-1$ und $n+1$ betrachten, dass n das harmonische Mittel von $n-1$ und $n+1$ ist. Somit ist das harmonische Mittel Bestandteil harmonischer Lage-Beziehungen von Punkten.
 
-\begin{figure}[htbp] 
-\centering
-\includegraphics[width=0.45\textwidth]{Bilder/harmMittel.png}
-\caption{Harmonisches Mittel und Möbius'sches Netz}
-\label{fig:harmMittel}
-\end{figure}
 
+
+\begin{figure} [htbp]
+\subfigure[Harmonisches Mittel]{\includegraphics[width=0.4\textwidth]{Bilder/harmMittel.png}} \hfill
+\subfigure[Harmonisches und arithmetisches Mittel]{\includegraphics[width=0.4\textwidth]{Bilder/harmMittel2.png}}
+\caption{Möbius'sche Netze in Verdichtung und Dehnung}
+\end{figure} 
+
+\newpage
 \subsection{Harmonische Folge}
 \label{subsec:harmFolge}
 
@@ -447,7 +469,9 @@ Beziehen wir die harmonische Folge auf die harmonische Lage von Punkten: Zur Ver
 \item $\left(0, \dfrac{1}{n}\right)$ und $\left(\dfrac{1}{n+1}, \dfrac{1}{n-1}\right)$ für $n \geq 2$.
 \end{itemize}
 
-%TODO Abbildung Skript und prüfen, ob aussage stimmt
+\begin{figure}[htbp]
+\includegraphics[width=\textwidth]{Bilder/folge.png}
+\end{figure}
 
 \newpage
 \section{Harmonische Lage und Goldener Schnitt}
