@@ -45,15 +45,7 @@ betreut von\par
 Prof.~Dr.~rer.~nat.~Frank Schaefer
 \vspace{2cm}
 
-\begin{abstract} 
-worum es geht... 
-irgendein mathematischer Scheiß ;)
-\end{abstract}
-
 \vfill
-
-
-
 {\large \today\par}
 \end{titlepage}
 
@@ -65,37 +57,28 @@ irgendein mathematischer Scheiß ;)
 \setlength{\parindent}{0pt}
 
 \section{Einleitung}
-\subsection{Projektive Geometrie im Allgemeinen} 
-Wenn wir uns die Geschichte der Mathematik genauer ansehen, so müssen wir feststellen, dass die Projektive Geometrie keineswegs ein neues Feld der Mathematik ist. Erste Aufzeichnungen zu diesem Thema sind bereits schon im alten Griechenland zu finden, wobei hier die griechischen Mathematiker und Philosophen unterschiedliche Theorien bezüglich des menschlichen Eindrucks der Perspektive und des perspektivischen Sehens vertraten \citep[vgl.][S.~15ff]{perspektive}. Beispielsweise vertraten Gelehrten wie Leukipp oder Demokrit die Rezeptionstheorie, die besagt, \glqq dass Gegenstände Bilder (eidola) oder Filmchen (simulacra) aussenden\grqq ~und so einen Abbildung ihrer Selbst auf dem Auge hinterlassen. Für Aristoteles jedoch war Licht nicht körperlicher Natur, sondern die Luft "die entscheidende Rolle des Vermittlers" \citep[s.][S.~15f]{perspektive}.
+Harmonie\dots ein Wort, mit dem wir Menschen das ausgewogene und ausgeglichene Zusammenspiel von Tönen, Verhältnissen und Maßen verstehen. Hauptsächlich verwenden wir erst dann den Begriff \glqq Harmonie\grqq ~oder bezeichnen etwas \glqq harmonisch\grqq , wenn wir von einer Regelmäßigkeit in der Anordnung einzelner Objekte sprechen, zu der wir zusätzlich einen übergeordneten Sinn oder Sachverhalt vermuten.
 
-Doch wollen wir hier nicht weiter in die einzelnen Theorien weiter eindringen, sondern uns einen anderen Zugang zur Problemstellung des Sehens betrachten.
+Betrachten wir beispielsweise einen Säulengang wie in Abbildung \ref{fig:saeulen}, so würden wir die Anordnung der Säulen zum Horizont als \glqq harmonisch\grqq ~bezeichnen. Dabei definiert die Anordnung der Säulen in unserem Bild ein bestimmtes Maß bzw.~ Netz, mit dem wir weitere Säulen harmonisch anreihen, oder zwischen zwei bereits vorhandenen Säulen platzieren können.
 
-\subsection{Die Mathematisierung des Sehens durch Euklid} 
+\begin{figure}[htbp]
+\subfigure[Original]{\includegraphics[width=0.45\textwidth]{Bilder/Saeulengang.jpg}} \hfill
+\subfigure[Mit Netz]{\includegraphics[width=0.45\textwidth]{Bilder/Saeulengang_Netz.jpg}}
+\caption{Ein harmonischer Säulengang}
+\label{fig:saeulen}
+\end{figure}
 
-\begin{itemize}
-\item Es soll zugrunde liegen, dass die geraden Linien vom Auge aus gezogen werden, einen Zwischenraum von großer Ausdehnung durchqueren.
-\item Und dass die stereometrische Figur, die von den Blicken [Sehstrahlen] umfasst wird, ein Kegel ist, der seine Spitze im Auge und seine Grundfläche an den Grenzen der sichtbaren Objekte hat.
-\item Und dass die Objekte, auf die die Blicke fallen gesehen werden, die Objekte aber , auf die die Blicke nicht fallen, nicht gesehen werden.
-\item Und dass die Objekte, die unter einem größeren Winkel, größer erscheinen, die unter einem kleineren Winkel kleiner und die Objekte, die unter gleich großen Winkeln gesehen werden, gleich groß.
-\item Und dass die Objekte, die von höher gelegenen Strahlen gesehen werden, höher gelegen erscheinen, die von tiefer gelegenen tiefer.
-\item Und dass auf gleiche Weise die Objekte, die von weiter rechts gelegenen Strahlen gesehen werden, weiter rechts gelegen erscheinen, die von weiter links gelegenen weiter links gelegen.
-\item Und dass die Objekte, die unter größeren Winkeln gesehen werden, deutlicher erscheinen.
-\end{itemize}
-Euklid \textit{Optica}.
+Dabei fällt uns auf, wenn wir eine weitere Säule platzieren und sich demselben Maß-System wie zuvor unterordnet, dass diese die Harmonie des Bildes nicht durchbricht. Dieses Maß wird in der Mathematik als harmonische Lage bzw.~ harmonische Folge von Punkten genannt und ist das Thema der vorliegenden Arbeit.
 
-Strahlen breiten sich geradlinig aus, es gibt aber auch Lücken.
-
-Euklid hat mit dieser Einführung die Grundlage der künstlichen Perspektive gelegt
-
-kurzer Ansatz zu Filippo Brunelleschi, dazu aber später mehr.
+I, Folgenden wird die harmonische Lage von Punkten und Geraden zuerst über ein geometrisches Beispiel eingeführt und später der rechnerische Zugang mithilfe des Teil- und Doppelverhältnisses beschrieben. Anschließend erweitern wir die harmonische Lage auf weitere mathematische Gebiete wie das harmonische Mittel, die harmonische Folge, sowie dem Goldenen Schnitt. Zuletzt wird die Anwendung der harmonischen Lage in der Malerei und heutigen Gestaltungsrichtlinien genauer betrachtet.
 
 \newpage
 \section{Die Harmonischen Lage}
 \label{subsec:dieHarmonischeLage}
+
 \textit{\glqq Harmonisch\grqq ~ist ein großes Wort; es bedeutet hier: Wenn die inneren und die äußeren Verhältnisse im Einklang sind. Es lohnt sich darüber nachzusinnen.} \citep[S.~53]{projektiveGeometrie}.
 
 \begin{wrapfigure}{r}{5cm}
-\vspace{-25pt}
 \centering
 \includegraphics[width=5cm]{Bilder/herleitung1.png}
 
@@ -518,6 +501,8 @@ TV(A B C)~=~\overline{A C}~:~\overline{B C}\\
 
 Hier ist aber zu beachten, dass wir hier ungerichtete Abstände betrachten.
 
+Indem wir nun mithilfe der harmonischen Lage weitere Punkte und Abstände bestimmen können, die zueinander im Goldenen Schnitt stehen, erhalten wir dadurch eine Folge von Abständen mit dem Teilverhältnis $\dfrac{\sqrt{5}-1}{2}$.
+
 \newpage
 \section{Harmonische Lage in der Gestaltung}
 
@@ -610,6 +595,10 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 \listoffigures
 
 \newpage
+\nocite{proCG}
+\nocite{perspectivesOnProGeo}
+\nocite{doppelVerhaeltnis}
+\nocite{proGeoGrundlagen}
 \addcontentsline{toc}{section}{Literaturverzeichnis}
 \bibliography{Harmonische_Lage}
 \bibliographystyle{plain}

@@ -1,14 +1,29 @@
 \begin{thebibliography}{1}
 
+\bibitem{proGeoGrundlagen}
+Ute~Rosenbaum Albrecht~Beutelspacher.
+\newblock {\em Projektive Geometrie}.
+\newblock vieweg studium, 1992.
+
 \bibitem{harmonischeLage}
 Hansjörg Bögle.
 \newblock {\em Die harmonische Lage von vier Punkten bzw. vier Geraden}.
 \newblock JUPITER, 2014.
 
+\bibitem{proCG}
+Bodo Pareigis.
+\newblock {\em Analytische und projektive Geometrie für die Computergrafik}.
+\newblock B. G. Teubner Stuttgart, 1990.
+
 \bibitem{perspektive}
 Klaus Rehkämper.
 \newblock {\em Bilder, Ähnlichkeit und Perspektive}.
 \newblock Springer Fachmedien Wiesbaden GmbH, 2002.
+
+\bibitem{perspectivesOnProGeo}
+Jürgen Richter-Gebert.
+\newblock {\em Perspectives on Projective Geometrie}.
+\newblock Springer-Verlag Berlin Heidelberg, 2011.
 
 \bibitem{projektiveGeometrie}
 Alexander Stolzenburg.
@@ -20,5 +35,10 @@ Hans Walser.
 \newblock {\em Der Goldene Schnitt}.
 \newblock B. G. Teubner Stuttgart, Leipzig; vdf, Hoschulverlag an der ETH,
   1996.
+
+\bibitem{doppelVerhaeltnis}
+Hans Walser.
+\newblock {\em Projektive Abbildungen, zeichnerischer Zugang}.
+\newblock 2002.
 
 \end{thebibliography}
