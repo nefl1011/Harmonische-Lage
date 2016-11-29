@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.26)  29 NOV 2016 18:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.26)  30 NOV 2016 00:50
 entering extended mode
 **./Harmonische_Lage.tex
 (Harmonische_Lage.tex
@@ -1036,90 +1036,91 @@ File: Bilder/Brunelleschi-Zentralperspektive.jpg Graphic file (type jpg)
 
 <use Bilder/Brunelleschi-Zentralperspektive.jpg>
 Package pdftex.def Info: Bilder/Brunelleschi-Zentralperspektive.jpg used on inp
-ut line 517.
+ut line 519.
 (pdftex.def)             Requested size: 155.99762pt x 140.00684pt.
  [22 <./Bilder/Brunelleschi-Zentralperspektive.jpg>] <Bilder/braccia.png, id=12
 5, 417.9615pt x 158.994pt>
 File: Bilder/braccia.png Graphic file (type png)
 
 <use Bilder/braccia.png>
-Package pdftex.def Info: Bilder/braccia.png used on input line 534.
+Package pdftex.def Info: Bilder/braccia.png used on input line 536.
 (pdftex.def)             Requested size: 390.0pt x 148.36508pt.
  [23] [24 <./Bilder/braccia.png>]
-<Bilder/page_construction.png, id=134, 498.4221pt x 374.8404pt>
+<Bilder/oldManus.jpg, id=134, 1016.79875pt x 715.67375pt>
+File: Bilder/oldManus.jpg Graphic file (type jpg)
+
+<use Bilder/oldManus.jpg>
+Package pdftex.def Info: Bilder/oldManus.jpg used on input line 556.
+(pdftex.def)             Requested size: 272.99881pt x 192.14246pt.
+
+<Bilder/page_construction.png, id=135, 498.4221pt x 374.8404pt>
 File: Bilder/page_construction.png Graphic file (type png)
 
 <use Bilder/page_construction.png>
-Package pdftex.def Info: Bilder/page_construction.png used on input line 554.
+Package pdftex.def Info: Bilder/page_construction.png used on input line 562.
 (pdftex.def)             Requested size: 155.99762pt x 117.32036pt.
 
-Underfull \hbox (badness 6268) in paragraph at lines 555--555
+Underfull \hbox (badness 6268) in paragraph at lines 563--563
 \OT1/cmr/m/n/12 (links) und Paul Ro-sa-ri-vo
  []
 
-<Bilder/Van_de_Graaf_1.png, id=135, 498.4221pt x 374.8404pt>
+
+Underfull \hbox (badness 1365) in paragraph at lines 567--568
+\OT1/cmr/m/n/12 tu-ren zu er-fas-sen und zu nut-zen.
+ []
+
+[25 <./Bilder/oldManus.jpg> <./Bilder/page_construction.png>]
+<Bilder/Van_de_Graaf_1.png, id=140, 498.4221pt x 374.8404pt>
 File: Bilder/Van_de_Graaf_1.png Graphic file (type png)
 
 <use Bilder/Van_de_Graaf_1.png>
-Package pdftex.def Info: Bilder/Van_de_Graaf_1.png used on input line 563.
+Package pdftex.def Info: Bilder/Van_de_Graaf_1.png used on input line 573.
 (pdftex.def)             Requested size: 155.99762pt x 117.32036pt.
 
-<Bilder/Van_de_Graaf.png, id=136, 357.2547pt x 271.7352pt>
+<Bilder/Van_de_Graaf.png, id=141, 357.2547pt x 271.7352pt>
 File: Bilder/Van_de_Graaf.png Graphic file (type png)
 
 <use Bilder/Van_de_Graaf.png>
-Package pdftex.def Info: Bilder/Van_de_Graaf.png used on input line 572.
-(pdftex.def)             Requested size: 155.99762pt x 118.65579pt.
+Package pdftex.def Info: Bilder/Van_de_Graaf.png used on input line 582.
+(pdftex.def)             Requested size: 272.99881pt x 207.64868pt.
+ [26 <./Bilder/Van_de_Graaf_1.png> <./Bilder/Van_de_Graaf.png>] <Bilder/jsonBou
+rne2.jpg, id=147, 777.90625pt x 550.055pt>
+File: Bilder/jsonBourne2.jpg Graphic file (type jpg)
 
-Underfull \hbox (badness 3895) in paragraph at lines 573--573
-[]\OT1/cmr/m/n/12 Abbildung 15: Har-mo-ni-sche
- []
-
-[25 <./Bilder/page_construction.png> <./Bilder/Van_de_Graaf_1.png> <./Bilder/Va
-n_de_Graaf.png>]
-<Bilder/Golden_section_page_Tschichold.png, id=143, 424.7067pt x 343.5234pt>
-File: Bilder/Golden_section_page_Tschichold.png Graphic file (type png)
-
-<use Bilder/Golden_section_page_Tschichold.png>
-Package pdftex.def Info: Bilder/Golden_section_page_Tschichold.png used on inpu
-t line 582.
-(pdftex.def)             Requested size: 155.99762pt x 126.17911pt.
-
-Underfull \hbox (badness 6493) in paragraph at lines 583--583
-\OT1/cmr/m/n/12 Tschi-chold nach Fibonacci-
- []
-
-[26 <./Bilder/Golden_section_page_Tschichold.png>] [27] (Harmonische_Lage.lof)
+<use Bilder/jsonBourne2.jpg>
+Package pdftex.def Info: Bilder/jsonBourne2.jpg used on input line 595.
+(pdftex.def)             Requested size: 272.99881pt x 193.0425pt.
+ [27 <./Bilder/jsonBourne2.jpg>] [28]
+(Harmonische_Lage.lof)
 \tf@lof=\write4
 \openout4 = `Harmonische_Lage.lof'.
 
-
-[28] (Harmonische_Lage.bbl) [29] (Harmonische_Lage.aux) ) 
+ [29] (Harmonische_Lage.bbl) [30] (Harmonische_Lage.aux) ) 
 Here is how much of TeX's memory you used:
- 4531 strings out of 493334
- 63078 string characters out of 3129355
- 134334 words of memory out of 3000000
- 7931 multiletter control sequences out of 15000+200000
+ 4538 strings out of 493334
+ 63113 string characters out of 3129355
+ 133347 words of memory out of 3000000
+ 7937 multiletter control sequences out of 15000+200000
  12651 words of font info for 47 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,17n,43p,1277b,377s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Florian/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Use
-rs/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmc
-sc10.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmex10.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Florian/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Florian/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Fl
-orian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pf
-b><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmr8.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Florian/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Harmonische_Lage.pdf (30 pages, 2946054 bytes).
+<C:/Users/Florian/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Us
+ers/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+csc10.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmex10.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Florian/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Florian/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/F
+lorian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.p
+fb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr8.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Florian/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Harmonische_Lage.pdf (31 pages, 4087287 bytes).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
+ 196 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 
