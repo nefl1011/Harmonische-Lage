@@ -9,7 +9,7 @@
 \usepackage{graphicx}
 \usepackage{wrapfig}
 \usepackage{enumitem} 
-\usepackage{subfigure} 
+\usepackage{subfigure}
 
 \usepackage{multicol}
 
@@ -57,25 +57,27 @@ Prof.~Dr.~rer.~nat.~Frank Schaefer
 \setlength{\parindent}{0pt}
 
 \section{Einleitung}
-Harmonie\dots ein Wort, mit dem wir Menschen das ausgewogene und ausgeglichene Zusammenspiel von Tönen, Verhältnissen und Maßen verstehen. Hauptsächlich verwenden wir erst dann den Begriff \glqq Harmonie\grqq ~oder bezeichnen etwas \glqq harmonisch\grqq , wenn wir von einer Regelmäßigkeit in der Anordnung einzelner Objekte sprechen, zu der wir zusätzlich einen übergeordneten Sinn oder Sachverhalt vermuten.
+Harmonie\dots ~ein Wort mit dem wir Menschen das ausgewogene und ausgeglichene Zusammenspiel von Tönen, Verhältnissen und Maßen assoziieren. Hauptsächlich verwenden wir erst dann Begriffe wie \glqq Harmonie\grqq ~oder \glqq harmonisch\grqq , wenn wir von einer Regelmäßigkeit in der Anordnung einzelner Objekte sprechen, zu der wir zusätzlich einen übergeordneten Sinn oder Sachverhalt vermuten.\footnote{http://www.wertesysteme.de/alle-werte-definitionen/g-h-i-j/harmonie/, 30.11.2016}
 
-Betrachten wir beispielsweise einen Säulengang wie in Abbildung \ref{fig:saeulen}, so würden wir die Anordnung der Säulen zum Horizont als \glqq harmonisch\grqq ~bezeichnen. Dabei definiert die Anordnung der Säulen in unserem Bild ein bestimmtes Maß bzw.~ Netz, mit dem wir weitere Säulen harmonisch anreihen, oder zwischen zwei bereits vorhandenen Säulen platzieren können.
+Betrachten wir beispielsweise einen Säulengang wie in Abbildung \ref{fig:saeulen}, so würden wir die Anordnung der Säulen zum Horizont als \glqq harmonisch\grqq ~bezeichnen. Dabei definiert die Anordnung der Säulen in unserem Bild ein bestimmtes Maß bzw.~Netz, mit dem wir weitere Säulen harmonisch anreihen, oder zwischen zwei bereits vorhandenen Säulen platzieren können.
 
 \begin{figure}[htbp]
-\subfigure[Original]{\includegraphics[width=0.45\textwidth]{Bilder/Saeulengang.jpg}} \hfill
+\subfigure[Original \protect\footnotemark]{\includegraphics[width=0.45\textwidth]{Bilder/Saeulengang.jpg}} \hfill
 \subfigure[Mit Netz]{\includegraphics[width=0.45\textwidth]{Bilder/Saeulengang_Netz.jpg}}
-\caption{Ein harmonischer Säulengang}
+\caption[asdf]{Ein harmonischer Säulengang}
 \label{fig:saeulen}
 \end{figure}
+\footnotetext{http://www.feeistmeinname.de/wp-content/uploads/2016/06/20160616-Zentralperspektive-6.jpg, 30.11.2016}
 
-Dabei fällt uns auf, wenn wir eine weitere Säule platzieren und sich demselben Maß-System wie zuvor unterordnet, dass diese die Harmonie des Bildes nicht durchbricht. Dieses Maß wird in der Mathematik als harmonische Lage bzw.~ harmonische Folge von Punkten genannt und ist das Thema der vorliegenden Arbeit.
+Dabei fällt uns auf, wenn wir eine weitere Säule platzieren und sich demselben Maß-System wie zuvor unterordnen, dass die Harmonie des Bildes nicht durchbrochen wird. Dieses Maß wird in der Mathematik als harmonische Lage bzw.~ harmonische Folge von Punkten genannt und ist das Thema der vorliegenden Arbeit.
 
-I, Folgenden wird die harmonische Lage von Punkten und Geraden zuerst über ein geometrisches Beispiel eingeführt und später der rechnerische Zugang mithilfe des Teil- und Doppelverhältnisses beschrieben. Anschließend erweitern wir die harmonische Lage auf weitere mathematische Gebiete wie das harmonische Mittel, die harmonische Folge, sowie dem Goldenen Schnitt. Zuletzt wird die Anwendung der harmonischen Lage in der Malerei und heutigen Gestaltungsrichtlinien genauer betrachtet.
+Im Folgenden wird die harmonische Lage von Punkten und Geraden zuerst über ein geometrisches Beispiel eingeführt und später der rechnerische Zugang mithilfe des Teil- und Doppelverhältnisses beschrieben. Anschließend erweitern wir die harmonische Lage auf weitere mathematische Gebiete wie das harmonische Mittel, die harmonische Folge, sowie dem Goldenen Schnitt. Zuletzt wird die Anwendung der harmonischen Lage in der Malerei und heutigen Gestaltungsrichtlinien genauer betrachtet.
 
 \newpage
 \section{Die Harmonischen Lage}
 \label{subsec:dieHarmonischeLage}
 
+\subsection{Ein geometrisches Beispiel}
 \textit{\glqq Harmonisch\grqq ~ist ein großes Wort; es bedeutet hier: Wenn die inneren und die äußeren Verhältnisse im Einklang sind. Es lohnt sich darüber nachzusinnen.} \citep[S.~53]{projektiveGeometrie}.
 
 \begin{wrapfigure}{r}{5cm}
@@ -99,11 +101,12 @@ Doch was genau ist die harmonische Lage wirklich? Um dies zu veranschaulichen er
 
 Betrachten wir eine Gerade $g$, auf der sich drei Punkte $A$, $B$ und $D$ befinden, die willkürlich auf dieser Geraden positioniert wurden. Aus diesen drei Punkten auf $g$ lässt sich nun eindeutig ein weiterer \glqq harmonischer\grqq ~Punkt $C$ konstruieren, der ebenso wie $A$, $B$ und $D$ auf $g$ liegt. Um diesen Punkt $C$ geometrisch zu konstruieren wird wie folgt vorgegangen:
 
-Zunächst werden von jedem der Punkte $A$, $B$ und $D$ aus eine Gerade gezogen. Diese drei Geraden haben drei Schnittpunkte. Nun werden zwei weitere Geraden gezogen: die eine führt durch den Punkt $A$ und den Schnittpunkt der zwei Geraden durch $B$ und $D$, die andere durch den Punkt $B$ und den Schnittpunkt der zwei Geraden durch $A$ und $D$ (hier gestrichelt dargestellt).
+Zunächst werden von jedem der Punkte $A$, $B$ und $D$ aus eine Gerade gezogen. Diese drei Geraden haben drei Schnittpunkte. Nun werden zwei weitere Geraden gezogen: die eine führt durch den Punkt $A$ und den Schnittpunkt $R$, die andere durch den Punkt $B$ und den Schnittpunkt $Q$ (hier gestrichelt dargestellt).
+\newline
+\newline
+Durch den soeben entstandene Schnittpunkt $S$ wird eine weitere Gerade gebildet, die auch durch den Schnittpunkt $P$ geht. Der Punkt dieser Geraden, der auch auf der Geraden $g$ liegt, ist der von uns gesuchte Punkt $C$. Diese Konstruktion wird auch harmonische Spiegelung von $D$ an $A$ und $B$ genannt \citep[vgl.~][S.~34]{harmonischeLage}.
 
-Durch den Schnittpunkt dieser zwei soeben gezeichneten Geraden wird eine weitere Gerade gebildet, die auch durch den Schnittpunkt der zwei Geraden durch $A$ und $B$ geht. Der Punkt dieser Geraden, der auch auf der Geraden $g$ liegt, ist der von uns gesuchte Punkt $C$. Diese Konstruktion wird auch harmonische Spiegelung von $D$ an $A$ und $B$ genannt \citep[vgl.~][S.~34]{harmonischeLage}.
-
-Egal, wie die Geraden durch $A$, $B$ und $D$ gezogen wurden, es lässt sich immer wieder denselben Punkt $C$. In anderen Worten: Der vierte Punkt $C$ ist unabhängig von der Wahl der drei Geraden durch $A$, $B$ und $D$ (Abb.~\ref{fig:AndereWahl}).
+Egal wie wir die Geraden durch $A$, $B$ und $D$ ziehen, wir erhalten den Punkt $C$ immer an ein und derselben Stelle. In anderen Worten: Der vierte Punkt $C$ ist unabhängig von der Wahl der drei Geraden durch $A$, $B$ und $D$ (Abb.~\ref{fig:AndereWahl}).
 
 \begin{figure}[htbp]
 \centering
@@ -112,39 +115,53 @@ Egal, wie die Geraden durch $A$, $B$ und $D$ gezogen wurden, es lässt sich imme
 \label{fig:AndereWahl}
 \end{figure}
 
+\newpage
 \subsection{Definition}
-
 Anhand des oberen Beispiels lässt sich nun im allgemeinen die harmonische Lage definieren.
-\newline
-\newline
-\textbf{Definition von vier Punkten:}
-
-Zwei Punktepaare $(A,B)$, $(C,D)$ auf einer Geraden $g$ \glqq trennen sich harmonisch\grqq , wenn sie so liegen wie die Ecken und die Nebenecken eines vollständigen Vierseits in einer Nebenseite.
 
 \begin{wrapfigure}{r}{0.35\textwidth}
 \centering
 \includegraphics[width=0.35\textwidth]{Bilder/vollstaendigesVierseit.png}
+\caption{Vollständiges Vierseit}
 \end{wrapfigure}
 
-Dabei versteht man unter einem vollständigen Vierseit eine Figur bestehend aus den Geraden bzw.~Seiten $a$, $b$, $c$ und $d$ , den sechs Ecken, die jeweils die Schnittpunkte von je zwei Seiten sind, den drei Nebenseiten, die jene Ecken verbinden, die nicht auf den Hauptseiten liegen, sowie drei Nebenecken (gegeben durch die Schnittpunkte der Nebenseiten untereinander).
-\newline
-\newline
-\textbf{Definition von vier Geraden:}
+\textbf{Definition von vier Punkten:}
+
+Zwei Punktepaare $(A,B)$, $(C,D)$ auf einer Geraden $g$ \glqq trennen sich harmonisch\grqq , wenn sie so liegen wie die Ecken und die Nebenecken eines vollständigen Vierseits in einer Nebenseite.
+
+Dabei versteht man unter einem vollständigen Vierseit eine Figur bestehend aus
+
+\begin{itemize}
+\item den vier Seiten (Geraden) $a, b, c$ und $d$,
+\item den sechs Ecken $A, B, P, Q, R$ und $T$, die die Schnittpunkte der vier Seiten sind,
+\item den drei Nebenseiten $g, h, i$, die jene Ecken miteinander verbinden, die nicht auf der selben Seite liegen, sowie
+\item den drei Nebenecken $C, D, T$, die Schnittpunkte der Nebenseiten.
+\end{itemize}
 
 \begin{wrapfigure}{r}{0.35\textwidth}
 \centering
 \includegraphics[width=0.35\textwidth]{Bilder/vollstaendigesViereck.png}
+\caption{Vollständiges Viereck}
 \end{wrapfigure}
+
+\textbf{Definition von vier Geraden:}
 
 Zwei Geradenpaare $(a,b)$, $(c,d)$ in einem Punkt $P$ \glqq trennen sich harmonisch\grqq , wenn sie so liegen wie die Seiten und die Nebenseiten eines vollständigen Vierecks in einer Nebenecke.
 
-Dabei versteht man unter einem vollständigen Viereck eine Figur bestehend aus den Ecken $A$, $B$, $C$ und $D$ (von denen nicht drei auf einer Geraden liegen), den sechs Seiten durch jeweils zwei der Ecken, den drei Nebenecken, die als Schnittpunkte dieser Seiten hinzukommen (gestrichelt dargestellt), sowie den Nebenseiten (gegeben durch die Nebenecken).
-\newline
-\newline
+Dabei versteht man unter einem vollständigen Viereck eine Figur bestehend aus
+
+
+\begin{itemize}
+\item den vier Ecken $A, B, C$ und $D$,
+\item den sechs Seiten $a, b, e, f, g$ und $h$, die jeweils zwei der Ecken miteinander verbinden,
+\item den drei Nebenecken $P, Q, R$, die die fehlenden Schnittpunkte der sechs Geraden definieren, sowie
+\item den drei Nebenseiten $c, d, i$, die durch jeweils zwei Nebenecken verlaufen.
+\end{itemize}
+
 Die Bezeichnungen \glqq trennen sich harmonsich\grqq ~ist gleichbedeutend zu den Aussagen wie \glqq liegen harmonisch zueinander\grqq , \glqq sind in Harmonischer Lage\grqq ~oder \glqq bilden einen harmonischen Wurf\grqq .
 \newline
 \newline
-Wir können zur Konstruktion vierer harmonischer Punkte wie in unserem Beispiel vorgehen. Es existieren aber noch andere Möglichkeiten zur Konstruktion des vierten harmonischen Punktes:
+Wir können zur Konstruktion vierer harmonischer Punkte wie in unserem Beispiel vorgehen. Es existieren aber noch andere Möglichkeiten zur Konstruktion des vierten harmonischen Punktes, auf die wir aber nicht genauer eingehen:
 
 \begin{figure} [htbp]
 \subfigure[Thaleskreis]{\includegraphics[width=0.4\textwidth]{Bilder/thales.png}} \hfill
@@ -156,7 +173,7 @@ Wir können zur Konstruktion vierer harmonischer Punkte wie in unserem Beispiel 
 \subsection{Die harmonische 13er Konfiguration}
 \label{subsec:harmonischeKonfiguration}
 
-Wie wir schon in der Definition der harmonischen Lage gesehen haben, können sowohl Punkte als auch Geraden harmonisch zueinander liegen. Da in den Definitionen sowohl von vollständigen Vierseiten und Vierecke die rede war und sich diese geometrischen Grundgebilde aufeinander inzidieren lassen, können wir daraus eine harmonische Grundfigur, die sogenannte \glqq harmonische 13er Konfiguration\grqq bauen. Da wir sowohl ein Vierseit als auch ein Viereck diese Konfiguration beinhaltet, benötigen wir für die Konstruktion der Konfiguration insgesamt 13 Geraden und 13 Punkte - womit auch die Frage nach dem Namen geklärt wäre. Diese 13 Punkte und Geraden bilden sich zusammen
+Wie wir schon in der Definition der harmonischen Lage gesehen haben, können sowohl Punkte als auch Geraden harmonisch zueinander liegen. Da in den Definitionen sowohl von vollständigen Vierseiten und Vierecke die rede war und sich diese geometrischen Grundgebilde aufeinander inzidieren lassen, können wir daraus eine harmonische Grundfigur, die sogenannte \glqq harmonische 13er Konfiguration\grqq ~bauen. Da wir sowohl ein Vierseit als auch ein Viereck diese Konfiguration beinhaltet, benötigen wir für die Konstruktion der Konfiguration insgesamt 13 Geraden und 13 Punkte, womit auch die Frage nach dem Namen geklärt wäre. Diese 13 Punkte und Geraden bilden sich zusammen
 
 \begin{itemize}
 \item[]aus den 4 Seiten und 6 Ecken des vollständigen Vierseits,
@@ -171,7 +188,7 @@ Wie wir schon in der Definition der harmonischen Lage gesehen haben, können sow
 \label{fig:harmFigur}
 \end{figure}
 
-Für die Konstruktion der harmonischen 13er Konfiguration wäre es am einfachsten, mit einem vollständigen Viereck bzw.~ Vierseit zu beginnen und auf dieser die weiteren Punkte und Geraden aufbauen.
+Für die Konstruktion der harmonischen 13er Konfiguration wäre es am einfachsten, mit einem dieser zwei geometrischen Gebilden zu beginnen und darauf die fehlenden Punkte und Geraden aufzubauen.
 
 \begin{wrapfigure}{r}{0.35\textwidth}
 \centering
@@ -180,13 +197,11 @@ Für die Konstruktion der harmonischen 13er Konfiguration wäre es am einfachste
 
 In diesem Fall entscheiden wir uns für ein vollständiges Vierseit als Grundkonstrukt. Darin wollen wir nun die Punkte und Geraden eines vollständigen Vierecks bestimmen, das dasselbe Nebendreieck hat und dessen Seiten mit den Ecken inzidieren. Dazu gehen wir wie folgt vor:
 
-Zuerst betrachten wir die Ecken des Vierseits, in welche zwei Seiten des Vierseits und eine Seite des Nebendreiecks falle. In unserer Abbildung wären das die Punkte A, B und E. Dabei lassen wir von diesen drei Punkten die Ecke wegfallen, die mit je einer Seite des Vierseits mit den anderen Punkte verbunden ist. Hier wäre das der Punkt E, sodass wir jetzt nur noch die Ecken A und B betrachten. Von diesen zwei Ecken ziehen wir je eine Gerade aus, die sich alle in derselben Ecke des Nebendreiecks schneiden, mit der sie sich nicht auf einer Nebenseite befinden. In unserem Beispiel ist das R. Dabei bilden die Schnittpunkte der Seiten des Vierseits mit den Geraden die vier Ecken des vollständigen Vierecks, wobei die Punkte A und B nicht dazu gehören. Auch sind die von uns konstruierten Geraden die Seiten unseres gesuchten Vierecks. Schließen wir nun das Viereck, indem wir nun alle Ecken des Vierecks so miteinander verbinden, das immer zwei Ecken auf eine Seite des Vierecks fallen.
-\newline
-\newline
+Zuerst betrachten wir die Ecken des Vierseits, in welche zwei Seiten des Vierseits und eine Seite des Nebendreiecks fallen. In unserer Abbildung wären das die Punkte $A, B$ und $E$. Dabei lassen wir von diesen drei Punkten die Ecke wegfallen, die mit je einer Seite des Vierseits mit den anderen Punkte verbunden ist. Hier wäre das der Punkt $E$, sodass wir jetzt nur noch die Ecken $A$ und $B$ betrachten. Von diesen zwei Ecken ziehen wir je eine Gerade aus, die sich alle in derselben Ecke des Nebendreiecks schneiden, mit der sie sich nicht auf einer Nebenseite befinden. In unserem Beispiel ist das $R$. Dabei bilden die Schnittpunkte der Seiten des Vierseits mit den Geraden die vier Ecken des vollständigen Vierecks, wobei die Punkte $A$ und $B$ nicht dazu gehören. Auch sind die von uns konstruierten Geraden die Seiten unseres gesuchten Vierecks. Schließen wir nun das Viereck, indem wir nun alle Ecken des Vierecks so miteinander verbinden, das immer zwei Ecken auf eine Seite des Vierecks fallen.
+
 Damit hätten wir die harmonische Grundfigur geschaffen. In dieser Konstruktionsbeschreibung wurde jedoch der Beweis, dass die Seiten des Vierecks durch die Ecken des Nebendreiecks gehen müssen ausgelassen. Für eine genauere Konstruktion der harmonischen 13er Konfiguration ist \citep{projektiveGeometrie} Seite 48f zu empfehlen.
 
 Wenn wir die Konfiguration genauer betrachten lässt sich erkennen, dass die Konfiguration aus lauter harmonische Lagebeziehungen besteht. Auch folgt aus der harmonischen 13er Konfiguration, dass bei den Geraden bzw.~ Punkten der harmonischen Lage das Dualitätsprinzip gilt: die harmonische Lage hängt nicht von einem ganz speziellen Vierseit/Viereck ab. Ebenso sind die Punktepaare gleichberechtigt, d.h., ob eine Seite/Ecke eine Nebenseite/-ecke oder nicht ist keine Rolle spielt.
-\newline
 
 \begin{wrapfigure}{r}{0.35\textwidth}
 \centering
@@ -195,15 +210,15 @@ Wenn wir die Konfiguration genauer betrachten lässt sich erkennen, dass die Kon
 \label{fig:13Neu}
 \end{wrapfigure}
 
-Zur Erklärung hier unsere Grundfigur mit anderen hervorgehobenen Linien. Aus der von uns konstruierten Grundfigur können wir nicht nur ein Viereck und ein Vierseit erkennen, sondern gleich mehrere, die wir so nicht vorgesehen hatten. Folglich lässt sich von zwei harmonischen Punkte-/Geradenpaaren eines als Nebenecke/-seite auffassen.
+Zur Erklärung hier unsere Grundfigur mit anderen hervorgehobenen Linien. Aus der von uns konstruierten Grundfigur können wir nicht nur ein Viereck und ein Vierseit erkennen, sondern gleich mehrere, die wir so nicht vorgesehen hatten. Zusätzlich lässt sich von zwei harmonischen Punkte-/Geradenpaaren eines als Nebenecke/-seite auffassen.
 
-Auch lässt sich daraus erkennen, dass jedes einzelne Konstrukt innerhalb unserer Konfiguration die geometrischen Bedingungen der harmonischen Lage erfüllt.
+Es lässt sich daraus erkennen, dass jedes einzelne Konstrukt innerhalb unserer Konfiguration die geometrischen Bedingungen der harmonischen Lage erfüllt.
 
 Zusammengefasst ist
 
 \begin{itemize}
-\item[] jeder Schein eines harmonischen Punktewurfes ein harmonischer Geradenwurf
-\item[] jeder Schnitt eines harmonischen Geradenwurfs ein harmonischer Punktewurf
+\item jede Projektion eines harmonischen Punktewurfes ein harmonischer Geradenwurf und
+\item jeder Schnitt eines harmonischen Geradenwurfs ein harmonischer Punktewurf.
 \end{itemize}
 
 Damit kommen wir zur Schlussfolgerung, dass die harmonische Lage eine projektve Invariante ist.
@@ -213,9 +228,9 @@ Damit kommen wir zur Schlussfolgerung, dass die harmonische Lage eine projektve 
 \newpage
 \subsection{Erweiterung auf einen unendlich entfernten Punkt}
 
-Unser bisher erlerntes Wissen können wir nun praktisch in die Tat umsetzen. Dabei lehnen wir uns an ein zeichnerisches Beispiel an, das den meisten aus der Schule bekannt vorkommen wird:
+Unser bisher erlerntes Wissen können wir nun praktisch in die Tat umsetzen. Dabei lehnen wir uns an ein zeichnerisches Beispiel an, das den meisten aus der Schule bekannt sein wird:
 
-Wollen wir eine realistische Darstellung eines Gegenstandes auf Papier bannen, so beginnen wir als erstes damit, dass wir die Umgebung mit einer Horizontlinie definieren. Auf dieser Linie wählen wir mindestens einen Punkt aus, zu dem sich unser Gegenstand hin \glqq flüchtet\grqq . Dieser wurde als sogenannter \glqq Fluchtpunkt\grqq bezeichnet. Bezogen auf unser Thema ist dieser Punkt einer der Punkte, die wir zur Konstruktion der harmonischen Lage benötigen. Zur Konstruktion eines Gegenstandes (wählen wir dazu der Einfachheit eine quadratische Fläche) benötigen wir nur noch vier Geraden: zwei davon schneiden unseren Fluchtpunkt, während die anderen beiden, nach unserer Abbildung, parallel zum Horizont verlaufen. Die somit entstandene eingeschlossene Fläche ist unser Quadrat auf der projektiven Ebene.
+Wollen wir eine realistische Darstellung eines Gegenstandes auf Papier bannen, so beginnen wir als erstes damit, dass wir die Umgebung mit einer Horizontlinie definieren. Auf dieser Linie wählen wir mindestens einen Punkt aus, zu dem sich unser Gegenstand hin \glqq flüchtet\grqq . Dieser wurde als sogenannter \glqq Fluchtpunkt\grqq ~bezeichnet. Bezogen auf unser Thema ist dieser Punkt einer der Punkte, die wir zur Konstruktion der harmonischen Lage benötigen. Zur Konstruktion eines Gegenstandes, wählen wir dazu der Einfachheit eine quadratische Fläche, benötigen wir nur noch vier Geraden: zwei davon schneiden unseren Fluchtpunkt, während die anderen beiden parallel zum Horizont verlaufen (Abb.~\ref{fig:inftyPoint}). Die somit entstandene eingeschlossene Fläche ist unser Quadrat auf der projektiven Ebene.
 
 \begin{figure}[htbp]
 \centering
@@ -228,7 +243,15 @@ Mit dieser Ausgangssituation können wir die harmonische Lage auf unser Quadrat 
 \newline
 Die Begründung ist einfach: Da die Konstruktion des vierten harmonischen Punktes, wie wir in der harmonischen 13er Konfiguration gesehen haben, nicht von der Wahl des jeweiligen Vierseits abhängt, können wir es uns einfach machen: wir wählen uns ein symmetrisches Vierseit, dessen einen Nebenseite die Symmetrie-Achse ist. Die dritte Nebenseite ist dann parallel zur zweiten \citep[vgl.~][S.~50]{projektiveGeometrie}.
 
-Dabei taucht dieser Sachverhalt häufig in perspektivischen Abbildungen auf: Immer dann wenn wir eine Fläche in der Hälfte aufteilen, taucht die harmonische Lage auf, z.B.~ bei der Konstruktion eines Schachbretts. Dabei entsteht sogar, in Bezug zum Fluchtpunkt, eine Folge von harmonischen Punkten. Genaueres dazu wird in Kapitel \ref{sec:harmMittel} aufgegriffen.
+Dabei taucht dieser Sachverhalt häufig in perspektivischen Abbildungen auf: Immer dann wenn wir eine Fläche in der Hälfte aufteilen, taucht die harmonische Lage auf, z.B.~bei der Konstruktion eines Schachbretts. Dabei entsteht sogar, in Bezug zum Fluchtpunkt, eine Folge von harmonischen Punkten. Genaueres dazu wird in Kapitel \ref{sec:harmMittel} aufgegriffen.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.7\textwidth]{Bilder/daVinvi1.jpg}
+\caption{Perspektivische Zeichnung von da Vinci, \textit{Perspective Study for The Adoration of the Magi}\protect\footnotemark}
+\end{figure}
+
+\footnotetext{http://wtfarthistory.com/post/47457315645/a-start-to-da-vincis-demons, 30.11.2016}
 
 \newpage
 \section{Harmonische Lage rechnerisch}
@@ -556,12 +579,15 @@ Egal ob wir nur einen oder mehrere Fluchtpunkte in unserem Bild haben, alle auf 
 \centering
 \includegraphics[width=0.7\textwidth]{Bilder/oldManus.jpg}
 \caption{Konstruktion nach Van de Graaf bei einem mittelalterlichen Manuskript}
+%http://2.bp.blogspot.com/-T1sKx1wT9js/URJxAQ28tvI/AAAAAAAAADI/cvYVApmTef0/s1600/van+de+graaf+5+-+Resurreccion+de+lazaro.jpg
 \label{fig:oldMan}
 \end{figure}
+
 \begin{wrapfigure}{r}{0.4\textwidth}
 \centering
 \includegraphics[width=0.4\textwidth]{Bilder/page_construction.png}
 \caption{Satzspiegelkonstruktion nach Jan Tschichold (links) und Pául Rosarivo (rechts)}
+%https://en.wikipedia.org/wiki/Canons_of_page_construction
 \label{fig:TschicholdRosarivo}
 \end{wrapfigure}
 
@@ -573,6 +599,7 @@ Nach Jan Tschichold (Abb. \ref{fig:TschicholdRosarivo}) lag den schönsten Manus
 \vspace{-0.04\textheight}
 \includegraphics[width=0.4\textwidth]{Bilder/Van_de_Graaf_1.png}
 \caption{Satzspiegel von Van de Graf}
+%https://en.wikipedia.org/wiki/Canons_of_page_construction
 \label{fig:VDG}
 \end{wrapfigure}
 
@@ -596,6 +623,7 @@ Ab dem Zuge der sogenannten Schweizer Schule wurden bezüglich des Seitenaufbaus
 \includegraphics[width=0.7\textwidth]{Bilder/jsonBourne2.jpg}
 \caption{Modernes Anwendungsbeispiel des Van de Graaf'schen Kanons}
 \label{fig:modernSatz}
+%http://4.bp.blogspot.com/-8_Y3C80iBqw/TnMRcN2yYgI/AAAAAAAAC7k/r2AEplIYXrU/s1600/spread1.jpg
 \end{figure}
 
 \newpage
@@ -636,14 +664,16 @@ Auch können wir hier die harmonische Lage von Geraden vorfinden: betrachten wir
 \subsection{Gestaltung und Goldener Schnitt}
 
 \begin{wrapfigure}{r}{0.4\textwidth}
-\includegraphics[width=0.4\textwidth]{Bilder/gr_logo.jpg}
+\includegraphics[width=0.4\textwidth]{Bilder/gr_logo.jpg} %https://www.behance.net/gallery/43218905/Logo-Collection-with-Golden-Ratio-2016
+\caption{Logogestaltung}
 \end{wrapfigure}
 
 Der Goldene Schnitt ist die ideale Relation, die wir so in der Natur vorfinden. Gerade wegen dieser natürlichen Schönheit findet der Goldene Schnitt immer noch Anwendung in Kunst und Design. Jedoch wird meist nicht der reine Goldene Schnitt sondern seine Annäherung der Fibonacci-Zahlen praktiziert. Daher sprechen wir hier nur von einer angenäherter Form harmonischer Proportionen. Trotzdem bietet die Fibonacci-Folge ein übergeordnetes System an, nach dem wir Objekte anordnen können. So können wir diese harmonische Annäherung für die Gestaltung von Rastern, Logos oder Schriftsätzen verwenden.
 
 \begin{figure}[htbp]
-\subfigure[Original]{\includegraphics[width=0.4\textwidth]{Bilder/Plakat_gr.jpg}} \hfill
-\subfigure[Original]{\includegraphics[width=0.4\textwidth]{Bilder/gr_typography.jpg}}
+\subfigure{\includegraphics[width=0.4\textwidth]{Bilder/Plakat_gr.jpg}} \hfill %https://designschool.canva.com/blog/what-is-the-golden-ratio/
+\subfigure{\includegraphics[width=0.4\textwidth]{Bilder/gr_typography.jpg}} %http://www.invaluable.com/artist/bodoni-giambattista-epx6zw0xcj
+\caption{Links: Die Goldene Spirale im Gestaltungsraster, Rechts: Konstruktion eines Buchstaben mithilfe des Goldenen Schnitts}
 \end{figure}
 
 \newpage
