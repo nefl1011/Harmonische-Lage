@@ -598,23 +598,62 @@ Ab dem Zuge der sogenannten Schweizer Schule wurden bezüglich des Seitenaufbaus
 \label{fig:modernSatz}
 \end{figure}
 
+\newpage
 \subsubsection{Gestaltungsraster}
-
 In den vorherigen Kapiteln haben wir räumliche Strukturen mithilfe der harmonischen Lage in Raster unterteilt und diese in einem zweidimensionalen Bild abgebildet. Im Prinzip haben wir einen ähnlichen Vorgang, wenn wir uns Rastersysteme in der Gestaltung von Flächen ansehen. Wir sprechen hier von Gestaltungsrastern, wie sie sowohl im Web- als auch Seitenlayout Anwendung findet. Wie im projektiven Raum wenden Typographen und Gestalter bei zu gestaltenden Flächen Raster an, um so ein harmonische und systematische Organisation der Gestaltungselemente zu erzielen.
-
-Wie im Kapitel \ref{subsec:harmMalerei} zu sehen war, haben wir den Raum in ein gleichmäßiges Netz von Feldern unterteilt, um darauf später Gegenstände, Personen oder Gebäude platzieren zu können. Gleiches Vorgehen nutzen wir auch im Gestaltungsraster, jedoch beziehen sich hier unsere Maßen nicht nur auf Koordinaten, sondern auf Punkt, Cicero und Pixel.
-
-Wie gehen wir also vor, wenn wir unser Format festgelegt haben? Dabei steht immer an erster Stelle die Analyse des Problems: welches Format soll genutzt werden, was liegt mir alles an Bild- und Textmaterial vor, welche Schriftart wähle ich, etc.. Nachdem die meisten dieser Fragen beantwortet sind, lohnt es sich Skizzen zu zeichnen. Dabei stellt sich uns die Frage, in wie viele Spalten/Kolonnen das Format unterteilt werden soll. Dabei bieten mehr Spalten einen größeren Gestaltungsspielraum als weniger Spalten. Jedoch bewirken zu viele Spalten, dass die Textzeilen relativ schmal werden und die Schriftgrade dementsprechend kleiner gewählt werden.
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.7\textwidth]{Bilder/3d-grid_brockmann.jpeg}
-\caption{Gestaltungsraster im Raum von \citep[S.~148]{gestaltungsraster}}%TODO Quelle angeben
+\caption{Gestaltungsraster im Raum von \citep[S.~148]{gestaltungsraster}}
 \label{fig:modernSatz}
+\end{figure}
+
+Wie im Kapitel \ref{subsec:harmMalerei} zu sehen war, haben wir den Raum in ein gleichmäßiges Netz von Feldern unterteilt, um darauf später Gegenstände, Personen oder Gebäude platzieren zu können. Gleiches Vorgehen nutzen wir auch im Gestaltungsraster, jedoch beziehen sich hier unsere Maßen nicht nur auf Koordinaten, sondern auf Punkt, Cicero und Pixel.
+
+Wie gehen wir also vor, wenn wir unser Format festgelegt haben? Dabei steht immer an erster Stelle die Analyse des Problems: welches Format soll genutzt werden, was liegt mir alles an Bild- und Textmaterial vor, welche Schriftart wähle ich, etc.. Nachdem die meisten dieser Fragen beantwortet sind, lohnt es sich Skizzen zu zeichnen. Dabei stellt sich uns die Frage, in wie viele Spalten/Kolonnen das Format unterteilt werden soll. Dabei bieten mehr Spalten einen größeren Gestaltungsspielraum als weniger Spalten. Jedoch bewirken zu viele Spalten, dass die Textzeilen relativ schmal werden und die Schriftgrade dementsprechend kleiner gewählt werden. Hier ist zu beachten, dass zwischen den Spalten ein Durchschuss berücksichtigt werden muss. Im Allgemeinen orientiert sich der Zeilen- oder Spalten-Durchschuss ob vertikal oder horizontal an der Höhe einer einzelnen Textzeile. Dabei wird diese Höhe anhand der Schriftgröße inklusive Durchschuss bestimmt (Abb.~ \ref{fig:durchschuss}). 
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.7\textwidth]{Bilder/durchschuss.png}
+\caption{Berechnung der Textzeilenhöhe}
+\label{fig:durchschuss}
+\end{figure}
+
+Ist die Anzahl der Spalten festgelegt, müssen diese im folgenden Schritt in mehrere Zeilen unterteilt werden, um unsere Rasterfelder zu erhalten. Hier gilt ebenso wie bei den Spalten die Berücksichtigung eines Durchschusses nach Ende einer Zeile, mit Ausnahme der letzten. Zur Bestimmung der Höhe unserer einzelnen Rasterfelder muss beachtet werden, dass diese einer geraden Anzahl an Textzeilen entsprechen. Zusätzlich muss die Summe aller Textzeilen und Zeilendurchschüsse eine gerade Zahl ergeben, die unserem Rahmen entspricht. Als Ergebnis erhalten wir ein harmonisches Flächenraster, auf dem wir unsere Gestaltungselemente aufbauen können.
+
+Bekannte und häufig in der Anwendung zu finden sind die Rasterfelder 8, 20 und 32.  Dabei bieten sich dem Gestalter bei der Wahl seiner Module ein reiches Angebot an Variationsmöglichkeiten.
+
+Auch können wir hier die harmonische Lage von Geraden vorfinden: betrachten wir die Diagonalen unserer Module und legen fest, dass sie sich alle in einem Punkt schneiden, so bilden diese einen harmonischen Geradenwurf. Dabei steht dieser harmonische Wurf in Bezug zu der Seite der Module, die den Diagonalen gegenüberliegt. Wie in Kapitel \ref{subsec:harmFolge} haben wir eine arithmetische Folge von Koordinaten gegeben und wie wir gesehen haben stehen diese in harmonischer Lage zueinander.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.7\textwidth]{Bilder/raster.png}
+\caption{Harmonische Lage im Raster}
+\label{fig:raster}
+\end{figure}
+
+\subsection{Gestaltung und Goldener Schnitt}
+
+\begin{wrapfigure}{r}{0.4\textwidth}
+\includegraphics[width=0.4\textwidth]{Bilder/gr_logo.jpg}
+\end{wrapfigure}
+
+Der Goldene Schnitt ist die ideale Relation, die wir so in der Natur vorfinden. Gerade wegen dieser natürlichen Schönheit findet der Goldene Schnitt immer noch Anwendung in Kunst und Design. Jedoch wird meist nicht der reine Goldene Schnitt sondern seine Annäherung der Fibonacci-Zahlen praktiziert. Daher sprechen wir hier nur von einer angenäherter Form harmonischer Proportionen. Trotzdem bietet die Fibonacci-Folge ein übergeordnetes System an, nach dem wir Objekte anordnen können. So können wir diese harmonische Annäherung für die Gestaltung von Rastern, Logos oder Schriftsätzen verwenden.
+
+\begin{figure}[htbp]
+\subfigure[Original]{\includegraphics[width=0.4\textwidth]{Bilder/Plakat_gr.jpg}} \hfill
+\subfigure[Original]{\includegraphics[width=0.4\textwidth]{Bilder/gr_typography.jpg}}
 \end{figure}
 
 \newpage
 \section{Zusammenfassung}
+
+Dadurch dass die harmonische Lage bei perspektivischen Ansichten wie im Alltag, Fotos, Gemälden oder auch wie wir gesehen haben im Design vorkommt, kommt ihr eine fundamentale Bedeutung zu.
+
+Es gibt verschiedene Wege, auf die harmonische Lage von Punkten und Geraden zu schließen. Zum einen wären da die geometrisch zeichnerischen Zugänge über das vollständige Viereck / Vierseit, den Thaleskreis oder auch den Strahlensatz. Zum anderen haben wir auch einen rechnerischen Weg über das Doppelverhältnis kennengelernt, mit dessen Hilfe wir sogar die einzelnen Punkte bestimmen können.
+
+Gemeinsam haben aber alle Zugänge, dass ein gegebenes Punkte- oder Geradenpaar von  zwei weiteren im selben Verhältnis innen und außen geteilt haben. Zusätzlich lässt sich aus einer gegebenen harmonischen Konstruktion weitere harmonische Figuren bilden, sodass sich daraus ein harmonisches Raster ergibt.
 
 \newpage
 \listoffigures
