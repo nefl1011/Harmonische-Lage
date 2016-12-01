@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.26)  30 NOV 2016 22:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.26)  1 DEC 2016 21:57
 entering extended mode
 **./Harmonische_Lage.tex
 (Harmonische_Lage.tex
@@ -545,6 +545,10 @@ ure.cfg")
 \subfig@top=\skip56
 \subfig@bottom=\skip57
 )
+("C:\Users\Florian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
 ("C:\Users\Florian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\multicol.s
 ty"
 Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
@@ -614,18 +618,18 @@ LaTeX Warning: Label `fig:modernSatz' multiply defined.
 )
 \openout1 = `Harmonische_Lage.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 ("C:\Users\Florian\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.
 mkii"
@@ -722,7 +726,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [1]
-Overfull \hbox (0.77643pt too wide) in paragraph at lines 62--63
+Overfull \hbox (0.77643pt too wide) in paragraph at lines 63--64
 []\OT1/cmr/m/n/12 Betrachten wir bei-spiels-wei-se einen S[]aulengang wie in Ab
 -bil-dung 1[], so w[]urden
  []
@@ -731,366 +735,386 @@ Overfull \hbox (0.77643pt too wide) in paragraph at lines 62--63
 File: Bilder/Saeulengang.jpg Graphic file (type jpg)
 
 <use Bilder/Saeulengang.jpg>
-Package pdftex.def Info: Bilder/Saeulengang.jpg used on input line 65.
+Package pdftex.def Info: Bilder/Saeulengang.jpg used on input line 66.
 (pdftex.def)             Requested size: 175.49881pt x 116.98952pt.
 
 <Bilder/Saeulengang_Netz.jpg, id=13, 1204.5pt x 803.0pt>
 File: Bilder/Saeulengang_Netz.jpg Graphic file (type jpg)
 
 <use Bilder/Saeulengang_Netz.jpg>
-Package pdftex.def Info: Bilder/Saeulengang_Netz.jpg used on input line 66.
+Package pdftex.def Info: Bilder/Saeulengang_Netz.jpg used on input line 67.
 (pdftex.def)             Requested size: 175.49881pt x 116.98952pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
 [][]\OT1/cmr/m/n/10 http://www.feeistmeinname.de/wp-content/uploads/2016/06/201
 60616-
  []
 
 [2 <./Bilder/Saeulengang.jpg> <./Bilder/Saeulengang_Netz.jpg>]
-<Bilder/herleitung1.png, id=20, 147.9126pt x 113.9457pt>
+<Bilder/herleitung1.png, id=19, 147.9126pt x 113.9457pt>
 File: Bilder/herleitung1.png Graphic file (type png)
 
 <use Bilder/herleitung1.png>
-Package pdftex.def Info: Bilder/herleitung1.png used on input line 85.
+Package pdftex.def Info: Bilder/herleitung1.png used on input line 86.
 (pdftex.def)             Requested size: 142.26378pt x 109.59698pt.
 
-<Bilder/herleitung2.png, id=22, 148.1535pt x 113.9457pt>
+<Bilder/herleitung2.png, id=21, 148.1535pt x 113.9457pt>
 File: Bilder/herleitung2.png Graphic file (type png)
 
 <use Bilder/herleitung2.png>
-Package pdftex.def Info: Bilder/herleitung2.png used on input line 89.
+Package pdftex.def Info: Bilder/herleitung2.png used on input line 90.
 (pdftex.def)             Requested size: 142.26378pt x 109.42485pt.
 
-<Bilder/herleitung3.png, id=23, 148.1535pt x 113.9457pt>
+<Bilder/herleitung3.png, id=22, 148.1535pt x 113.9457pt>
 File: Bilder/herleitung3.png Graphic file (type png)
 
 <use Bilder/herleitung3.png>
-Package pdftex.def Info: Bilder/herleitung3.png used on input line 93.
+Package pdftex.def Info: Bilder/herleitung3.png used on input line 94.
 (pdftex.def)             Requested size: 142.26378pt x 109.42485pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--108
+Underfull \hbox (badness 10000) in paragraph at lines 105--109
 
  []
 
 [3 <./Bilder/herleitung1.png> <./Bilder/herleitung2.png> <./Bilder/herleitung3.
-png>] <Bilder/fuer_mehrere_geraden.png, id=31, 218.7372pt x 197.7789pt>
+png>] <Bilder/fuer_mehrere_geraden.png, id=30, 218.7372pt x 197.7789pt>
 File: Bilder/fuer_mehrere_geraden.png Graphic file (type png)
 
 <use Bilder/fuer_mehrere_geraden.png>
-Package pdftex.def Info: Bilder/fuer_mehrere_geraden.png used on input line 113
+Package pdftex.def Info: Bilder/fuer_mehrere_geraden.png used on input line 114
 .
 (pdftex.def)             Requested size: 195.0pt x 176.31538pt.
  [4 <./Bilder/fuer_mehrere_geraden.png>]
-<Bilder/vollstaendigesVierseit.png, id=36, 363.9999pt x 242.3454pt>
+<Bilder/vollstaendigesVierseit.png, id=35, 363.9999pt x 242.3454pt>
 File: Bilder/vollstaendigesVierseit.png Graphic file (type png)
 
 <use Bilder/vollstaendigesVierseit.png>
 Package pdftex.def Info: Bilder/vollstaendigesVierseit.png used on input line 1
-24.
+25.
 (pdftex.def)             Requested size: 136.50238pt x 90.883pt.
 
-Overfull \hbox (19.90134pt too wide) in paragraph at lines 132--133
+Overfull \hbox (19.90134pt too wide) in paragraph at lines 133--134
 []\OT1/cmr/m/n/12 Dabei ver-steht man un-ter ei-nem vollst[]andigen
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 135.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 136.
 
 ("C:\Users\Florian\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 135.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 136.
 
-Overfull \hbox (14.87631pt too wide) in paragraph at lines 137--138
+Overfull \hbox (14.87631pt too wide) in paragraph at lines 138--139
 \OT1/cmr/m/n/12 Ecken mit-ein-an-der ver-bin-den, die nicht
  []
 
 
-Overfull \hbox (26.67049pt too wide) in paragraph at lines 138--139
+Overfull \hbox (26.67049pt too wide) in paragraph at lines 139--140
 []\OT1/cmr/m/n/12 den drei Ne-ben-ecken $\OML/cmm/m/it/12 C; D; T$\OT1/cmr/m/n/
 12 , die Schnitt-
  []
 
-<Bilder/vollstaendigesViereck.png, id=37, 364.4817pt x 242.3454pt>
+<Bilder/vollstaendigesViereck.png, id=36, 364.4817pt x 242.3454pt>
 File: Bilder/vollstaendigesViereck.png Graphic file (type png)
 
 <use Bilder/vollstaendigesViereck.png>
 Package pdftex.def Info: Bilder/vollstaendigesViereck.png used on input line 14
-3.
+4.
 (pdftex.def)             Requested size: 136.50238pt x 90.76096pt.
 
-Overfull \hbox (19.90134pt too wide) in paragraph at lines 151--152
+Overfull \hbox (19.90134pt too wide) in paragraph at lines 152--153
 []\OT1/cmr/m/n/12 Dabei ver-steht man un-ter ei-nem vollst[]andigen
  []
 
 
-Overfull \hbox (4.57233pt too wide) in paragraph at lines 158--159
+Overfull \hbox (4.57233pt too wide) in paragraph at lines 159--160
 []\OT1/cmr/m/n/12 den drei Ne-bensei-ten $\OML/cmm/m/it/12 c; d; i$\OT1/cmr/m/n
 /12 , die durch
  []
 
 [5 <./Bilder/vollstaendigesVierseit.png> <./Bilder/vollstaendigesViereck.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 161--165
+Underfull \hbox (badness 10000) in paragraph at lines 162--166
 
  []
 
-<Bilder/thales.png, id=44, 147.9126pt x 84.7968pt>
+<Bilder/thales.png, id=43, 147.9126pt x 84.7968pt>
 File: Bilder/thales.png Graphic file (type png)
  <use Bilder/thales.png>
-Package pdftex.def Info: Bilder/thales.png used on input line 167.
+Package pdftex.def Info: Bilder/thales.png used on input line 168.
 (pdftex.def)             Requested size: 155.99762pt x 89.43517pt.
 
-<Bilder/strahlensatz.png, id=45, 147.9126pt x 77.8107pt>
+<Bilder/strahlensatz.png, id=44, 147.9126pt x 77.8107pt>
 File: Bilder/strahlensatz.png Graphic file (type png)
 
 <use Bilder/strahlensatz.png>
-Package pdftex.def Info: Bilder/strahlensatz.png used on input line 168.
+Package pdftex.def Info: Bilder/strahlensatz.png used on input line 169.
 (pdftex.def)             Requested size: 155.99762pt x 82.06694pt.
  [6 <./Bilder/thales.png> <./Bilder/strahlensatz.png>] <Bilder/13erKonfigStepby
-Step.png, id=52, 363.9999pt x 296.7888pt>
+Step.png, id=51, 363.9999pt x 296.7888pt>
 File: Bilder/13erKonfigStepbyStep.png Graphic file (type png)
 
 <use Bilder/13erKonfigStepbyStep.png>
-Package pdftex.def Info: Bilder/13erKonfigStepbyStep.png used on input line 186
+Package pdftex.def Info: Bilder/13erKonfigStepbyStep.png used on input line 187
 .
 (pdftex.def)             Requested size: 272.99881pt x 222.60916pt.
 
-<Bilder/13erKonfigStepbyStep3.png, id=53, 166.4619pt x 681.747pt>
+<Bilder/13erKonfigStepbyStep3.png, id=52, 166.4619pt x 681.747pt>
 File: Bilder/13erKonfigStepbyStep3.png Graphic file (type png)
 
 <use Bilder/13erKonfigStepbyStep3.png>
 Package pdftex.def Info: Bilder/13erKonfigStepbyStep3.png used on input line 19
-5.
+6.
 (pdftex.def)             Requested size: 136.50238pt x 559.06735pt.
  [7 <./Bilder/13erKonfigStepbyStep.png>]
-Overfull \hbox (0.3335pt too wide) in paragraph at lines 202--203
+Overfull \hbox (0.3335pt too wide) in paragraph at lines 203--204
 []\OT1/cmr/m/n/12 Damit h[]atten wir die har-mo-ni-sche Grund-
  []
 
 [8 <./Bilder/13erKonfigStepbyStep3.png>]
-<Bilder/13_neu.png, id=62, 363.9999pt x 224.5188pt>
+<Bilder/13_neu.png, id=61, 363.9999pt x 224.5188pt>
 File: Bilder/13_neu.png Graphic file (type png)
  <use Bilder/13_neu.png>
-Package pdftex.def Info: Bilder/13_neu.png used on input line 208.
+Package pdftex.def Info: Bilder/13_neu.png used on input line 209.
 (pdftex.def)             Requested size: 136.50238pt x 84.19775pt.
 
-Underfull \hbox (badness 1117) in paragraph at lines 213--214
+Underfull \hbox (badness 1117) in paragraph at lines 214--215
 \OT1/cmr/m/n/12 /Geradenpaaren ei-nes als Nebenecke/-
  []
 
 [9 <./Bilder/13_neu.png>]
-<Bilder/inftyPoint.png, id=67, 745.1037pt x 166.221pt>
+<Bilder/inftyPoint.png, id=66, 745.1037pt x 166.221pt>
 File: Bilder/inftyPoint.png Graphic file (type png)
 
 <use Bilder/inftyPoint.png>
-Package pdftex.def Info: Bilder/inftyPoint.png used on input line 237.
+Package pdftex.def Info: Bilder/inftyPoint.png used on input line 238.
 (pdftex.def)             Requested size: 390.0pt x 87.00354pt.
  [10 <./Bilder/inftyPoint.png>]
-<Bilder/daVinvi1.jpg, id=72, 501.875pt x 286.06876pt>
+<Bilder/daVinvi1.jpg, id=71, 501.875pt x 286.06876pt>
 File: Bilder/daVinvi1.jpg Graphic file (type jpg)
 
 <use Bilder/daVinvi1.jpg>
-Package pdftex.def Info: Bilder/daVinvi1.jpg used on input line 250.
+Package pdftex.def Info: Bilder/daVinvi1.jpg used on input line 251.
 (pdftex.def)             Requested size: 272.99881pt x 155.61847pt.
  [11 <./Bilder/daVinvi1.jpg>] [12]
 <Bilder/tv_strahl.png, id=80, 225.7233pt x 20.9583pt>
 File: Bilder/tv_strahl.png Graphic file (type png)
 
 <use Bilder/tv_strahl.png>
-Package pdftex.def Info: Bilder/tv_strahl.png used on input line 292.
+Package pdftex.def Info: Bilder/tv_strahl.png used on input line 293.
 (pdftex.def)             Requested size: 390.0pt x 36.21191pt.
  [13 <./Bilder/tv_strahl.png>]
+File: Bilder/herleitung3.png Graphic file (type png)
+
+<use Bilder/herleitung3.png>
+Package pdftex.def Info: Bilder/herleitung3.png used on input line 339.
+(pdftex.def)             Requested size: 155.99762pt x 119.98727pt.
+
 <Bilder/doppelverhaeltnis.png, id=87, 201.3924pt x 99.7326pt>
 File: Bilder/doppelverhaeltnis.png Graphic file (type png)
 
 <use Bilder/doppelverhaeltnis.png>
-Package pdftex.def Info: Bilder/doppelverhaeltnis.png used on input line 339.
-(pdftex.def)             Requested size: 175.49881pt x 86.9097pt.
-
-Overfull \hbox (12.36465pt too wide) in paragraph at lines 338--340
-[]  [] 
- []
-
-
-Underfull \hbox (badness 3895) in paragraph at lines 340--340
-[]\OT1/cmr/m/n/12 Abbildung 11: Har-mo-ni-sche
- []
-
-
-Overfull \hbox (4.26202pt too wide) in paragraph at lines 346--347
-\OT1/cmr/m/n/12 m[]ussen wir fest-stel-len, dass egal wie wir $\OML/cmm/m/it/12
- D$ \OT1/cmr/m/n/12 w[]ahlen, $\OML/cmm/m/it/12 TV\OT1/cmr/m/n/12 (\OML/cmm/m/i
-t/12 ABC\OT1/cmr/m/n/12 ) = \OMS/cmsy/m/n/12  \OML/cmm/m/it/12 TV\OT1/cmr/m/n/1
-2 (\OML/cmm/m/it/12 ABD\OT1/cmr/m/n/12 )$. 
- []
-
-[14 <./Bilder/doppelverhaeltnis.png>] [15]
+Package pdftex.def Info: Bilder/doppelverhaeltnis.png used on input line 349.
+(pdftex.def)             Requested size: 195.0pt x 96.567pt.
+ [14] [15 <./Bilder/doppelverhaeltnis.png>]
 <Bilder/vierGeraden.png, id=95, 364.2408pt x 210.0648pt>
 File: Bilder/vierGeraden.png Graphic file (type png)
 
 <use Bilder/vierGeraden.png>
-Package pdftex.def Info: Bilder/vierGeraden.png used on input line 399.
+Package pdftex.def Info: Bilder/vierGeraden.png used on input line 395.
 (pdftex.def)             Requested size: 272.99881pt x 157.45204pt.
- [16 <./Bilder/vierGeraden.png>] [17]
-<Bilder/harmMittel.png, id=104, 363.9999pt x 315.3381pt>
+ [16 <./Bilder/vierGeraden.png>] [17] [18]
+<Bilder/harmMittel.png, id=108, 363.9999pt x 315.3381pt>
 File: Bilder/harmMittel.png Graphic file (type png)
 
 <use Bilder/harmMittel.png>
-Package pdftex.def Info: Bilder/harmMittel.png used on input line 449.
+Package pdftex.def Info: Bilder/harmMittel.png used on input line 462.
 (pdftex.def)             Requested size: 155.99762pt x 135.14525pt.
 
-<Bilder/harmMittel2.png, id=105, 363.9999pt x 315.3381pt>
+<Bilder/harmMittel2.png, id=109, 363.9999pt x 315.3381pt>
 File: Bilder/harmMittel2.png Graphic file (type png)
 
 <use Bilder/harmMittel2.png>
-Package pdftex.def Info: Bilder/harmMittel2.png used on input line 450.
+Package pdftex.def Info: Bilder/harmMittel2.png used on input line 463.
 (pdftex.def)             Requested size: 155.99762pt x 135.14525pt.
 
-Underfull \hbox (badness 2057) in paragraph at lines 450--450
+Underfull \hbox (badness 2057) in paragraph at lines 463--463
 []\OT1/cmr/m/n/10 (b) Har-mo-ni-sches und arith-me-ti-
  []
 
-[18] [19 <./Bilder/harmMittel.png> <./Bilder/harmMittel2.png>]
-<Bilder/folge.png, id=115, 284.5029pt x 103.1052pt>
+[19] [20 <./Bilder/harmMittel.png> <./Bilder/harmMittel2.png>]
+<Bilder/folge.png, id=118, 284.5029pt x 103.1052pt>
 File: Bilder/folge.png Graphic file (type png)
  <use Bilder/folge.png>
-Package pdftex.def Info: Bilder/folge.png used on input line 479.
+Package pdftex.def Info: Bilder/folge.png used on input line 492.
 (pdftex.def)             Requested size: 390.0pt x 141.33821pt.
 
-[20 <./Bilder/folge.png>] [21] [22]
-<Bilder/Brunelleschi-Zentralperspektive.jpg, id=126, 192.72pt x 172.9662pt>
+[21 <./Bilder/folge.png>] [22] [23]
+<Bilder/Brunelleschi-Zentralperspektive.jpg, id=129, 192.72pt x 172.9662pt>
 File: Bilder/Brunelleschi-Zentralperspektive.jpg Graphic file (type jpg)
 
 <use Bilder/Brunelleschi-Zentralperspektive.jpg>
 Package pdftex.def Info: Bilder/Brunelleschi-Zentralperspektive.jpg used on inp
-ut line 543.
+ut line 556.
 (pdftex.def)             Requested size: 155.99762pt x 140.00684pt.
- [23 <./Bilder/Brunelleschi-Zentralperspektive.jpg>] <Bilder/braccia.png, id=13
-0, 417.9615pt x 158.994pt>
+ [24 <./Bilder/Brunelleschi-Zentralperspektive.jpg>] <Bilder/braccia.png, id=13
+5, 417.9615pt x 158.994pt>
 File: Bilder/braccia.png Graphic file (type png)
 
 <use Bilder/braccia.png>
-Package pdftex.def Info: Bilder/braccia.png used on input line 560.
+Package pdftex.def Info: Bilder/braccia.png used on input line 575.
 (pdftex.def)             Requested size: 390.0pt x 148.36508pt.
- [24] [25 <./Bilder/braccia.png>]
-<Bilder/oldManus.jpg, id=139, 1016.79875pt x 715.67375pt>
+ [25] [26 <./Bilder/braccia.png>]
+<Bilder/oldManus.jpg, id=143, 1016.79875pt x 715.67375pt>
 File: Bilder/oldManus.jpg Graphic file (type jpg)
 
 <use Bilder/oldManus.jpg>
-Package pdftex.def Info: Bilder/oldManus.jpg used on input line 580.
+Package pdftex.def Info: Bilder/oldManus.jpg used on input line 595.
 (pdftex.def)             Requested size: 272.99881pt x 192.14246pt.
 
-<Bilder/page_construction.png, id=140, 498.4221pt x 374.8404pt>
+Underfull \hbox (badness 10000) in paragraph at lines 601--601
+[][]$\OT1/cmtt/m/n/10 http : / / 2 . bp . blogspot . com / -[]T1sKx1wT9js / URJ
+xAQ28tvI / AAAAAAAAADI /
+ []
+
+<Bilder/page_construction.png, id=144, 498.4221pt x 374.8404pt>
 File: Bilder/page_construction.png Graphic file (type png)
 
 <use Bilder/page_construction.png>
-Package pdftex.def Info: Bilder/page_construction.png used on input line 588.
+Package pdftex.def Info: Bilder/page_construction.png used on input line 605.
 (pdftex.def)             Requested size: 155.99762pt x 117.32036pt.
 
-Underfull \hbox (badness 6268) in paragraph at lines 589--589
+Underfull \hbox (badness 6268) in paragraph at lines 606--606
 \OT1/cmr/m/n/12 (links) und Paul Ro-sa-ri-vo
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 594--595
+Underfull \hbox (badness 1365) in paragraph at lines 613--614
 \OT1/cmr/m/n/12 tu-ren zu er-fas-sen und zu nut-zen.
  []
 
-[26 <./Bilder/oldManus.jpg> <./Bilder/page_construction.png>]
-<Bilder/Van_de_Graaf_1.png, id=145, 498.4221pt x 374.8404pt>
+[27 <./Bilder/oldManus.jpg> <./Bilder/page_construction.png>]
+<Bilder/Van_de_Graaf_1.png, id=149, 498.4221pt x 374.8404pt>
 File: Bilder/Van_de_Graaf_1.png Graphic file (type png)
 
 <use Bilder/Van_de_Graaf_1.png>
-Package pdftex.def Info: Bilder/Van_de_Graaf_1.png used on input line 600.
+Package pdftex.def Info: Bilder/Van_de_Graaf_1.png used on input line 619.
 (pdftex.def)             Requested size: 155.99762pt x 117.32036pt.
 
-<Bilder/Van_de_Graaf.png, id=146, 357.2547pt x 271.7352pt>
+<Bilder/Van_de_Graaf.png, id=150, 357.2547pt x 271.7352pt>
 File: Bilder/Van_de_Graaf.png Graphic file (type png)
 
 <use Bilder/Van_de_Graaf.png>
-Package pdftex.def Info: Bilder/Van_de_Graaf.png used on input line 610.
+Package pdftex.def Info: Bilder/Van_de_Graaf.png used on input line 631.
 (pdftex.def)             Requested size: 272.99881pt x 207.64868pt.
- [27 <./Bilder/Van_de_Graaf_1.png> <./Bilder/Van_de_Graaf.png>] <Bilder/jsonBou
-rne2.jpg, id=152, 777.90625pt x 550.055pt>
+ [28 <./Bilder/Van_de_Graaf_1.png> <./Bilder/Van_de_Graaf.png>] <Bilder/jsonBou
+rne2.jpg, id=156, 777.90625pt x 550.055pt>
 File: Bilder/jsonBourne2.jpg Graphic file (type jpg)
 
 <use Bilder/jsonBourne2.jpg>
-Package pdftex.def Info: Bilder/jsonBourne2.jpg used on input line 623.
+Package pdftex.def Info: Bilder/jsonBourne2.jpg used on input line 644.
 (pdftex.def)             Requested size: 272.99881pt x 193.0425pt.
- [28 <./Bilder/jsonBourne2.jpg>]
-<Bilder/3d-grid_brockmann.jpeg, id=156, 530.4618pt x 367.1316pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 650--650
+[][]$\OT1/cmtt/m/n/10 http : / / 4 . bp . blogspot . com / Y3C80iBqw / TnMRcN2y
+YgI / AAAAAAAAC7k /
+ []
+
+[29 <./Bilder/jsonBourne2.jpg>]
+<Bilder/3d-grid_brockmann.jpeg, id=160, 530.4618pt x 367.1316pt>
 File: Bilder/3d-grid_brockmann.jpeg Graphic file (type jpg)
 
 <use Bilder/3d-grid_brockmann.jpeg>
-Package pdftex.def Info: Bilder/3d-grid_brockmann.jpeg used on input line 635.
+Package pdftex.def Info: Bilder/3d-grid_brockmann.jpeg used on input line 658.
 (pdftex.def)             Requested size: 272.99881pt x 188.94884pt.
- [29 <./Bilder/3d-grid_brockmann.jpeg>]
-<Bilder/durchschuss.png, id=160, 387.6081pt x 72.27pt>
+ [30 <./Bilder/3d-grid_brockmann.jpeg>]
+<Bilder/durchschuss.png, id=165, 387.6081pt x 72.27pt>
 File: Bilder/durchschuss.png Graphic file (type png)
 
 <use Bilder/durchschuss.png>
-Package pdftex.def Info: Bilder/durchschuss.png used on input line 646.
+Package pdftex.def Info: Bilder/durchschuss.png used on input line 669.
 (pdftex.def)             Requested size: 272.99881pt x 50.90181pt.
 
-<Bilder/raster.png, id=161, 749.9217pt x 323.7696pt>
+<Bilder/raster.png, id=166, 749.9217pt x 323.7696pt>
 File: Bilder/raster.png Graphic file (type png)
  <use Bilder/raster.png>
-Package pdftex.def Info: Bilder/raster.png used on input line 659.
+Package pdftex.def Info: Bilder/raster.png used on input line 682.
 (pdftex.def)             Requested size: 272.99881pt x 117.8612pt.
 
-<Bilder/gr_logo.jpg, id=162, 566.115pt x 424.58624pt>
+<Bilder/gr_logo.jpg, id=167, 566.115pt x 424.58624pt>
 File: Bilder/gr_logo.jpg Graphic file (type jpg)
  <use Bilder/gr_logo.jpg>
-Package pdftex.def Info: Bilder/gr_logo.jpg used on input line 667.
+Package pdftex.def Info: Bilder/gr_logo.jpg used on input line 690.
 (pdftex.def)             Requested size: 155.99762pt x 116.99805pt.
 
-[30 <./Bilder/durchschuss.png> <./Bilder/raster.png>]
-Underfull \hbox (badness 1122) in paragraph at lines 671--672
+Underfull \hbox (badness 10000) in paragraph at lines 691--691
+[]\OT1/cmr/m/n/12 Abbildung 24: Logo-ge-stal-
+ []
+
+
+Overfull \hbox (48.02422pt too wide) in paragraph at lines 694--694
+[][]$\OT1/cmtt/m/n/10 https : / / www . behance . net / gallery / 43218905 / Lo
+go-[]Collection-[]with-[]Golden-[]Ratio-[]2016$\OT1/cmr/m/n/10 ,
+ []
+
+[31 <./Bilder/durchschuss.png> <./Bilder/raster.png>]
+Underfull \hbox (badness 1122) in paragraph at lines 696--697
 []\OT1/cmr/m/n/12 Der Gol-de-ne Schnitt ist die idea-
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 671--672
+Underfull \hbox (badness 1571) in paragraph at lines 696--697
 \OT1/cmr/m/n/12 de-ne Schnitt im-mer noch An-wen-
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 671--672
+Underfull \hbox (badness 1622) in paragraph at lines 696--697
 \OT1/cmr/m/n/12 Pro-por-tio-nen. Trotz-dem bie-tet die
  []
 
-<Bilder/Plakat_gr.jpg, id=169, 543.02875pt x 832.10875pt>
+
+Underfull \hbox (badness 1895) in paragraph at lines 696--697
+\OT1/cmr/m/n/12 Fibonacci-Folge ein []ubergeordnetes
+ []
+
+<Bilder/Plakat_gr.jpg, id=173, 543.02875pt x 832.10875pt>
 File: Bilder/Plakat_gr.jpg Graphic file (type jpg)
 
 <use Bilder/Plakat_gr.jpg>
-Package pdftex.def Info: Bilder/Plakat_gr.jpg used on input line 674.
-(pdftex.def)             Requested size: 155.99762pt x 239.0453pt.
+Package pdftex.def Info: Bilder/Plakat_gr.jpg used on input line 699.
+(pdftex.def)             Requested size: 136.50238pt x 209.1694pt.
 
-<Bilder/gr_typography.jpg, id=170, 566.115pt x 824.07875pt>
+<Bilder/gr_typography.jpg, id=174, 566.115pt x 824.07875pt>
 File: Bilder/gr_typography.jpg Graphic file (type jpg)
 
 <use Bilder/gr_typography.jpg>
-Package pdftex.def Info: Bilder/gr_typography.jpg used on input line 675.
-(pdftex.def)             Requested size: 155.99762pt x 227.08131pt.
- [31 <./Bilder/gr_logo.jpg> <./Bilder/Plakat_gr.jpg> <./Bilder/gr_typography.jp
-g>] [32] (Harmonische_Lage.lof)
+Package pdftex.def Info: Bilder/gr_typography.jpg used on input line 700.
+(pdftex.def)             Requested size: 136.50238pt x 198.70087pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 705--705
+[][]$\OT1/cmtt/m/n/10 http : / / www . invaluable . com / artist / bodoni-[]gia
+mbattista-[]epx6zw0xcj$\OT1/cmr/m/n/10 ,
+ []
+
+[32 <./Bilder/gr_logo.jpg> <./Bilder/Plakat_gr.jpg> <./Bilder/gr_typography.jpg
+>] [33] (Harmonische_Lage.lof)
 \tf@lof=\write4
 \openout4 = `Harmonische_Lage.lof'.
 
- [33]
-(Harmonische_Lage.bbl) [34] (Harmonische_Lage.aux)
+ [34] (Harmonische_Lage.bbl) [35]
+(Harmonische_Lage.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4585 strings out of 493334
- 64130 string characters out of 3129355
- 133432 words of memory out of 3000000
- 7976 multiletter control sequences out of 15000+200000
- 13705 words of font info for 52 fonts, out of 3000000 for 9000
+ 4663 strings out of 493334
+ 65143 string characters out of 3129355
+ 135543 words of memory out of 3000000
+ 8049 multiletter control sequences out of 15000+200000
+ 13873 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,17n,43p,1277b,377s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,17n,43p,1277b,375s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTe
@@ -1105,10 +1129,11 @@ onts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Florian/AppData/Local/Programs
 ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Fl
 orian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pf
 b><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmti12.pfb>
-Output written on Harmonische_Lage.pdf (35 pages, 4798087 bytes).
+ts/cm/cmti12.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Harmonische_Lage.pdf (36 pages, 4834773 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
+ 228 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  171 words of extra memory for PDF output out of 10000 (max. 10000000)
 

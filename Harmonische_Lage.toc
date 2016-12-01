@@ -10,16 +10,16 @@
 \contentsline {subsection}{\numberline {3.1}Teilverh\IeC {\"a}ltnisse}{12}
 \contentsline {subsection}{\numberline {3.2}Das Doppelverh\IeC {\"a}ltnis}{13}
 \contentsline {subsection}{\numberline {3.3}Harmonische Lage und Doppelverh\IeC {\"a}ltnis}{14}
-\contentsline {subsection}{\numberline {3.4}Das Doppelverh\IeC {\"a}ltnis von vier Geraden}{15}
-\contentsline {section}{\numberline {4}Harmonisches Mittel und harmonische Folge}{17}
-\contentsline {subsection}{\numberline {4.1}Harmonisches Mittel}{17}
-\contentsline {subsection}{\numberline {4.2}Harmonische Folge}{19}
-\contentsline {section}{\numberline {5}Harmonische Lage und Goldener Schnitt}{21}
-\contentsline {section}{\numberline {6}Harmonische Lage in der Gestaltung}{23}
-\contentsline {subsection}{\numberline {6.1}Harmonie in der Malerei}{23}
-\contentsline {subsection}{\numberline {6.2}Harmonische Lage in der heutigen Gestaltung}{26}
-\contentsline {subsubsection}{\numberline {6.2.1}Satzspiegel}{26}
-\contentsline {subsubsection}{\numberline {6.2.2}Gestaltungsraster}{29}
-\contentsline {subsection}{\numberline {6.3}Gestaltung und Goldener Schnitt}{31}
-\contentsline {section}{\numberline {7}Zusammenfassung}{32}
-\contentsline {section}{Literaturverzeichnis}{34}
+\contentsline {subsection}{\numberline {3.4}Das Doppelverh\IeC {\"a}ltnis von vier Geraden}{16}
+\contentsline {section}{\numberline {4}Harmonisches Mittel und harmonische Folge}{18}
+\contentsline {subsection}{\numberline {4.1}Harmonisches Mittel}{18}
+\contentsline {subsection}{\numberline {4.2}Harmonische Folge}{20}
+\contentsline {section}{\numberline {5}Harmonische Lage und Goldener Schnitt}{22}
+\contentsline {section}{\numberline {6}Harmonische Lage in der Gestaltung}{24}
+\contentsline {subsection}{\numberline {6.1}Harmonie in der Malerei}{24}
+\contentsline {subsection}{\numberline {6.2}Harmonische Lage in der heutigen Gestaltung}{27}
+\contentsline {subsubsection}{\numberline {6.2.1}Satzspiegel}{27}
+\contentsline {subsubsection}{\numberline {6.2.2}Gestaltungsraster}{30}
+\contentsline {subsection}{\numberline {6.3}Gestaltung und Goldener Schnitt}{32}
+\contentsline {section}{\numberline {7}Zusammenfassung}{33}
+\contentsline {section}{Literaturverzeichnis}{35}

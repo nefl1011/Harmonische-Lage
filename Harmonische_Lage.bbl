@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{proGeoGrundlagen}
 Ute~Rosenbaum Albrecht~Beutelspacher.
@@ -45,5 +45,11 @@ Hans Walser.
 Hans Walser.
 \newblock {\em Projektive Abbildungen, zeichnerischer Zugang}.
 \newblock 2002.
+
+\bibitem{harmDef}
+Wertesysteme.de.
+\newblock {\em Harmonie}.
+\newblock http://www.wertesysteme.de/alle-werte-definitionen/g-h-i-j/harmonie/,
+  30.11.2016.
 
 \end{thebibliography}

@@ -1,6 +1,6 @@
 \select@language {german}
 \select@language {german}
-\contentsline {figure}{\numberline {1}{\ignorespaces asdf}}{2}
+\contentsline {figure}{\numberline {1}{\ignorespaces Ein harmonischer S\IeC {\"a}ulengang}}{2}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Original \footnotemark }}}{2}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Mit Netz}}}{2}
 \contentsline {figure}{\numberline {2}{\ignorespaces Geometrische Konstruktion der harmonischen Lage}}{3}
@@ -13,21 +13,21 @@
 \contentsline {figure}{\numberline {7}{\ignorespaces Beispiel einer harmonischen 13er Konfiguration}}{7}
 \contentsline {figure}{\numberline {8}{\ignorespaces Weitere harmonische Grundfiguren in einer bereits vorhandenen}}{9}
 \contentsline {figure}{\numberline {9}{\ignorespaces Ist der Punkt Q ein unendlicher Fernpunkt, so trennt P die Strecke $\overline {A B}$ in der Mitte}}{10}
-\contentsline {figure}{\numberline {10}{\ignorespaces Perspektivische Zeichnung von da Vinci, \textit {Perspective Study for The Adoration of the Magi}\footnotemark }}{11}
-\contentsline {figure}{\numberline {11}{\ignorespaces Harmonische Lage mit den parallelen Geraden $a$, $b$ und $p$}}{14}
+\contentsline {figure}{\numberline {10}{\ignorespaces Perspektivische Zeichnung von da Vinci, \textit {Perspective Study for The Adoration of the Magi}\footnotemark [2]}}{11}
+\contentsline {figure}{\numberline {11}{\ignorespaces Harmonische Lage mit den parallelen Geraden $a$, $b$ und $p$}}{15}
 \contentsline {figure}{\numberline {12}{\ignorespaces Ermittlung der harmonischen Lage durch vier Geraden}}{16}
-\contentsline {figure}{\numberline {13}{\ignorespaces M\IeC {\"o}bius'sche Netze in Verdichtung und Dehnung}}{19}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Harmonisches Mittel}}}{19}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Harmonisches und arithmetisches Mittel}}}{19}
-\contentsline {figure}{\numberline {14}{\ignorespaces Das Spiegelexperiment}}{23}
-\contentsline {figure}{\numberline {15}{\ignorespaces Zeichnerischer Weg zur Zentralperspektive nach Leon Battista Alberti}}{25}
-\contentsline {figure}{\numberline {16}{\ignorespaces Konstruktion nach Van de Graaf bei einem mittelalterlichen Manuskript}}{26}
-\contentsline {figure}{\numberline {17}{\ignorespaces Satzspiegelkonstruktion nach Jan Tschichold (links) und P\IeC {\'a}ul Rosarivo (rechts)}}{26}
-\contentsline {figure}{\numberline {18}{\ignorespaces Satzspiegel von Van de Graf}}{27}
-\contentsline {figure}{\numberline {19}{\ignorespaces Harmonische Lage im Satzspiegel}}{27}
-\contentsline {figure}{\numberline {20}{\ignorespaces Modernes Anwendungsbeispiel des Van de Graaf'schen Kanons}}{28}
-\contentsline {figure}{\numberline {21}{\ignorespaces Gestaltungsraster im Raum von \citep [S.~148]{gestaltungsraster}}}{29}
-\contentsline {figure}{\numberline {22}{\ignorespaces Berechnung der Textzeilenh\IeC {\"o}he}}{30}
-\contentsline {figure}{\numberline {23}{\ignorespaces Harmonische Lage im Raster}}{30}
-\contentsline {figure}{\numberline {24}{\ignorespaces Logogestaltung}}{31}
-\contentsline {figure}{\numberline {25}{\ignorespaces Links: Die Goldene Spirale im Gestaltungsraster, Rechts: Konstruktion eines Buchstaben mithilfe des Goldenen Schnitts}}{31}
+\contentsline {figure}{\numberline {13}{\ignorespaces M\IeC {\"o}bius'sche Netze in Verdichtung und Dehnung}}{20}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Harmonisches Mittel}}}{20}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Harmonisches und arithmetisches Mittel}}}{20}
+\contentsline {figure}{\numberline {14}{\ignorespaces Das Spiegelexperiment\footnotemark [3]}}{24}
+\contentsline {figure}{\numberline {15}{\ignorespaces Zeichnerischer Weg zur Zentralperspektive nach Leon Battista Alberti}}{26}
+\contentsline {figure}{\numberline {16}{\ignorespaces Konstruktion nach Van de Graaf bei einem mittelalterlichen Manuskript\footnotemark [4]}}{27}
+\contentsline {figure}{\numberline {17}{\ignorespaces Satzspiegelkonstruktion nach Jan Tschichold (links) und P\IeC {\'a}ul Rosarivo (rechts)\footnotemark [5]}}{27}
+\contentsline {figure}{\numberline {18}{\ignorespaces Satzspiegel von Van de Graf\footnotemark [6]}}{28}
+\contentsline {figure}{\numberline {19}{\ignorespaces Harmonische Lage im Satzspiegel}}{28}
+\contentsline {figure}{\numberline {20}{\ignorespaces Modernes Anwendungsbeispiel des Van de Graaf'schen Kanons\footnotemark [7]}}{29}
+\contentsline {figure}{\numberline {21}{\ignorespaces Gestaltungsraster im Raum von \citep [S.~148]{gestaltungsraster}}}{30}
+\contentsline {figure}{\numberline {22}{\ignorespaces Berechnung der Textzeilenh\IeC {\"o}he}}{31}
+\contentsline {figure}{\numberline {23}{\ignorespaces Harmonische Lage im Raster}}{31}
+\contentsline {figure}{\numberline {24}{\ignorespaces Logogestaltung\footnotemark [8]}}{32}
+\contentsline {figure}{\numberline {25}{\ignorespaces Links: Die Goldene Spirale im Gestaltungsraster, Rechts: Konstruktion eines Buchstaben mithilfe des Goldenen Schnitts\footnotemark [9]}}{32}
