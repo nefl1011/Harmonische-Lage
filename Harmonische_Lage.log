@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.26)  2 DEC 2016 21:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.26)  7 DEC 2016 13:36
 entering extended mode
 **./Harmonische_Lage.tex
 (Harmonische_Lage.tex
@@ -878,6 +878,21 @@ File: Bilder/13_neu.png Graphic file (type png)
 Package pdftex.def Info: Bilder/13_neu.png used on input line 209.
 (pdftex.def)             Requested size: 136.50238pt x 84.19775pt.
 
+Underfull \hbox (badness 1796) in paragraph at lines 214--215
+\OT1/cmr/m/n/12 bil-dung 7[] mit an-de-ren her-vor-ge-ho-be-
+ []
+
+
+Underfull \hbox (badness 3690) in paragraph at lines 214--215
+\OT1/cmr/m/n/12 nen Li-ni-en. Aus der von uns kon-
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 214--215
+\OT1/cmr/m/n/12 nur ein Vier-eck und ein Vier-seit er-
+ []
+
+
 Underfull \hbox (badness 1117) in paragraph at lines 214--215
 \OT1/cmr/m/n/12 /Geradenpaaren ei-nes als Nebenecke/-
  []
@@ -916,7 +931,13 @@ File: Bilder/doppelverhaeltnis.png Graphic file (type png)
 <use Bilder/doppelverhaeltnis.png>
 Package pdftex.def Info: Bilder/doppelverhaeltnis.png used on input line 350.
 (pdftex.def)             Requested size: 195.0pt x 96.567pt.
- [14] [15 <./Bilder/doppelverhaeltnis.png>]
+ [14]
+Overfull \hbox (7.39865pt too wide) in paragraph at lines 368--369
+[]\OT1/cmr/m/n/12 Zum bes-se-ren Verst[]andnis und um bes-ser mit Verh[]altniss
+en rech-nen zu k[]onnen,
+ []
+
+[15 <./Bilder/doppelverhaeltnis.png>]
 <Bilder/vierGeraden.png, id=95, 364.2408pt x 210.0648pt>
 File: Bilder/vierGeraden.png Graphic file (type png)
 
@@ -949,8 +970,13 @@ File: Bilder/folge.png Graphic file (type png)
 Package pdftex.def Info: Bilder/folge.png used on input line 493.
 (pdftex.def)             Requested size: 390.0pt x 141.33821pt.
 
-[21 <./Bilder/folge.png>] [22]
-<Bilder/goldenratio.png, id=126, 563.2242pt x 106.4778pt>
+[21 <./Bilder/folge.png>]
+Overfull \hbox (7.9634pt too wide) in paragraph at lines 503--504
+\OT1/cmr/m/n/12 schen Si-tua-tio-nen er-scheint. Die-ses Teil-verh[]altnis ist 
+de-fi-niert als das Verh[]altnis
+ []
+
+[22] <Bilder/goldenratio.png, id=126, 563.2242pt x 106.4778pt>
 File: Bilder/goldenratio.png Graphic file (type png)
 
 <use Bilder/goldenratio.png>
@@ -996,8 +1022,8 @@ Underfull \hbox (badness 6268) in paragraph at lines 610--610
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 617--618
-\OT1/cmr/m/n/12 tu-ren zu er-fas-sen und zu nut-zen.
+Overfull \hbox (2.31633pt too wide) in paragraph at lines 617--618
+[][]\OT1/cmr/m/n/12 Die Kunst-ge-schich-te ver-deut-licht, dass
  []
 
 [27 <./Bilder/oldManus.jpg> <./Bilder/page_construction.png>]
@@ -1005,112 +1031,128 @@ Underfull \hbox (badness 1365) in paragraph at lines 617--618
 File: Bilder/Van_de_Graaf_1.png Graphic file (type png)
 
 <use Bilder/Van_de_Graaf_1.png>
-Package pdftex.def Info: Bilder/Van_de_Graaf_1.png used on input line 622.
+Package pdftex.def Info: Bilder/Van_de_Graaf_1.png used on input line 620.
 (pdftex.def)             Requested size: 155.99762pt x 117.32036pt.
 
-<Bilder/Van_de_Graaf.png, id=152, 357.2547pt x 271.7352pt>
-File: Bilder/Van_de_Graaf.png Graphic file (type png)
+Overfull \hbox (3.88167pt too wide) in paragraph at lines 628--629
+[][]\OT1/cmr/m/n/12 Nach Jan Tschi-chold lag den sch[]onsten
+ []
 
-<use Bilder/Van_de_Graaf.png>
-Package pdftex.def Info: Bilder/Van_de_Graaf.png used on input line 634.
-(pdftex.def)             Requested size: 253.49762pt x 192.81723pt.
+<Bilder/villard.png, id=152, 497.6994pt x 374.3586pt>
+File: Bilder/villard.png Graphic file (type png)
+ <use Bilder/villard.png>
+Package pdftex.def Info: Bilder/villard.png used on input line 631.
+(pdftex.def)             Requested size: 155.99762pt x 117.33522pt.
 
-Overfull \hbox (11.00104pt too wide) in paragraph at lines 639--640
+Underfull \hbox (badness 2884) in paragraph at lines 632--632
+[]\OT1/cmr/m/n/12 Abbildung 20: Ra-ster nach
+ []
+
+
+Overfull \hbox (11.00104pt too wide) in paragraph at lines 638--639
 \OT1/cmr/m/n/12 Be-stim-mung ei-ner har-mo-ni-schen Seiten-
  []
 
-[28 <./Bilder/Van_de_Graaf_1.png>]
-<Bilder/jsonBourne2.jpg, id=157, 777.90625pt x 550.055pt>
+[28 <./Bilder/Van_de_Graaf_1.png> <./Bilder/villard.png>]
+<Bilder/Van_de_Graaf.png, id=158, 357.2547pt x 271.7352pt>
+File: Bilder/Van_de_Graaf.png Graphic file (type png)
+
+<use Bilder/Van_de_Graaf.png>
+Package pdftex.def Info: Bilder/Van_de_Graaf.png used on input line 644.
+(pdftex.def)             Requested size: 253.49762pt x 192.81723pt.
+
+<Bilder/jsonBourne2.jpg, id=159, 777.90625pt x 550.055pt>
 File: Bilder/jsonBourne2.jpg Graphic file (type jpg)
 
 <use Bilder/jsonBourne2.jpg>
-Package pdftex.def Info: Bilder/jsonBourne2.jpg used on input line 647.
-(pdftex.def)             Requested size: 253.49762pt x 179.24416pt.
+Package pdftex.def Info: Bilder/jsonBourne2.jpg used on input line 650.
+(pdftex.def)             Requested size: 155.99762pt x 110.30281pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 653--653
+Underfull \hbox (badness 10000) in paragraph at lines 656--656
 [][]$\OT1/cmtt/m/n/10 http : / / 4 . bp . blogspot . com / Y3C80iBqw / TnMRcN2y
 YgI / AAAAAAAAC7k /
  []
 
+
+Underfull \hbox (badness 1484) in paragraph at lines 658--659
+[][]\OT1/cmr/m/n/12 Im Zu-ge der so-ge-nann-ten Schwei-
+ []
+
 [29 <./Bilder/Van_de_Graaf.png> <./Bilder/jsonBourne2.jpg>]
-<Bilder/3d-grid_brockmann.jpeg, id=162, 530.4618pt x 367.1316pt>
+<Bilder/3d-grid_brockmann.jpeg, id=164, 530.4618pt x 367.1316pt>
 File: Bilder/3d-grid_brockmann.jpeg Graphic file (type jpg)
 
 <use Bilder/3d-grid_brockmann.jpeg>
-Package pdftex.def Info: Bilder/3d-grid_brockmann.jpeg used on input line 661.
+Package pdftex.def Info: Bilder/3d-grid_brockmann.jpeg used on input line 666.
 (pdftex.def)             Requested size: 272.99881pt x 188.94884pt.
  [30 <./Bilder/3d-grid_brockmann.jpeg>]
-<Bilder/durchschuss.png, id=167, 387.6081pt x 72.27pt>
+<Bilder/durchschuss.png, id=169, 387.6081pt x 72.27pt>
 File: Bilder/durchschuss.png Graphic file (type png)
 
 <use Bilder/durchschuss.png>
-Package pdftex.def Info: Bilder/durchschuss.png used on input line 674.
+Package pdftex.def Info: Bilder/durchschuss.png used on input line 679.
 (pdftex.def)             Requested size: 272.99881pt x 50.90181pt.
 
-<Bilder/raster.png, id=168, 749.9217pt x 323.7696pt>
+<Bilder/raster.png, id=170, 1129.3392pt x 456.2646pt>
 File: Bilder/raster.png Graphic file (type png)
  <use Bilder/raster.png>
-Package pdftex.def Info: Bilder/raster.png used on input line 687.
-(pdftex.def)             Requested size: 214.50119pt x 92.6063pt.
+Package pdftex.def Info: Bilder/raster.png used on input line 692.
+(pdftex.def)             Requested size: 214.50119pt x 86.65636pt.
 
 [31 <./Bilder/durchschuss.png> <./Bilder/raster.png>]
-<Bilder/gr_logo.jpg, id=174, 566.115pt x 424.58624pt>
+<Bilder/gr_logo.jpg, id=176, 566.115pt x 424.58624pt>
 File: Bilder/gr_logo.jpg Graphic file (type jpg)
  <use Bilder/gr_logo.jpg>
-Package pdftex.def Info: Bilder/gr_logo.jpg used on input line 696.
+Package pdftex.def Info: Bilder/gr_logo.jpg used on input line 701.
 (pdftex.def)             Requested size: 155.99762pt x 116.99805pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 697--697
-[]\OT1/cmr/m/n/12 Abbildung 25: Logo-ge-stal-
+Underfull \hbox (badness 10000) in paragraph at lines 702--702
+[]\OT1/cmr/m/n/12 Abbildung 26: Logo-ge-stal-
  []
 
 
-Overfull \hbox (48.02422pt too wide) in paragraph at lines 700--700
+Overfull \hbox (48.02422pt too wide) in paragraph at lines 705--705
 [][]$\OT1/cmtt/m/n/10 https : / / www . behance . net / gallery / 43218905 / Lo
 go-[]Collection-[]with-[]Golden-[]Ratio-[]2016$\OT1/cmr/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 702--703
-[]\OT1/cmr/m/n/12 Der Gol-de-ne Schnitt ist die idea-
- []
-
-
-Underfull \hbox (badness 1571) in paragraph at lines 702--703
-\OT1/cmr/m/n/12 de-ne Schnitt im-mer noch An-wen-
- []
-
-
-Underfull \hbox (badness 1622) in paragraph at lines 702--703
+Underfull \hbox (badness 1622) in paragraph at lines 707--708
 \OT1/cmr/m/n/12 Pro-por-tio-nen. Trotz-dem bie-tet die
  []
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 702--703
+Underfull \hbox (badness 1895) in paragraph at lines 707--708
 \OT1/cmr/m/n/12 Fibonacci-Folge ein []ubergeordnetes
  []
 
-<Bilder/Plakat_gr.jpg, id=175, 543.02875pt x 832.10875pt>
+<Bilder/Plakat_gr.jpg, id=177, 543.02875pt x 832.10875pt>
 File: Bilder/Plakat_gr.jpg Graphic file (type jpg)
 
 <use Bilder/Plakat_gr.jpg>
-Package pdftex.def Info: Bilder/Plakat_gr.jpg used on input line 705.
+Package pdftex.def Info: Bilder/Plakat_gr.jpg used on input line 710.
 (pdftex.def)             Requested size: 132.59857pt x 203.18913pt.
 
-<Bilder/gr_typography.jpg, id=176, 566.115pt x 824.07875pt>
+<Bilder/gr_typography.jpg, id=178, 566.115pt x 824.07875pt>
 File: Bilder/gr_typography.jpg Graphic file (type jpg)
 
 <use Bilder/gr_typography.jpg>
-Package pdftex.def Info: Bilder/gr_typography.jpg used on input line 706.
+Package pdftex.def Info: Bilder/gr_typography.jpg used on input line 711.
 (pdftex.def)             Requested size: 132.59857pt x 193.01723pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 711--711
+Underfull \hbox (badness 10000) in paragraph at lines 716--716
 [][]$\OT1/cmtt/m/n/10 http : / / www . invaluable . com / artist / bodoni-[]gia
 mbattista-[]epx6zw0xcj$\OT1/cmr/m/n/10 ,
  []
 
 [32 <./Bilder/gr_logo.jpg> <./Bilder/Plakat_gr.jpg> <./Bilder/gr_typography.jpg
->] [33] (Harmonische_Lage.lof)
+>]
+Overfull \hbox (16.15257pt too wide) in paragraph at lines 721--722
+\OT1/cmr/m/n/12 trach-ten, die un-se-rer allt[]aglichen r[]aumlichen Wahr-neh-m
+ung ent-spre-chen, k[]onnen
+ []
+
+[33] (Harmonische_Lage.lof)
 \tf@lof=\write4
 \openout4 = `Harmonische_Lage.lof'.
 
@@ -1126,13 +1168,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4679 strings out of 493334
- 65467 string characters out of 3129355
- 135611 words of memory out of 3000000
- 8064 multiletter control sequences out of 15000+200000
+ 4685 strings out of 493334
+ 65578 string characters out of 3129355
+ 134621 words of memory out of 3000000
+ 8069 multiletter control sequences out of 15000+200000
  13873 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,17n,43p,1247b,375s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,17n,43p,1347b,375s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTe
@@ -1149,9 +1191,9 @@ orian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pf
 b><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmti12.pfb><C:/Users/Florian/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Harmonische_Lage.pdf (36 pages, 4840580 bytes).
+Output written on Harmonische_Lage.pdf (36 pages, 5083678 bytes).
 PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
+ 232 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 176 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 
